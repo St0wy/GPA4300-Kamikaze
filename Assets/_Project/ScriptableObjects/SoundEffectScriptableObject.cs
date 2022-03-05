@@ -1,6 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 using MyBox;
+using StowyTools.Logger;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -86,7 +87,7 @@ namespace Kamikaze.ScriptableObjects
         {
             if (clips.Length == 0)
             {
-                Debug.LogWarning($"Missing audio clips for {name}");
+                this.LogWarning($"Missing audio clips for {name}");
                 return null;
             }
 

@@ -6,20 +6,20 @@ namespace Kamikaze
 {
     public class UnitLaneDetection : MonoBehaviour
     {
-        EntityController entityController;
+        // EntityController entityController;
 
         private void Start()
         {
-            entityController = GetComponent<EntityController>();
+            // entityController = GetComponent<EntityController>();
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if(other.CompareTag("Lane"))
             {
-                entityController.startPosition = other.GetComponent<Lane>().start;
-                entityController.endPosition = other.GetComponent<Lane>().end;
-                entityController.startMovement = true;
+                // entityController.startPosition = other.GetComponent<Lane>().start;
+                // entityController.endPosition = other.GetComponent<Lane>().end;
+                // entityController.startMovement = true;
             }
         }
     }

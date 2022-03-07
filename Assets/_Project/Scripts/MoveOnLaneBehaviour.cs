@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MyBox;
+using UnityEngine;
 
 namespace Kamikaze
 {
@@ -8,12 +9,13 @@ namespace Kamikaze
     [RequireComponent(typeof(UnitBehaviour))]
     public class MoveOnLaneBehaviour : MonoBehaviour
     {
-        [Tooltip("Speed in unit/second of the unit.")] [SerializeField]
-        private float moveSpeed = 0.1f;
-
         [SerializeField] private MoveDirection moveDirection = MoveDirection.Right;
 
         private UnitBehaviour unitBehaviour;
+
+        [field: Tooltip("Speed in unit/second of the unit.")]
+        [field: ReadOnly]
+        public float MoveSpeed { get; set; } = 0.1f;
 
         private void Awake()
         {
@@ -23,7 +25,7 @@ namespace Kamikaze
         private void Update()
         {
             float moveModifier = moveDirection == MoveDirection.Left ? 1 : -1;
-            float move = moveSpeed * moveModifier;
+            float move = MoveSpeed * moveModifier;
             unitBehaviour.Position -= move * Time.deltaTime;
         }
     }

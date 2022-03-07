@@ -2,15 +2,15 @@
 
 namespace Kamikaze
 {
-    public enum MoveDirection
-    {
-        Right,
-        Left,
-    }
-
+    /// <summary>
+    /// Makes a unit move on the lane with a specified speed and direction.
+    /// </summary>
+    [RequireComponent(typeof(UnitBehaviour))]
     public class MoveOnLaneBehaviour : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 0.1f;
+        [Tooltip("Speed in unit/second of the unit.")] [SerializeField]
+        private float moveSpeed = 0.1f;
+
         [SerializeField] private MoveDirection moveDirection = MoveDirection.Right;
 
         private UnitBehaviour unitBehaviour;

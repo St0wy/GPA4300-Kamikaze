@@ -1,4 +1,4 @@
-﻿namespace Kamikaze.ScriptableObjects
+﻿namespace Kamikaze.Audio
 {
     public enum SoundClipPlayOrder
     {

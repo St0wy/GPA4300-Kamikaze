@@ -1,8 +1,7 @@
-﻿using System;
-using MyBox;
+﻿using MyBox;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units
 {
     /// <summary>
     /// Script to put on game objects that must have health like the player or enemies.
@@ -18,7 +17,8 @@ namespace Kamikaze
 
         public HurtCallback OnHurt { get; set; }
         public bool IsAlive { get; private set; }
-        public int HealthPoints { get; private set; }
+
+        [field: ReadOnly, SerializeField] public int HealthPoints { get; private set; }
 
         public int MaxHealthPoints { get; set; } = 15;
 

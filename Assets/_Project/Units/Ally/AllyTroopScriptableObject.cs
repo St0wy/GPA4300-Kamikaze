@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Kamikaze.ScriptableObjects
+namespace Kamikaze.Units.Ally
 {
     [CreateAssetMenu(fileName = "allyTroop", menuName = "Troop/Ally", order = 0)]
     public class AllyTroopScriptableObject : ScriptableObject

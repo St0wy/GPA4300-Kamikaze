@@ -1,8 +1,6 @@
-﻿using System;
-using Kamikaze.ScriptableObjects;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Ally
 {
     [RequireComponent(typeof(HealthBehaviour), typeof(MoveOnLaneBehaviour))]
     public class AllyTroopBehaviour : MonoBehaviour

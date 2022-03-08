@@ -1,8 +1,7 @@
-using System;
 using MyBox;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Enemy
 {
     public class DamageOnCollisionBehaviour : MonoBehaviour
     {

@@ -6,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Kamikaze.ScriptableObjects
+namespace Kamikaze.Audio
 {
     /// <summary>
     /// Sound effect system based on this video https://www.youtube.com/watch?v=xDLqdZu0ll0.

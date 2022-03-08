@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Enemy
 {
     /// <summary>
     /// Behaviour to put on the objects that should be damaged by explosions.

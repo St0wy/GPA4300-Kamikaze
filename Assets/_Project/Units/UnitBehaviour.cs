@@ -1,7 +1,7 @@
 using MyBox;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units
 {
     /// <summary>
     /// MonoBehaviour responsible for placing an Unit on a lane.

@@ -1,4 +1,4 @@
-﻿namespace Kamikaze
+﻿namespace Kamikaze.Units
 {
     /// <summary>
     /// Enum telling where a unit should move

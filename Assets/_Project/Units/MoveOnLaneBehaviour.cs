@@ -1,7 +1,7 @@
 ﻿using MyBox;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units
 {
     /// <summary>
     /// Makes a unit move on the lane with a specified speed and direction.

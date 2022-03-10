@@ -146,6 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenKilled: 1
   destroyTime: 2.1
+  <HealthPoints>k__BackingField: 0
 --- !u!114 &5400964859731762731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,9 +187,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionObject: {fileID: 0}
   explosionTime: 2
-  explosionRadius: 2
-  explosionDamage: 20
-  maxCollider: 10
+  explosionRadius: 2.4
+  maxExplosionDamage: 20
+  maxColliders: 20
+  maxDamageMargin: 1.5
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0

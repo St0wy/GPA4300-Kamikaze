@@ -6,7 +6,7 @@ namespace Kamikaze.Units
     /// <summary>
     /// MonoBehaviour responsible for placing an Unit on a lane.
     /// </summary>
-    public class UnitBehaviour : MonoBehaviour
+    public class LaneUnitBehaviour : MonoBehaviour
     {
         [SerializeField] private LanesManager lanesManager;
 

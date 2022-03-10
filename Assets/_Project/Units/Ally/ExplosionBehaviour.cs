@@ -25,6 +25,9 @@ namespace Kamikaze.Units.Ally
         [Tooltip("The max number of colliders that an explosion can have.")] [SerializeField]
         private int maxColliders = 20;
 
+        [Tooltip("A margin at which the damage calculation will keep the max damages")] [SerializeField]
+        private float maxDamageMargin = 2f;
+
         private Collider[] explosionColliders;
 
         private void Awake()
@@ -34,8 +37,11 @@ namespace Kamikaze.Units.Ally
 
         private void OnDrawGizmosSelected()
         {
+            Vector3 position = transform.position;
             Gizmos.color = new Color(1f, 0f, 0f, 0.1f);
-            Gizmos.DrawSphere(transform.position, explosionRadius);
+            Gizmos.DrawSphere(position, explosionRadius);
+            Gizmos.color = new Color(0f, 0f, 1f, 0.1f);
+            Gizmos.DrawSphere(position, maxDamageMargin);
         }
 
         /// <summary>
@@ -74,11 +80,21 @@ namespace Kamikaze.Units.Ally
         private void ApplyExplosionDamage(HurtOnExplosionBehaviour hurtOnExplosionBehaviour)
         {
             float distance = Vector3.Distance(hurtOnExplosionBehaviour.transform.position, transform.position);
+            var damage = 0f;
 
-            // Damage equation so that the damages are lowered the furthest the explosion happens
-            float damage =
-                (maxExplosionDamage * explosionRadius * explosionRadius - maxExplosionDamage * distance) /
-                (explosionRadius * explosionRadius);
+            if (distance < maxDamageMargin)
+            {
+                damage = maxExplosionDamage;
+            }
+            else
+            {
+                // Damage equation so that the damages are lowered the furthest the explosion happens
+                damage =
+                    (maxExplosionDamage * explosionRadius * explosionRadius - maxExplosionDamage * distance) /
+                    (explosionRadius * explosionRadius);
+                damage = Mathf.Clamp(damage, 0, maxExplosionDamage);
+            }
+
             hurtOnExplosionBehaviour.Hurt((int) damage);
         }
     }

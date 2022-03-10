@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopScriptableObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/TroopScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/TroopScriptableObject.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/UnitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/UnitBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +41,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stowy.tools@98b65ec70c/Editor/ToolsMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/db/85889b0d/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +67,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/GPA4300-Kamikaze.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\dev\unity\GPA4300-Kamikaze\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -57,10 +85,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6280">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="6280" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -81,7 +109,7 @@
       <workItem from="1646647931331" duration="1336000" />
       <workItem from="1646654907153" duration="9063000" />
       <workItem from="1646748033978" duration="3984000" />
-      <workItem from="1646916933080" duration="1674000" />
+      <workItem from="1646916933080" duration="7801000" />
     </task>
     <servers />
   </component>

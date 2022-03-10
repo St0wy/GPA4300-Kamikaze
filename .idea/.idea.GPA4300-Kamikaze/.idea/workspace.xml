@@ -2,72 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplodeOnDeathBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplodeOnDeathBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeTroop.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeTroop.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/AllyTroopScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/AllyTroopScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/KamikazeTroop.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/KamikazeTroop.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/SoundClipPlayOrder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundClipPlayOrder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/SoundClipPlayOrder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundClipPlayOrder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/SoundEffectScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/ScriptableObjects/SoundEffectScriptableObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/AllyTroopBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/AllyTroopBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/DamageOnCollisionBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/DamageOnCollisionBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/EnemyLaneDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/EnemyLaneDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ExplodeOnDeathBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ExplodeOnDeathBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ExplosionBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ExplosionBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/HealthBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/HealthBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/HurtOnExplosionBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/HurtOnExplosionBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MoveDirection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MoveDirection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MoveOnLaneBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MoveOnLaneBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UnitBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UnitBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UnitLaneDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UnitLaneDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +19,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stowy.tools@98b65ec70c/Editor/ToolsMenu.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,7 +80,8 @@
       <workItem from="1646590745202" duration="3863000" />
       <workItem from="1646647931331" duration="1336000" />
       <workItem from="1646654907153" duration="9063000" />
-      <workItem from="1646748033978" duration="3652000" />
+      <workItem from="1646748033978" duration="3984000" />
+      <workItem from="1646916933080" duration="1674000" />
     </task>
     <servers />
   </component>

@@ -278,9 +278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPosition: {x: 0, y: 0, z: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  startMovement: 0
+  lanesManager: {fileID: 0}
+  laneId: 0
+  position: 0
 --- !u!136 &244887208
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -469,8 +469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72d4b2432245a4db8d7ddd510dd2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {x: -8.086963, y: 0.73, z: -5.41}
-  end: {x: 8.78, y: 0.73, z: -5.41}
+  startPos: {fileID: 0}
+  endPos: {fileID: 0}
 --- !u!1 &315244861
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,9 +640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPosition: {x: 0, y: 0, z: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  startMovement: 0
+  lanesManager: {fileID: 0}
+  laneId: 0
+  position: 0
 --- !u!1 &562444580
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,8 +939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72d4b2432245a4db8d7ddd510dd2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {x: -8.086963, y: 0.73, z: -8.399889}
-  end: {x: 8.78, y: 0.73, z: -8.41}
+  startPos: {fileID: 0}
+  endPos: {fileID: 0}
 --- !u!1 &1180991115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,8 +1230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72d4b2432245a4db8d7ddd510dd2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {x: -8.086963, y: 0.73, z: -3.93}
-  end: {x: 8.78, y: 0.73, z: -3.93}
+  startPos: {fileID: 0}
+  endPos: {fileID: 0}
 --- !u!1 &1537042241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,8 +1373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72d4b2432245a4db8d7ddd510dd2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {x: -8.086963, y: 0.73, z: -2.3365}
-  end: {x: 8.78, y: 0.73, z: -2.3365}
+  startPos: {fileID: 0}
+  endPos: {fileID: 0}
 --- !u!1 &1628361665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,9 +1437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPosition: {x: 0, y: 0, z: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  startMovement: 0
+  lanesManager: {fileID: 0}
+  laneId: 0
+  position: 0
 --- !u!136 &1628361669
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1658,8 +1658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a72d4b2432245a4db8d7ddd510dd2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: {x: -8.086963, y: 0.73, z: -6.91}
-  end: {x: 8.78, y: 0.73, z: -6.91}
+  startPos: {fileID: 0}
+  endPos: {fileID: 0}
 --- !u!1 &1892135995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,9 +1694,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPosition: {x: 0, y: 0, z: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  startMovement: 0
+  lanesManager: {fileID: 0}
+  laneId: 0
+  position: 0
 --- !u!136 &1892135997
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1894,9 +1894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPosition: {x: 0, y: 0, z: 0}
-  startPosition: {x: 0, y: 0, z: 0}
-  startMovement: 0
+  lanesManager: {fileID: 0}
+  laneId: 0
+  position: 0
 --- !u!136 &2073099273
 CapsuleCollider:
   m_ObjectHideFlags: 0

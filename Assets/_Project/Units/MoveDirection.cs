@@ -16,8 +16,8 @@
         Left,
 
         /// <summary>
-        /// Stop the units
+        /// The unit wont move.
         /// </summary>
-        Nowhere,
+        Idle,
     }
 }

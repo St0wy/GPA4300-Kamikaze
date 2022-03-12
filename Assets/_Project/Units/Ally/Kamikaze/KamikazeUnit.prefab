@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 5400964859731762729}
   - component: {fileID: 5400964859731762731}
   - component: {fileID: 5400964859731762734}
-  - component: {fileID: 5400964859731762735}
   - component: {fileID: 5400964859731762732}
   m_Layer: 0
   m_Name: KamikazeUnit
@@ -145,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyWhenKilled: 1
-  destroyTime: 2.1
+  destroyTime: 0
   <HealthPoints>k__BackingField: 0
 --- !u!114 &5400964859731762731
 MonoBehaviour:
@@ -173,24 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5c4a7eae1b5e744a51b95c246f253a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5400964859731762735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5400964859731762769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6c9053c35f2425ca4bf77712a8405ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionObject: {fileID: 0}
-  explosionTime: 2
-  explosionRadius: 2.4
-  maxExplosionDamage: 20
-  maxColliders: 20
-  maxDamageMargin: 1.5
+  explosionManager: {fileID: 0}
+  explosionScriptableObject: {fileID: 11400000, guid: 3d424c35919182e44b59b2ad0a11be4a,
+    type: 2}
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0

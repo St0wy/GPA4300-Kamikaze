@@ -19,7 +19,7 @@ namespace Kamikaze.Units.Ally
         {
             if (unitBehaviour.Position >= stopPosition)
             {
-                moveOnLaneBehaviour.SetMoveDirection(MoveDirection.Nowhere);
+                moveOnLaneBehaviour.Direction = MoveDirection.Idle;
                 shieldGo.transform.localScale = new Vector3(0.20000000f, 0.9f, 0.9f);
             }
         }

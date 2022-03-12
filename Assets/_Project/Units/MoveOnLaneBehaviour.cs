@@ -34,7 +34,7 @@ namespace Kamikaze.Units
             
             if(moveDirection != MoveDirection.Nowhere)
             {
-                unitBehaviour.Position -= move * Time.deltaTime;
+                laneUnitBehaviour.Position -= move * Time.deltaTime;
             } 
         }
     }

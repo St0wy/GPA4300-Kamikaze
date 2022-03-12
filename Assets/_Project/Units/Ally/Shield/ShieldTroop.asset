@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 572fe5507b5d481f8efab5484d9e35b3, type: 3}
   m_Name: ShieldTroop
   m_EditorClassIdentifier: 
-  healthPoints: 1
+  healthPoints: 5
   moveSpeed: 0.05
   cost: 100

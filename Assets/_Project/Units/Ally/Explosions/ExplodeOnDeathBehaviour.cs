@@ -1,8 +1,6 @@
-using System;
-using Kamikaze.Units.Ally.Explosions;
 using UnityEngine;
 
-namespace Kamikaze.Units.Ally
+namespace Kamikaze.Units.Ally.Explosions
 {
     /// <summary>
     /// Behaviour to put on objects that should explode on death.

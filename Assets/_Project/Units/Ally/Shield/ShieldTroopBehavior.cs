@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Kamikaze.Units.Ally
+namespace Kamikaze.Units.Ally.Shield
 {
     public class ShieldTroopBehavior : MonoBehaviour
     {
@@ -17,11 +17,10 @@ namespace Kamikaze.Units.Ally
 
         private void Update()
         {
-            if (unitBehaviour.Position >= stopPosition)
-            {
-                moveOnLaneBehaviour.Direction = MoveDirection.Idle;
-                shieldGo.transform.localScale = new Vector3(0.20000000f, 0.9f, 0.9f);
-            }
+            if (!(unitBehaviour.Position >= stopPosition)) return;
+            
+            moveOnLaneBehaviour.MoveSpeed = 0f;
+            shieldGo.transform.localScale = new Vector3(0.20000000f, 0.9f, 0.9f);
         }
     }
 }

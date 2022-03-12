@@ -18,7 +18,7 @@ namespace Kamikaze.Units
         [Tooltip("Position of the Unit on the lane from 0 to 1 where 0 = on the left and 1 = on the right.")]
         [Range(0, 1)]
         [SerializeField]
-        private float position = 0;
+        private float position;
 
         /// <summary>
         /// Gets or sets the position of the unit.

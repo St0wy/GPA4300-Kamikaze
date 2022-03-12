@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Kamikaze.Units.Ally.Explosions
+﻿namespace Kamikaze.Units.Ally.Explosions
 {
     /// <summary>
     /// Enum describing the animation to use on the explosion.

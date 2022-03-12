@@ -4,6 +4,6 @@
     {
         Random,
         InOrder,
-        Reverse
+        Reverse,
     }
 }

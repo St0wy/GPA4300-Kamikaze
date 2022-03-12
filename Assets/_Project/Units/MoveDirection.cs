@@ -14,10 +14,5 @@
         /// Moves the unit from right to left.
         /// </summary>
         Left,
-
-        /// <summary>
-        /// The unit wont move.
-        /// </summary>
-        Idle,
     }
 }

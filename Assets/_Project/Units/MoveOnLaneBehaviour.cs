@@ -32,11 +32,8 @@ namespace Kamikaze.Units
         {
             float moveModifier = Direction == MoveDirection.Left ? 1 : -1;
             float move = MoveSpeed * moveModifier;
-            
-            if(Direction != MoveDirection.Idle)
-            {
-                laneUnitBehaviour.Position -= move * Time.deltaTime;
-            } 
+
+            laneUnitBehaviour.Position -= move * Time.deltaTime;
         }
     }
 }

@@ -18,7 +18,7 @@ namespace Kamikaze.Units
         public HurtCallback OnHurt { get; set; }
         public bool IsAlive { get; private set; }
 
-        [field: ReadOnly, SerializeField] public int HealthPoints { get; private set; }
+        [field: ReadOnly, SerializeField] public int HealthPoints { get; set; }
 
         public int MaxHealthPoints { get; set; } = 15;
 

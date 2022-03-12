@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Kamikaze.Audio;
 using Kamikaze.Units.Enemy;
 using MyBox;
 using UnityEngine;
@@ -8,6 +9,7 @@ namespace Kamikaze.Units.Ally.Explosions
 {
     public class ExplosionManager : MonoBehaviour
     {
+        [SerializeField] private SoundEffectScriptableObject explosionSound;
         [SerializeField] private GameObject bigExplosionPrefab;
         [SerializeField] private GameObject smallExplosionPrefab;
 
@@ -29,8 +31,7 @@ namespace Kamikaze.Units.Ally.Explosions
         {
             DealDamage(position, explosionScriptable);
             ShowExplosionAnimation(position, explosionScriptable);
-
-            // TODO : Play explosion sound
+            explosionSound.Play();
         }
 
         private ExplosionBehaviour GetBigExplosionInstance()

@@ -16,6 +16,11 @@ namespace Kamikaze.Units
         [field: Tooltip("Speed in unit/second of the unit.")]
         [field: ReadOnly]
         public float MoveSpeed { get; set; } = 0.1f;
+        public void SetMoveDirection(MoveDirection newMoveDirection)
+        {
+            moveDirection = newMoveDirection;
+        }
+
 
         private void Awake()
         {
@@ -26,7 +31,11 @@ namespace Kamikaze.Units
         {
             float moveModifier = moveDirection == MoveDirection.Left ? 1 : -1;
             float move = MoveSpeed * moveModifier;
-            laneUnitBehaviour.Position -= move * Time.deltaTime;
+            
+            if(moveDirection != MoveDirection.Nowhere)
+            {
+                unitBehaviour.Position -= move * Time.deltaTime;
+            } 
         }
     }
 }

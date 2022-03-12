@@ -14,5 +14,10 @@
         /// Moves the unit from right to left.
         /// </summary>
         Left,
+
+        /// <summary>
+        /// Stop the units
+        /// </summary>
+        Nowhere,
     }
 }

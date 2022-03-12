@@ -386,6 +386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kamikaze (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3504022932813782501, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8339948892394395564, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
         type: 3}
       propertyPath: m_RootOrder
@@ -706,7 +711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bigExplosionPrefab: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
     type: 3}
-  smallExplosionPrefab: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4,
+  smallExplosionPrefab: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3,
     type: 3}
   maxColliders: 50
 --- !u!1 &845516979
@@ -982,7 +987,7 @@ PrefabInstance:
     - target: {fileID: 3504022932813782501, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8339948892394395564, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
         type: 3}
@@ -1833,7 +1838,7 @@ PrefabInstance:
     - target: {fileID: 3504022932813782501, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8339948892394395564, guid: 1e2c7995ebc33794f91d3c17b1cd8c3d,
         type: 3}

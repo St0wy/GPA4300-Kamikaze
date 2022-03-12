@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/BigExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/BigExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/TinyExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/TinyExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeExplosion.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeExplosion.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldExplosion.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldExplosion.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/BigExplosion.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/BigExplosion.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/TinyExplosion.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/TinyExplosion.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/New Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/New Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/ToRemove.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/ToRemove.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplodeOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplodeOnDeathBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ExplosionBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldUnit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ShieldTroopBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/ShieldTroopBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +85,7 @@
       <workItem from="1646654907153" duration="9063000" />
       <workItem from="1646748033978" duration="3984000" />
       <workItem from="1646916933080" duration="7801000" />
-      <workItem from="1647077096478" duration="8569000" />
+      <workItem from="1647077096478" duration="9166000" />
     </task>
     <servers />
   </component>
@@ -148,24 +109,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs</url>
-          <line>74</line>
-          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\Units\Ally\Explosions\ExplosionManager.cs" initialLine="74" containingFunctionPresentation="method 'DealDamage'">
-            <startOffsets>
-              <option value="2754" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2853" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Kamikaze.Units.Enemy;
+using MyBox;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Explosions
@@ -45,7 +46,7 @@ namespace Kamikaze.Units.Ally.Explosions
         {
             if (smallExplosions.Count != 0) return smallExplosions.Pop();
 
-            var eb = Instantiate(smallExplosionPrefab).GetComponent<ExplosionBehaviour>();
+            var eb = Instantiate(smallExplosionPrefab).GetOrAddComponent<ExplosionBehaviour>();
             eb.ExplosionManager = this;
             return eb;
         }

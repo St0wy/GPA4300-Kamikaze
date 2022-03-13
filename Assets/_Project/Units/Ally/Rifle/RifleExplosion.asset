@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befdec5cd5b5408198deec7dffa9f66b, type: 3}
   m_Name: RifleExplosion
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   explosionTime: 2
   explosionRadius: 2.2
   maxExplosionDamage: 21

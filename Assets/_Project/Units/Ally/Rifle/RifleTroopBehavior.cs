@@ -7,7 +7,7 @@ namespace Kamikaze.Units
     public class RifleTroopBehavior : MonoBehaviour
     {
         private Rifle rifle;
-        private float timeBetweenShoots = 1f; 
+        private float timeBetweenShoots = 0.2f; 
         [SerializeField] private float timeUntilNextShoot;
 
         private HealthBehaviour healthBehaviour;

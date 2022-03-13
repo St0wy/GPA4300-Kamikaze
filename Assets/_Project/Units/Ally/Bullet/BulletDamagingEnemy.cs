@@ -10,7 +10,7 @@ namespace Kamikaze.Units
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.CompareTag("Enemy"))
+            if(other.CompareTag("Shootable"))
             {
                 HealthBehaviour healthBehaviour = other.GetComponent<HealthBehaviour>();
                 healthBehaviour.ReduceHealth(damage);

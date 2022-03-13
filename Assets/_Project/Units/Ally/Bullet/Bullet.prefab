@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 2537825521238628222}
   - component: {fileID: 6792835275805921556}
   - component: {fileID: 1262165220071795870}
+  - component: {fileID: 4497006017417018905}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979a125a205d1a843a1fa65fd5699a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  freezeColor: {fileID: 2100000, guid: f4ba1fef5cfb30d41a5c9f00d46e7593, type: 2}
+  normalColor: {fileID: 2100000, guid: b41c328df624ca24fb169c9a3c035e43, type: 2}
 --- !u!114 &1262165220071795870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,5 +139,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e6af0071f121ad418c582bec6389791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4497006017417018905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5245213333674561264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe19728b2a23d4889f381f0a0b4c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

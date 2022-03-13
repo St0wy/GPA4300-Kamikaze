@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 6151587601250846141}
   m_Layer: 0
   m_Name: Normal
-  m_TagString: Enemy
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

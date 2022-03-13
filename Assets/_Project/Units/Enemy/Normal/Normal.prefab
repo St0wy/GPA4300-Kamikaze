@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 6151587601250846141}
   m_Layer: 0
   m_Name: Normal
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,6 +172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagToDamage: Ally
   damage: 1
+  attackSpeed: 0.5
 --- !u!54 &6151587601250846138
 Rigidbody:
   m_ObjectHideFlags: 0

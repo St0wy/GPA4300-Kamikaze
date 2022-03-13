@@ -1,24 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Ally.Bullet
 {
     public class SynergyWithShield : MonoBehaviour
     {
         private void Start()
         {
-            OnSynergy = false;
+            HasSynergy = false;
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if(other.CompareTag("Shield"))
             {
-                OnSynergy = true;
+                HasSynergy = true;
             }
         }
 
-        public bool OnSynergy { get; set; }
+        public bool HasSynergy { get; set; }
     }
 }

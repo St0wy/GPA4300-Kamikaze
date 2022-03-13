@@ -1,24 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kamikaze.Units
+namespace Kamikaze.Units.Ally.Bullet
 {
     public class BulletFreezingEnemy : MonoBehaviour
     {
-        private void OnTriggerEnter(Collider other)
+        [SerializeField] private float enemyFreezingSpeed = 0.02f;
+
+        private BulletBehavior bulletBehavior;
+
+        private void Awake()
         {
-            if (other.CompareTag("Shootable"))
-            {
-                BulletBehavior bulletBehavior = GetComponent<BulletBehavior>();
-                if(bulletBehavior.IsFrozen)
-                {
-                    MoveOnLaneBehaviour moveOnLaneBehaviour = other.GetComponent<MoveOnLaneBehaviour>();
-                    moveOnLaneBehaviour.MoveSpeed = 0.02f;
-                    Destroy(gameObject);
-                }       
-            }
+            bulletBehavior = GetComponent<BulletBehavior>();
         }
 
+        private void OnTriggerEnter(Collider other)
+        {
+            if (!other.CompareTag("Shootable")) return;
+
+            if (!bulletBehavior.IsFrozen) return;
+
+            var moveOnLaneBehaviour = other.GetComponent<MoveOnLaneBehaviour>();
+            if (moveOnLaneBehaviour != null)
+            {
+                moveOnLaneBehaviour.MoveSpeed = enemyFreezingSpeed;
+            }
+
+            Destroy(gameObject);
+        }
     }
 }

@@ -1,50 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Ally.Bullet
 {
     public class BulletBehavior : MonoBehaviour
     {
-        private Rigidbody rb;
         [SerializeField] private Material freezeColor;
         [SerializeField] private Material normalColor;
-       
-        // Start is called before the first frame update
-        void Start()
-        {
-            rb = GetComponent<Rigidbody>();
-            Movement = Vector3.right;
-            Movement.Normalize();
-
-            Speed = 800f;
-            //IsFrozen = false;
-        }
-
-        private void Update()
-        {
-            if(IsFrozen)
-            {
-                Speed = 300f;
-                GetComponent<MeshRenderer>().material = freezeColor;
-            }
-
-            else
-            {
-                Speed = 800f;
-                GetComponent<MeshRenderer>().material = normalColor;
-            }
-        }
-        // Update is called once per frame
-        void FixedUpdate()
-        {
-            rb.velocity = Movement * Speed * Time.fixedDeltaTime;
-        }
+        [SerializeField] private float frozenSpeed = 300f;
+        [SerializeField] private float normalSpeed = 800f;
+        
+        private Rigidbody rb;
 
         public bool IsFrozen { get; set; }
 
         public float Speed { get; set; }
 
         public Vector3 Movement { get; private set; }
+
+        // Start is called before the first frame update
+        private void Start()
+        {
+            rb = GetComponent<Rigidbody>();
+            Movement = Vector3.right;
+            Movement.Normalize();
+            
+            Speed = normalSpeed;
+        }
+
+        private void Update()
+        {
+            if (IsFrozen)
+            {
+                Speed = frozenSpeed;
+                GetComponent<MeshRenderer>().material = freezeColor;
+            }
+            else
+            {
+                Speed = normalSpeed;
+                GetComponent<MeshRenderer>().material = normalColor;
+            }
+        }
+
+        private void FixedUpdate()
+        {
+            rb.velocity = Movement * Speed * Time.fixedDeltaTime;
+        }
+
+        
     }
 }

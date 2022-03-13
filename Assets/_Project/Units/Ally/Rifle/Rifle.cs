@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
+using Kamikaze.Units.Ally.Bullet;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Ally.Rifle
 {
     public class Rifle : MonoBehaviour
     {
@@ -11,7 +10,7 @@ namespace Kamikaze
 
         public void Shoot()
         {
-            GameObject bulletGo = Instantiate(bullet.gameObject, firePoint.position, Quaternion.identity);
+            Instantiate(bullet.gameObject, firePoint.position, Quaternion.identity);
         }
     }
 }

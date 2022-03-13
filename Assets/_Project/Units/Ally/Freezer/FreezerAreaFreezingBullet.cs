@@ -1,16 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
+using Kamikaze.Units.Ally.Bullet;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Ally.Freezer
 {
     public class FreezerAreaFreezingBullet : MonoBehaviour
     {
         private void OnTriggerEnter(Collider other)
         {
-            if(other.CompareTag("Bullet"))
+            if (!other.CompareTag("Bullet")) return;
+
+            var bulletBehavior = other.GetComponent<BulletBehavior>();
+            if (bulletBehavior != null)
             {
-                BulletBehavior bulletBehavior = other.GetComponent<BulletBehavior>();
                 bulletBehavior.IsFrozen = true;
             }
         }

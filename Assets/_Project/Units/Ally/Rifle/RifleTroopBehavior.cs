@@ -1,15 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kamikaze.Units
+namespace Kamikaze.Units.Ally.Rifle
 {
     public class RifleTroopBehavior : MonoBehaviour
     {
-        private Rifle rifle;
-        private float timeBetweenShoots = 0.2f; 
+        [SerializeField] private float timeBetweenShoots = 0.2f;
         [SerializeField] private float timeUntilNextShoot;
 
+        private Rifle rifle;
         private HealthBehaviour healthBehaviour;
 
         private void Awake()
@@ -23,18 +21,16 @@ namespace Kamikaze.Units
 
         private void Update()
         {
-            if(healthBehaviour.IsAlive)
+            if (!healthBehaviour.IsAlive) return;
+            
+            if(timeUntilNextShoot > 0)
             {
-                if(timeUntilNextShoot > 0)
-                {
-                    timeUntilNextShoot -= Time.deltaTime;
-                }
-
-                else
-                {
-                    rifle.Shoot();
-                    timeUntilNextShoot = timeBetweenShoots;
-                }
+                timeUntilNextShoot -= Time.deltaTime;
+            }
+            else
+            {
+                rifle.Shoot();
+                timeUntilNextShoot = timeBetweenShoots;
             }
         }
     }

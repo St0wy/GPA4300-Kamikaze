@@ -228,6 +228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rifle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: lanesManager
@@ -553,8 +558,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
         type: 3}
+      propertyPath: laneId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
+        type: 3}
       propertyPath: position
-      value: 0.313
+      value: 0.091
       objectReference: {fileID: 0}
     - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
         type: 3}
@@ -914,7 +924,7 @@ PrefabInstance:
     - target: {fileID: 6151587601250846119, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.3
+      value: -5.18
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846119, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
@@ -1004,7 +1014,7 @@ PrefabInstance:
     - target: {fileID: 6151587601250846119, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.3
+      value: -6.6
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846119, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
@@ -1044,12 +1054,12 @@ PrefabInstance:
     - target: {fileID: 6151587601250846137, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
       propertyPath: laneId
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846137, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
       propertyPath: position
-      value: 0.685
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846137, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}
@@ -1154,6 +1164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 3504022932813782501, guid: 0a3a8e0d929c20e439e4efffe29522f4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8280086734201039289, guid: 0a3a8e0d929c20e439e4efffe29522f4,
         type: 3}
@@ -1777,6 +1792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rifle
       objectReference: {fileID: 0}
+    - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: lanesManager
@@ -1951,6 +1971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: laneId
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151587601250846137, guid: 00fffd71dce06364ea498951d80226e6,
+        type: 3}
+      propertyPath: position
+      value: 0.868
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846137, guid: 00fffd71dce06364ea498951d80226e6,
         type: 3}

@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Test.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Test.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletFreezeBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletFreezeBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/EnergyExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/EnergyExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyFreezeBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyFreezeBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletFreezingEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletFreezingEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaFreezingEnemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaFreezingEnemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerAreaFreezingBullet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerAreaFreezingBullet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleUnit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Bullet/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Bullet/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +96,7 @@
       <workItem from="1647077096478" duration="14117000" />
       <workItem from="1647181368054" duration="639000" />
       <workItem from="1647182031215" duration="1086000" />
-      <workItem from="1647349001245" duration="11033000" />
+      <workItem from="1647349001245" duration="12651000" />
     </task>
     <servers />
   </component>
@@ -150,24 +120,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletFreezeBehaviour.cs</url>
-          <line>28</line>
-          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\Units\Ally\Bullet\BulletFreezeBehaviour.cs" initialLine="28" containingFunctionPresentation="method 'OnFreeze'">
-            <startOffsets>
-              <option value="855" />
-            </startOffsets>
-            <endOffsets>
-              <option value="891" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

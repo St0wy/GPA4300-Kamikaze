@@ -13,6 +13,8 @@ namespace Kamikaze.Units.Ally.Explosions
 
         private HealthBehaviour healthBehaviour;
 
+        public ExplosionEvent ExplosionEvent { get; set; }
+
         private void Awake()
         {
             healthBehaviour = GetComponent<HealthBehaviour>();
@@ -39,7 +41,7 @@ namespace Kamikaze.Units.Ally.Explosions
         [MyBox.ButtonMethod]
         private void Explode()
         {
-            explosionManager.TriggerExplosion(transform.position, explosionScriptableObject);
+            explosionManager.TriggerExplosion(transform.position, explosionScriptableObject, ExplosionEvent);
         }
     }
 }

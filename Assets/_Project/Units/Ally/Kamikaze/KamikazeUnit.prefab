@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 5400964859731762731}
   - component: {fileID: 5400964859731762734}
   - component: {fileID: 5400964859731762732}
+  - component: {fileID: 3868979353280942472}
+  - component: {fileID: 1518758108370708893}
   m_Layer: 0
   m_Name: KamikazeUnit
   m_TagString: Ally
@@ -191,6 +193,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &3868979353280942472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41fc5575a18e405ab420a44833639a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeTime: 5
+--- !u!114 &1518758108370708893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9130a2748e486685ef3afd12d0612d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9106996870957093380
 GameObject:
   m_ObjectHideFlags: 0

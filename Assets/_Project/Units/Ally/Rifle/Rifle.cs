@@ -10,7 +10,17 @@ namespace Kamikaze.Units.Ally.Rifle
 
         public void Shoot()
         {
-            Instantiate(bullet.gameObject, firePoint.position, Quaternion.identity);
+            GameObject bulletGo = Instantiate(bullet.gameObject, firePoint.position, Quaternion.identity);
+
+            BulletBehavior bulletBehavior = bulletGo.GetComponent<BulletBehavior>();
+            if(bulletBehavior!=null)
+            {
+                bulletBehavior.Movement = Vector3.right;
+            }
+
+            Destroy(bulletGo, 5);
+            
+
         }
     }
 }

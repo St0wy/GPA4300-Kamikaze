@@ -11,7 +11,7 @@ namespace Kamikaze.Units.Ally.Bullet
 
         private void OnTriggerEnter(Collider other)
         {
-            if(other.CompareTag("Shield"))
+            if(other.CompareTag("AllyShield"))
             {
                 HasSynergy = true;
             }

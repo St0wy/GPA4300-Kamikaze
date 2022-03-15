@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2931218460399457256}
   m_Layer: 0
   m_Name: Shield
-  m_TagString: Untagged
+  m_TagString: AllyShield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -284,10 +284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b9a1e7c3e771847a63955e13ddc7a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitBehaviour: {fileID: 5400964859731762774}
-  moveOnLaneBehaviour: {fileID: 5400964859731762728}
   shieldGo: {fileID: 1459101956626187790}
   stopPosition: 0.2
+  shieldHealthPoints: 5
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0

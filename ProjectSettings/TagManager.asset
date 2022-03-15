@@ -8,6 +8,7 @@ TagManager:
   - Lane
   - Ally
   - Bullet
+  - AllyShield
   layers:
   - Default
   - TransparentFX

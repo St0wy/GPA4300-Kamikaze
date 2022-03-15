@@ -15,13 +15,13 @@ namespace Kamikaze.Units.Ally.Bullet
 
         public float Speed { get; set; }
 
-        public Vector3 Movement { get; private set; }
+        public Vector3 Movement { get; set; }
 
         // Start is called before the first frame update
         private void Start()
         {
             rb = GetComponent<Rigidbody>();
-            Movement = Vector3.right;
+            
             Movement.Normalize();
             
             Speed = normalSpeed;

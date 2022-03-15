@@ -18,7 +18,7 @@ namespace Kamikaze.Units.Ally.Rifle
                 bulletBehavior.Movement = Vector3.right;
             }
 
-            Destroy(bulletGo, 4);
+            Destroy(bulletGo, 5);
             
 
         }

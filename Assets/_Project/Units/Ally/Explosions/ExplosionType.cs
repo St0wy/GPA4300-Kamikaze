@@ -14,5 +14,10 @@
         /// Will use the small explosion animation.
         /// </summary>
         Small,
+        
+        /// <summary>
+        /// Will use the freeze explosion animation.
+        /// </summary>
+        Freeze,
     }
 }

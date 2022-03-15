@@ -7,6 +7,8 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
+    public delegate void ExplosionEvent(Collider col);
+
     public class ExplosionManager : MonoBehaviour
     {
         [SerializeField] private SoundEffectScriptableObject explosionSound;
@@ -27,9 +29,10 @@ namespace Kamikaze.Units.Ally.Explosions
             explosionColliders = new Collider[maxColliders];
         }
 
-        public void TriggerExplosion(Vector3 position, ExplosionScriptableObject explosionScriptable)
+        public void TriggerExplosion(Vector3 position, ExplosionScriptableObject explosionScriptable,
+            ExplosionEvent explosionEvent = null)
         {
-            DealDamage(position, explosionScriptable);
+            DealDamage(position, explosionScriptable, explosionEvent);
             ShowExplosionAnimation(position, explosionScriptable);
             explosionSound.Play();
         }
@@ -64,14 +67,19 @@ namespace Kamikaze.Units.Ally.Explosions
             explosion.Initialize(position, explosionScriptable);
         }
 
-        private void DealDamage(Vector3 position, ExplosionScriptableObject explosionScriptable)
+        private void DealDamage(Vector3 position, ExplosionScriptableObject explosionScriptable,
+            ExplosionEvent explosionEvent)
         {
             int size = Physics.OverlapSphereNonAlloc(position, explosionScriptable.ExplosionRadius,
                 explosionColliders);
 
             for (var i = 0; i < size; i++)
             {
-                var hurtOnExplosionBehaviour = explosionColliders[i].GetComponent<HurtOnExplosionBehaviour>();
+                Collider explosionCol = explosionColliders[i];
+
+                explosionEvent?.Invoke(explosionCol);
+
+                var hurtOnExplosionBehaviour = explosionCol.GetComponent<HurtOnExplosionBehaviour>();
                 if (hurtOnExplosionBehaviour == null) continue;
 
                 float distance = Vector3.Distance(hurtOnExplosionBehaviour.transform.position, position);

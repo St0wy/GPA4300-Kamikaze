@@ -223,25 +223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 562713599}
     m_Modifications:
-    - target: {fileID: 1442474792677198561, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: m_Name
-      value: Rifle(Gun)
-      objectReference: {fileID: 0}
     - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: m_Name
       value: Rifle (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: laneId
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
@@ -253,23 +238,6 @@ PrefabInstance:
       propertyPath: explosionManager
       value: 
       objectReference: {fileID: 759622491}
-    - target: {fileID: 5769263324950691548, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: explosionScriptableObject
-      value: 
-      objectReference: {fileID: 11400000, guid: a1f9260aeb10c724493efc7b64c356b0,
-        type: 2}
-    - target: {fileID: 7057577894306420835, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 6792835275805921556, guid: 17f565f96f46c8b47a95b359e20fea09,
-        type: 3}
-    - target: {fileID: 7057577894306420835, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: firePoint
-      value: 
-      objectReference: {fileID: 120348594}
     - target: {fileID: 8339948892394395564, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: m_RootOrder
@@ -330,12 +298,6 @@ PrefabInstance:
 --- !u!4 &120348593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8339948892394395564, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 120348592}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &120348594 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8500934170449781122, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
     type: 3}
   m_PrefabInstance: {fileID: 120348592}
   m_PrefabAsset: {fileID: 0}
@@ -589,20 +551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Freezer
       objectReference: {fileID: 0}
-    - target: {fileID: 3504022932813782501, guid: 58f114e3b7d59a84098498ab2368830c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
-        type: 3}
-      propertyPath: laneId
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
         type: 3}
       propertyPath: position
-      value: 0.4
+      value: 0.313
       objectReference: {fileID: 0}
     - target: {fileID: 6348043569685055933, guid: 58f114e3b7d59a84098498ab2368830c,
         type: 3}
@@ -1700,12 +1652,6 @@ Transform:
   m_Father: {fileID: 282912830}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1787672261 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8500934170449781122, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1837720848}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1805211020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,25 +1772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 562713599}
     m_Modifications:
-    - target: {fileID: 1442474792677198561, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: m_Name
-      value: Rifle(Gun)
-      objectReference: {fileID: 0}
     - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: m_Name
       value: Rifle
-      objectReference: {fileID: 0}
-    - target: {fileID: 3504022932813782501, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: laneId
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5769263324950691492, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
@@ -1856,23 +1787,6 @@ PrefabInstance:
       propertyPath: explosionManager
       value: 
       objectReference: {fileID: 759622491}
-    - target: {fileID: 5769263324950691548, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: explosionScriptableObject
-      value: 
-      objectReference: {fileID: 11400000, guid: a1f9260aeb10c724493efc7b64c356b0,
-        type: 2}
-    - target: {fileID: 7057577894306420835, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 6792835275805921556, guid: 17f565f96f46c8b47a95b359e20fea09,
-        type: 3}
-    - target: {fileID: 7057577894306420835, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
-        type: 3}
-      propertyPath: firePoint
-      value: 
-      objectReference: {fileID: 1787672261}
     - target: {fileID: 8339948892394395564, guid: ea75f47b5f67f2b4eaa702fbf24320e6,
         type: 3}
       propertyPath: m_RootOrder

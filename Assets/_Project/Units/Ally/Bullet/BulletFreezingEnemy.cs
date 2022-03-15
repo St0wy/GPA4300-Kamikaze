@@ -1,28 +1,29 @@
+using Kamikaze.Units.Ally.Freezer;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
+    [RequireComponent(typeof(BulletBehavior))]
+    [RequireComponent(typeof(FreezeBehaviour))]
     public class BulletFreezingEnemy : MonoBehaviour
     {
-        [SerializeField] private float enemyFreezingSpeed = 0.02f;
-
-        private BulletBehavior bulletBehavior;
+        private FreezeBehaviour freezeBehaviour;
 
         private void Awake()
         {
-            bulletBehavior = GetComponent<BulletBehavior>();
+            freezeBehaviour = GetComponent<FreezeBehaviour>();
         }
 
         private void OnTriggerEnter(Collider other)
         {
             if (!other.CompareTag("Shootable")) return;
 
-            if (!bulletBehavior.IsFrozen) return;
+            if (!freezeBehaviour.IsFrozen) return;
 
-            var moveOnLaneBehaviour = other.GetComponent<MoveOnLaneBehaviour>();
-            if (moveOnLaneBehaviour != null)
+            var otherFreeze = other.GetComponent<FreezeBehaviour>();
+            if (otherFreeze != null)
             {
-                moveOnLaneBehaviour.MoveSpeed = enemyFreezingSpeed;
+                otherFreeze.Freeze();
             }
 
             Destroy(gameObject);

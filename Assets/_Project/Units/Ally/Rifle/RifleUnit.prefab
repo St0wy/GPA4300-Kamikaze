@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 758211d5804638d47947d1b74c5a0b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 6792835275805921556, guid: 17f565f96f46c8b47a95b359e20fea09, type: 3}
+  firePoint: {fileID: 8006832890116669808}
 --- !u!1 &1713237574984901262
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be576326bb01d3f41a1e9d1ea4d582cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeBetweenShoots: 0.2
+  timeUntilNextShoot: 0
 --- !u!1 &6464640364137751242
 GameObject:
   m_ObjectHideFlags: 0

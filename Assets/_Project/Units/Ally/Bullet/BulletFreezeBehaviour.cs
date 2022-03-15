@@ -1,5 +1,4 @@
-﻿using System;
-using Kamikaze.Units.Ally.Freezer;
+﻿using Kamikaze.Units.Ally.Freezer;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet

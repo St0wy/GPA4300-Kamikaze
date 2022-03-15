@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Kamikaze
+namespace Kamikaze.Units.Enemy.ShieldBreaker
 {
     public class BehaviorOnShieldCollision : MonoBehaviour
     {

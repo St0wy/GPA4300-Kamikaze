@@ -1,5 +1,4 @@
-﻿using System;
-using Kamikaze.Units.Ally.Explosions;
+﻿using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Freezer;
 using UnityEngine;
 

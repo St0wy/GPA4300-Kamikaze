@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using Kamikaze.Units.Ally.Freezer;
+﻿using Kamikaze.Units.Ally.Freezer;
 using UnityEngine;
 
 namespace Kamikaze.Units.Enemy

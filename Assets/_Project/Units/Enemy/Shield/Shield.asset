@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 20
   moveSpeed: 0.1
-  dropAmount: 0
+  dropAmount: 3

@@ -8,6 +8,12 @@ namespace Kamikaze.Units.Enemy.ShieldBreaker
         {
             if (other.CompareTag("AllyShield"))
             {
+                HealthBehaviour healthBehaviour = other.GetComponentInParent<HealthBehaviour>();
+                if(healthBehaviour!=null)
+                {
+                    int damage = healthBehaviour.HealthPoints - 1;
+                    healthBehaviour.HealthPoints -= damage;
+                }
                 Destroy(other.gameObject);
             }
         }

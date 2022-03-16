@@ -9,6 +9,9 @@ TagManager:
   - Ally
   - Bullet
   - AllyShield
+  - AllyBullet
+  - EnemyBullet
+  - EnemyShield
   layers:
   - Default
   - TransparentFX

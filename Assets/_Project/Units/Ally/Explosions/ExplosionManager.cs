@@ -14,18 +14,21 @@ namespace Kamikaze.Units.Ally.Explosions
         [SerializeField] private SoundEffectScriptableObject explosionSound;
         [SerializeField] private GameObject bigExplosionPrefab;
         [SerializeField] private GameObject smallExplosionPrefab;
+        [SerializeField] private GameObject freezeExplosionPrefab;
 
         [Tooltip("The max number of colliders that an explosion can have.")] [SerializeField]
         private int maxColliders = 50;
 
         private Stack<ExplosionBehaviour> bigExplosions;
         private Stack<ExplosionBehaviour> smallExplosions;
+        private Stack<ExplosionBehaviour> freezeExplosions;
         private Collider[] explosionColliders;
 
         private void Awake()
         {
             bigExplosions = new Stack<ExplosionBehaviour>();
             smallExplosions = new Stack<ExplosionBehaviour>();
+            freezeExplosions = new Stack<ExplosionBehaviour>();
             explosionColliders = new Collider[maxColliders];
         }
 
@@ -37,20 +40,11 @@ namespace Kamikaze.Units.Ally.Explosions
             explosionSound.Play();
         }
 
-        private ExplosionBehaviour GetBigExplosionInstance()
+        private ExplosionBehaviour GetExplosionInstance(Stack<ExplosionBehaviour> stack, GameObject prefab)
         {
-            if (bigExplosions.Count != 0) return bigExplosions.Pop();
+            if (stack.Count != 0) return stack.Pop();
 
-            var eb = Instantiate(bigExplosionPrefab).GetComponent<ExplosionBehaviour>();
-            eb.ExplosionManager = this;
-            return eb;
-        }
-
-        private ExplosionBehaviour GetSmallExplosionInstance()
-        {
-            if (smallExplosions.Count != 0) return smallExplosions.Pop();
-
-            var eb = Instantiate(smallExplosionPrefab).GetOrAddComponent<ExplosionBehaviour>();
+            var eb = Instantiate(prefab).GetOrAddComponent<ExplosionBehaviour>();
             eb.ExplosionManager = this;
             return eb;
         }
@@ -59,8 +53,9 @@ namespace Kamikaze.Units.Ally.Explosions
         {
             ExplosionBehaviour explosion = explosionScriptable.Type switch
             {
-                ExplosionType.Big => GetBigExplosionInstance(),
-                ExplosionType.Small => GetSmallExplosionInstance(),
+                ExplosionType.Big => GetExplosionInstance(bigExplosions, bigExplosionPrefab),
+                ExplosionType.Small => GetExplosionInstance(smallExplosions, smallExplosionPrefab),
+                ExplosionType.Freeze => GetExplosionInstance(freezeExplosions, freezeExplosionPrefab),
                 _ => throw new ArgumentOutOfRangeException(),
             };
 
@@ -114,6 +109,9 @@ namespace Kamikaze.Units.Ally.Explosions
                     break;
                 case ExplosionType.Small:
                     smallExplosions.Push(explosionBehaviour);
+                    break;
+                case ExplosionType.Freeze:
+                    freezeExplosions.Push(explosionBehaviour);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

@@ -587,6 +587,8 @@ MonoBehaviour:
     type: 3}
   smallExplosionPrefab: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3,
     type: 3}
+  freezeExplosionPrefab: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c,
+    type: 3}
   maxColliders: 50
 --- !u!4 &759622492
 Transform:
@@ -1767,7 +1769,7 @@ PrefabInstance:
     - target: {fileID: 6151587601250846119, guid: dd91fd1c981048f4983c5c128b442e64,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846119, guid: dd91fd1c981048f4983c5c128b442e64,
         type: 3}
@@ -1857,7 +1859,7 @@ PrefabInstance:
     - target: {fileID: 6151587601250846119, guid: 34895df53f4e8ba4c9c778b9e5dee4c2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151587601250846119, guid: 34895df53f4e8ba4c9c778b9e5dee4c2,
         type: 3}

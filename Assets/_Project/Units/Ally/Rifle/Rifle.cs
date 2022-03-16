@@ -12,15 +12,13 @@ namespace Kamikaze.Units.Ally.Rifle
         {
             GameObject bulletGo = Instantiate(bullet.gameObject, firePoint.position, Quaternion.identity);
 
-            BulletBehavior bulletBehavior = bulletGo.GetComponent<BulletBehavior>();
+            var bulletBehavior = bulletGo.GetComponent<BulletBehavior>();
             if(bulletBehavior!=null)
             {
                 bulletBehavior.Movement = Vector3.right;
             }
 
             Destroy(bulletGo, 5);
-            
-
         }
     }
 }

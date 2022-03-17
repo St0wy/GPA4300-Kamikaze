@@ -15,5 +15,5 @@ MonoBehaviour:
   type: 2
   explosionTime: 2
   explosionRadius: 2.2
-  maxExplosionDamage: 21
+  maxExplosionDamage: 10
   maxDamageMargin: 1.5

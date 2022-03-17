@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeStuckBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeStuckBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/StuckOnExplosionBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/StuckOnExplosionBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeAreaBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerExplosion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerExplosion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeFreezeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyFreezeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyFreezeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,10 +85,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20832">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20832" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -96,7 +114,8 @@
       <workItem from="1647181368054" duration="639000" />
       <workItem from="1647182031215" duration="1086000" />
       <workItem from="1647349001245" duration="13395000" />
-      <workItem from="1647421324601" duration="1252000" />
+      <workItem from="1647421324601" duration="7399000" />
+      <workItem from="1647518011175" duration="3318000" />
     </task>
     <servers />
   </component>
@@ -120,5 +139,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\Units\MoveOnLaneBehaviour.cs" initialLine="17" containingFunctionPresentation="property 'MoveSpeed'">
+            <startOffsets>
+              <option value="572" />
+            </startOffsets>
+            <endOffsets>
+              <option value="576" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

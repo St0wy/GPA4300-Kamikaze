@@ -7,10 +7,10 @@ namespace Kamikaze.Units.Ally.Freezer
         private void OnTriggerStay(Collider other)
         {
             var freezeBehaviour = other.GetComponent<FreezeBehaviour>();
-            if (freezeBehaviour != null)
-            {
+            if (freezeBehaviour == null) return;
+
+            if (!freezeBehaviour.IsFrozen)
                 freezeBehaviour.Freeze();
-            }
         }
     }
 }

@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 5400964859731762729}
   - component: {fileID: 5400964859731762731}
   - component: {fileID: 5400964859731762734}
+  - component: {fileID: 434217893589960053}
   m_Layer: 0
   m_Name: FreezerUnit
   m_TagString: Ally
@@ -376,6 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 0
+  <MoveSpeed>k__BackingField: 0.1
 --- !u!114 &5400964859731762729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +422,18 @@ MonoBehaviour:
   explosionManager: {fileID: 0}
   explosionScriptableObject: {fileID: 11400000, guid: beac430ffafe2cd49a6e1fdc4b09a57b,
     type: 2}
+--- !u!114 &434217893589960053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5629b6a9784bd3aa6b3e95349b351a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6918704182983434800
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,7 +32,6 @@ namespace Kamikaze.Units.Ally.Kamikaze
         private static void FreezeOnExplode(Collider col)
         {
             var colFreezeBehaviour = col.GetComponent<FreezeBehaviour>();
-
             if (colFreezeBehaviour != null)
             {
                 colFreezeBehaviour.Freeze();

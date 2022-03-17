@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 6151587601250846141}
   - component: {fileID: 657057094162498924}
   - component: {fileID: 2662342732285002087}
+  - component: {fileID: 4067392237114813283}
   m_Layer: 0
   m_Name: Normal
   m_TagString: Shootable
@@ -217,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41fc5575a18e405ab420a44833639a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freezeTime: 0.1
+  freezeTime: 1
 --- !u!114 &2662342732285002087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,3 +232,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frozenSpeed: 0.02
+--- !u!114 &4067392237114813283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f466599890d4f0f92f6c0f796db4ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuckTime: 1.5

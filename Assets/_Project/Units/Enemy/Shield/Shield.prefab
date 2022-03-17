@@ -12,15 +12,16 @@ GameObject:
   - component: {fileID: 6151587601250846116}
   - component: {fileID: 6151587601250846117}
   - component: {fileID: 6151587601250846114}
+  - component: {fileID: 6151587601250846138}
   - component: {fileID: 6151587601250846137}
   - component: {fileID: 6151587601250846136}
   - component: {fileID: 6151587601250846118}
   - component: {fileID: 6151587601250846115}
   - component: {fileID: 6151587601250846139}
-  - component: {fileID: 6151587601250846138}
   - component: {fileID: 6151587601250846141}
   - component: {fileID: 6489511428746474057}
   - component: {fileID: 2497955339538090437}
+  - component: {fileID: 3489455925272521428}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Shootable
@@ -106,6 +107,22 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6151587601250846138
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!114 &6151587601250846137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,22 +193,6 @@ MonoBehaviour:
   tagToDamage: Ally
   damage: 1
   attackSpeed: 0.5
---- !u!54 &6151587601250846138
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6151587601250846112}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!114 &6151587601250846141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +233,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frozenSpeed: 0.02
+--- !u!114 &3489455925272521428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f466599890d4f0f92f6c0f796db4ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuckTime: 1.5
 --- !u!1 &7025495330646115966
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,4 +354,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396419976d2618b48a31882ea3329f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shieldGo: {fileID: 7025495330646115966}

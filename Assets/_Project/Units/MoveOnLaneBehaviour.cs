@@ -1,4 +1,5 @@
 ﻿using MyBox;
+using StowyTools.Logger;
 using UnityEngine;
 
 namespace Kamikaze.Units
@@ -13,8 +14,7 @@ namespace Kamikaze.Units
 
         private LaneUnitBehaviour laneUnitBehaviour;
 
-        [field: Tooltip("Speed in unit/second of the unit.")]
-        [field: ReadOnly]
+        [field: Tooltip("Speed in unit/second of the unit."), ReadOnly, SerializeField]
         public float MoveSpeed { get; set; } = 0.1f;
 
         public MoveDirection Direction

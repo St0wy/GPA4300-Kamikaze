@@ -1255,6 +1255,7 @@ MonoBehaviour:
   unitSelector: {fileID: 1530601516}
   lanesManager: {fileID: 1180991117}
   explosionManager: {fileID: 759622491}
+  unitQuantities: 0a0000000a0000000a0000000a000000
 --- !u!1 &1537042241
 GameObject:
   m_ObjectHideFlags: 0

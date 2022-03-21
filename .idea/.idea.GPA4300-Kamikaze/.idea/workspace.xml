@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ClickOnLanesManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ClickOnLanesManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitSelector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitSelector.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/HighlightSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/HighlightSelectionResponse.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/IRayProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/IRayProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/IRayProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/IRayProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ISelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelectionResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ISelectionResponse.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelectionResponse.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ISelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ISelector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/MouseScreenRayProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/MouseScreenRayProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/MouseScreenRayProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/MouseScreenRayProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/RayCastBasedTagSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/RayCastBasedTagSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/RayCastBasedTagSelector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/RayCastBasedTagSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/SelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/SelectionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerUnit.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/Kamikaze.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeUnit.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleUnit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleUnit.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldUnit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldUnit.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitSelector.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +99,7 @@
       <workItem from="1647349001245" duration="13395000" />
       <workItem from="1647421324601" duration="7399000" />
       <workItem from="1647518011175" duration="4300000" />
-      <workItem from="1647872436826" duration="5562000" />
+      <workItem from="1647872436826" duration="8153000" />
     </task>
     <servers />
   </component>

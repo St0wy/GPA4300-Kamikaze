@@ -9,5 +9,7 @@ namespace Kamikaze.Lanes
 		[field: SerializeField] public int SelectedUnitId { get; private set; }
 
 		public GameObject SelectedUnit => unitsPrefabs[SelectedUnitId];
+
+		public int PrefabsLength => unitsPrefabs.Length;
 	}
 }

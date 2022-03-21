@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Kamikaze.Lanes
+namespace Kamikaze.Lanes.Selection
 {
     public class MouseScreenRayProvider : MonoBehaviour, IRayProvider
     {

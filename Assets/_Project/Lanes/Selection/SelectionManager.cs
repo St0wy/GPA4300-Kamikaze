@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 
-namespace Kamikaze.Lanes
+namespace Kamikaze.Lanes.Selection
 {
     public class SelectionManager : MonoBehaviour
     {
         private IRayProvider rayProvider;
         private ISelector selector;
         private ISelectionResponse selectionResponse;
-    
-        private Transform currentSelection;
+
+        public Transform CurrentSelection { get; private set; }
 
         private void Awake()
         {
@@ -19,14 +19,14 @@ namespace Kamikaze.Lanes
 
         private void Update()
         {
-            if (currentSelection != null) 
-                selectionResponse.OnDeselect(currentSelection);
+            if (CurrentSelection != null) 
+                selectionResponse.OnDeselect(CurrentSelection);
         
             selector.Check(rayProvider.CreateRay());
-            currentSelection = selector.Selection;
+            CurrentSelection = selector.Selection;
         
-            if (currentSelection != null) 
-                selectionResponse.OnSelect(currentSelection);
+            if (CurrentSelection != null) 
+                selectionResponse.OnSelect(CurrentSelection);
         }
     }
 }

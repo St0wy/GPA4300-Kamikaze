@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Kamikaze.Lanes
+namespace Kamikaze.Lanes.Selection
 {
     public interface IRayProvider
     {

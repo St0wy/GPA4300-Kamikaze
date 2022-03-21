@@ -1,7 +1,7 @@
 ﻿using MyBox;
 using UnityEngine;
 
-namespace Kamikaze.Lanes
+namespace Kamikaze.Lanes.Selection
 {
     public class RayCastBasedTagSelector : MonoBehaviour, ISelector
     {

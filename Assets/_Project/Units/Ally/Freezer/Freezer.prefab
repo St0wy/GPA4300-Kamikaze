@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6573593390100609360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FreezingWands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 6472471304730791123}
   - component: {fileID: 2143890909839050772}
   - component: {fileID: 4146170959893425843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 1396898465382110972}
   - component: {fileID: 5796458579971818058}
   - component: {fileID: 1379750215996504940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 5400964859731762731}
   - component: {fileID: 5400964859731762734}
   - component: {fileID: 434217893589960053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Freezer
   m_TagString: Ally
   m_Icon: {fileID: 0}
@@ -361,9 +361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanesManager: {fileID: 0}
-  laneId: 0
   position: 0
+  <LanesManager>k__BackingField: {fileID: 0}
+  <LaneId>k__BackingField: 0
 --- !u!114 &5400964859731762728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5c4a7eae1b5e744a51b95c246f253a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionManager: {fileID: 0}
   explosionScriptableObject: {fileID: 11400000, guid: beac430ffafe2cd49a6e1fdc4b09a57b,
     type: 2}
+  <ExplosionsManager>k__BackingField: {fileID: 0}
 --- !u!114 &434217893589960053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 7450385232490973637}
   - component: {fileID: 1209611488285649420}
   - component: {fileID: 4392193127213449980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FreezeArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 4274863545183944731}
   - component: {fileID: 1773840794527605886}
   - component: {fileID: 5509356794883268445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 6793505675165663644}
   - component: {fileID: 1892356856246700219}
   - component: {fileID: 4140328076383868321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7582621594446890191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -847,6 +847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Top
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822939069830935872, guid: 662abc62f05fb9b438f8d1efeae71bb2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 662abc62f05fb9b438f8d1efeae71bb2, type: 3}

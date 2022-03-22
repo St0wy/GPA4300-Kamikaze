@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6573593390100609360}
   - component: {fileID: 8869016147639056529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rifle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 1631981289702533986}
   - component: {fileID: 4506433998485984085}
   - component: {fileID: 5381322396265965753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainCompnent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 5400964859731762731}
   - component: {fileID: 5400964859731762734}
   - component: {fileID: 354827774685127708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rifle
   m_TagString: Ally
   m_Icon: {fileID: 0}
@@ -261,9 +261,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanesManager: {fileID: 0}
-  laneId: 0
   position: 0
+  <LanesManager>k__BackingField: {fileID: 0}
+  <LaneId>k__BackingField: 0
 --- !u!114 &5400964859731762728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 0
+  <MoveSpeed>k__BackingField: 0.1
 --- !u!114 &5400964859731762729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,9 +319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5c4a7eae1b5e744a51b95c246f253a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionManager: {fileID: 0}
   explosionScriptableObject: {fileID: 11400000, guid: a1f9260aeb10c724493efc7b64c356b0,
     type: 2}
+  <ExplosionsManager>k__BackingField: {fileID: 0}
 --- !u!114 &354827774685127708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,7 +347,7 @@ GameObject:
   - component: {fileID: 2084306260139793170}
   - component: {fileID: 9166666537923638520}
   - component: {fileID: 6124438533415610403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Charger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8006832890116669808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}

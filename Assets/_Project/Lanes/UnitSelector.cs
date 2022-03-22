@@ -6,7 +6,7 @@ namespace Kamikaze.Lanes
 	{
 		[SerializeField] private GameObject[] unitsPrefabs;
 
-		[field: SerializeField] public int SelectedUnitId { get; private set; }
+		[field: SerializeField] public int SelectedUnitId { get; set; }
 
 		public GameObject SelectedUnit => unitsPrefabs[SelectedUnitId];
 

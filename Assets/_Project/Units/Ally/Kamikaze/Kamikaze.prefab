@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 5400964859731762732}
   - component: {fileID: 3868979353280942472}
   - component: {fileID: 1518758108370708893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kamikaze
   m_TagString: Ally
   m_Icon: {fileID: 0}
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanesManager: {fileID: 0}
-  laneId: 0
   position: 0
+  <LanesManager>k__BackingField: {fileID: 0}
+  <LaneId>k__BackingField: 0
 --- !u!114 &5400964859731762728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 0
+  <MoveSpeed>k__BackingField: 0.1
 --- !u!114 &5400964859731762729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,9 +175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5c4a7eae1b5e744a51b95c246f253a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionManager: {fileID: 0}
   explosionScriptableObject: {fileID: 11400000, guid: 3d424c35919182e44b59b2ad0a11be4a,
     type: 2}
+  <ExplosionsManager>k__BackingField: {fileID: 0}
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -206,6 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeTime: 5
+  <IsFrozen>k__BackingField: 0
 --- !u!114 &1518758108370708893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7582621594446890191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

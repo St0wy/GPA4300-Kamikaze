@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
+    [RequireComponent(typeof(SynergyWithShield))]
     public class BulletDamagingEnemy : MonoBehaviour
     {
         [SerializeField] private int normalDamage = 1;

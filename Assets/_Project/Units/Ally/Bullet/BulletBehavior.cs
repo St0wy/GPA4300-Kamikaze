@@ -2,33 +2,30 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
-    public class BulletBehavior : MonoBehaviour
-    {
-        
-        [SerializeField] private float normalSpeed = 80f;
-        
-        private Rigidbody rb;
+	public class BulletBehavior : MonoBehaviour
+	{
+		[SerializeField] private float normalSpeed = 80f;
 
-        public float Speed { get; set; }
+		private Rigidbody rb;
 
-        public Vector3 Movement { get; set; }
+		public float Speed { get; set; }
 
-        public float NormalSpeed => normalSpeed;
+		public Vector3 Movement { get; set; }
 
-        private void Start()
-        {
-            rb = GetComponent<Rigidbody>();
-            
-            Movement.Normalize();
-            
-            Speed = NormalSpeed;
-        }
+		public float NormalSpeed => normalSpeed;
 
-        private void FixedUpdate()
-        {
-            rb.velocity = Movement * Speed;
-        }
+		private void Start()
+		{
+			rb = GetComponent<Rigidbody>();
 
-        
-    }
+			Movement.Normalize();
+
+			Speed = NormalSpeed;
+		}
+
+		private void FixedUpdate()
+		{
+			rb.velocity = Movement * Speed;
+		}
+	}
 }

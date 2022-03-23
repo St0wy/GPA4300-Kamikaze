@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 78595997069977818}
   - component: {fileID: 8998635551861904063}
   - component: {fileID: 3716836919597268140}
-  - component: {fileID: 2931218460399457256}
   m_Layer: 6
   m_Name: Shield
   m_TagString: AllyShield
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2931218460399457256
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459101956626187790}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5400964859731762769
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5400964859731762769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.51, y: 0.73, z: -8.23}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7582621594446890191}
@@ -286,8 +272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shieldGo: {fileID: 1459101956626187790}
-  stopPosition: 0.2
   shieldHealthPoints: 5
+  stopPosition: 0.2
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0

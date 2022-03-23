@@ -1,22 +1,26 @@
+using Kamikaze.Units.Ally.Shield;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
-    public class SynergyWithShield : MonoBehaviour
-    {
-        private void Start()
-        {
-            HasSynergy = false;
-        }
+	public class SynergyWithShield : MonoBehaviour
+	{
+		private void Start()
+		{
+			HasSynergy = false;
+		}
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if(other.CompareTag("AllyShield"))
-            {
-                HasSynergy = true;
-            }
-        }
+		private void OnTriggerEnter(Collider other)
+		{
+			if (!other.CompareTag("Ally")) return;
 
-        public bool HasSynergy { get; set; }
-    }
+			var shieldTroopBehavior = other.GetComponent<ShieldTroopBehavior>();
+			if (shieldTroopBehavior != null)
+			{
+				HasSynergy = true;
+			}
+		}
+
+		public bool HasSynergy { get; set; }
+	}
 }

@@ -1,5 +1,4 @@
 using Kamikaze.Units.Ally.Shield;
-using StowyTools.Logger;
 using UnityEngine;
 
 namespace Kamikaze.Units.Enemy.ShieldBreaker

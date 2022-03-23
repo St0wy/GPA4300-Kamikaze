@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 6489511428746474057}
   - component: {fileID: 2497955339538090437}
   - component: {fileID: 3489455925272521428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield
   m_TagString: Shootable
   m_Icon: {fileID: 0}
@@ -135,9 +135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanesManager: {fileID: 0}
-  laneId: 0
   position: 1
+  <LanesManager>k__BackingField: {fileID: 0}
+  <LaneId>k__BackingField: 0
 --- !u!114 &6151587601250846136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 1
+  <MoveSpeed>k__BackingField: 0.1
 --- !u!114 &6151587601250846118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezeTime: 0.1
+  <IsFrozen>k__BackingField: 0
 --- !u!114 &2497955339538090437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stuckTime: 1.5
+  <IsStuck>k__BackingField: 0
 --- !u!1 &7025495330646115966
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +262,7 @@ GameObject:
   - component: {fileID: 972954622606015678}
   - component: {fileID: 3626038660168560369}
   - component: {fileID: 5269939732000274960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shield
   m_TagString: EnemyShield
   m_Icon: {fileID: 0}

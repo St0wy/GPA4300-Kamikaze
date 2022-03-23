@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 9109540585198722510}
   - component: {fileID: 9109540585198722509}
   - component: {fileID: 9109540585198722508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SprintingEnemy
   m_TagString: Shootable
   m_Icon: {fileID: 0}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9794ec798a65e4881a59d7e314b05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lanesManager: {fileID: 0}
-  laneId: 0
   position: 1
+  <LanesManager>k__BackingField: {fileID: 0}
+  <LaneId>k__BackingField: 0
 --- !u!114 &9109540585198722500
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,5 +1,4 @@
-﻿using System;
-using Kamikaze.Lanes;
+﻿using Kamikaze.Lanes;
 using TMPro;
 using UnityEngine;
 

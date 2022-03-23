@@ -1,5 +1,4 @@
 ﻿using Kamikaze.Lanes;
-using StowyTools.Logger;
 using UnityEngine;
 
 namespace Kamikaze.UI

@@ -1,4 +1,5 @@
 ﻿using Kamikaze.Units;
+using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Shield;
 using UnityEngine;
@@ -48,6 +49,13 @@ namespace Kamikaze.Lanes
 			if (explodeOnDeathBehaviour != null)
 			{
 				explodeOnDeathBehaviour.ExplosionsManager = explosionManager;
+			}
+
+			var backInInventoryBehaviour = unit.GetComponent<BackInInventoryBehaviour>();
+			if (backInInventoryBehaviour != null)
+			{
+				backInInventoryBehaviour.UnitPlacer = this;
+				backInInventoryBehaviour.UnitId = unitSelector.SelectedUnitId;
 			}
 
 			var shieldTroopBehavior = unit.GetComponent<ShieldTroopBehavior>();

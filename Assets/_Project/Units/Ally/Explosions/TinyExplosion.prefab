@@ -46,8 +46,8 @@ ParticleSystem:
   cullingMode: 1
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
-  prewarm: 1
+  looping: 0
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -4923,8 +4923,8 @@ ParticleSystem:
   cullingMode: 1
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
-  prewarm: 1
+  looping: 0
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -9799,8 +9799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6c9053c35f2425ca4bf77712a8405ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionScriptableObject: {fileID: 0}
-  maxColliders: 20
 --- !u!1 &1793989332680384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9847,8 +9845,8 @@ ParticleSystem:
   cullingMode: 3
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
-  prewarm: 1
+  looping: 0
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1

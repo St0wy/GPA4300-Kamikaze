@@ -15,6 +15,8 @@ namespace Kamikaze.Lanes
 		private ClickOnLanesManager clickOnLanesManager;
 		[SerializeField] private int[] unitQuantities;
 
+		public int[] UnitQuantities => unitQuantities;
+
 		private void Awake()
 		{
 			clickOnLanesManager = GetComponent<ClickOnLanesManager>();
@@ -24,9 +26,9 @@ namespace Kamikaze.Lanes
 
 		private void PlaceUnit(Lane lane, float pos)
 		{
-			int unitQuantity = unitQuantities[unitSelector.SelectedUnitId];
+			int unitQuantity = UnitQuantities[unitSelector.SelectedUnitId];
 			if (unitQuantity <= 0) return;
-			unitQuantities[unitSelector.SelectedUnitId]--;
+			UnitQuantities[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);
 		}
 

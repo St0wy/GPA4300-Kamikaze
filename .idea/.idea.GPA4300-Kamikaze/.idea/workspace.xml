@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ClickOnLanesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ClickOnLanesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Lane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Lane.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/ISelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/RayCastBasedTagSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/RayCastBasedTagSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldTroopBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldTroopBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/TroopButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/TroopButton.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +101,7 @@
       <workItem from="1647421324601" duration="7399000" />
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
-      <workItem from="1648025776716" duration="1543000" />
+      <workItem from="1648025776716" duration="2487000" />
     </task>
     <servers />
   </component>

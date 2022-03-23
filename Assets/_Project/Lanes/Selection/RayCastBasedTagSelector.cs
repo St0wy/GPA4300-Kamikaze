@@ -10,6 +10,7 @@ namespace Kamikaze.Lanes.Selection
         [SerializeField] private float maxDistance = 1000f;
 
         public Transform Selection { get; private set; }
+        public Vector3 Point { get; private set; }
 
         public void Check(Ray ray)
         {
@@ -18,6 +19,7 @@ namespace Kamikaze.Lanes.Selection
             if (!Physics.Raycast(ray, out RaycastHit hit, maxDistance, ~layersToIgnore)) return;
 
             Transform hitTransform = hit.transform;
+            Point = hit.point;
             if (hitTransform.CompareTag(selectableTag))
             {
                 Selection = hitTransform;

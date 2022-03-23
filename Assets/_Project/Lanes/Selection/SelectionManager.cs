@@ -9,6 +9,7 @@ namespace Kamikaze.Lanes.Selection
         private ISelectionResponse selectionResponse;
 
         public Transform CurrentSelection { get; private set; }
+        public Vector3 CurrentPoint { get; private set; }
 
         private void Awake()
         {
@@ -24,6 +25,7 @@ namespace Kamikaze.Lanes.Selection
         
             selector.Check(rayProvider.CreateRay());
             CurrentSelection = selector.Selection;
+            CurrentPoint = selector.Point;
         
             if (CurrentSelection != null) 
                 selectionResponse.OnSelect(CurrentSelection);

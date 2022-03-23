@@ -1,3 +1,4 @@
+using System;
 using Kamikaze.Lanes;
 using MyBox;
 using UnityEngine;
@@ -38,7 +39,7 @@ namespace Kamikaze.Units
 			Lane lane = LanesManager.Lanes[LaneId];
 
 			// Set the position of this unit by lerp ing between start pos and end pos.
-			transform.position = Vector3.Lerp(lane.StartPos, lane.EndPos, position);
+			transform.position = lane.GetWorldPositionOnLane(Position);
 		}
 	}
 }

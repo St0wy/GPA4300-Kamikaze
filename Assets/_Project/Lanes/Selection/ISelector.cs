@@ -6,5 +6,6 @@ namespace Kamikaze.Lanes.Selection
     {
         void Check(Ray ray);
         Transform Selection { get; }
+        Vector3 Point { get; }
     }
 }

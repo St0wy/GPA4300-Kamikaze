@@ -1,5 +1,6 @@
 ﻿using Kamikaze.Units;
 using Kamikaze.Units.Ally.Explosions;
+using Kamikaze.Units.Ally.Shield;
 using UnityEngine;
 
 namespace Kamikaze.Lanes
@@ -21,15 +22,15 @@ namespace Kamikaze.Lanes
 			// unitQuantities = new int[unitSelector.PrefabsLength];
 		}
 
-		private void PlaceUnit(Lane lane)
+		private void PlaceUnit(Lane lane, float pos)
 		{
 			int unitQuantity = unitQuantities[unitSelector.SelectedUnitId];
 			if (unitQuantity <= 0) return;
 			unitQuantities[unitSelector.SelectedUnitId]--;
-			InstantiateUnit(lane);
+			InstantiateUnit(lane, pos);
 		}
 
-		private void InstantiateUnit(Lane lane)
+		private void InstantiateUnit(Lane lane, float pos)
 		{
 			GameObject unitPrefab = unitSelector.SelectedUnit;
 			GameObject unit = Instantiate(unitPrefab, lane.StartPos, Quaternion.identity);
@@ -45,6 +46,12 @@ namespace Kamikaze.Lanes
 			if (explodeOnDeathBehaviour != null)
 			{
 				explodeOnDeathBehaviour.ExplosionsManager = explosionManager;
+			}
+
+			var shieldTroopBehavior = unit.GetComponent<ShieldTroopBehavior>();
+			if (shieldTroopBehavior != null)
+			{
+				shieldTroopBehavior.StopPosition = pos;
 			}
 		}
 	}

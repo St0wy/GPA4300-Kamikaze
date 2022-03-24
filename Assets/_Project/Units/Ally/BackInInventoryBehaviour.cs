@@ -1,6 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
-using Kamikaze.Lanes;
+﻿using Kamikaze.Lanes;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally

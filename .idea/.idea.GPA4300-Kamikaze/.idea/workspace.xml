@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/VectorUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/TroopButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/TroopButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1647421324601" duration="7399000" />
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
-      <workItem from="1648025776716" duration="2487000" />
+      <workItem from="1648025776716" duration="11362000" />
     </task>
     <servers />
   </component>
@@ -125,24 +125,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Project/Units/MoveOnLaneBehaviour.cs</url>
-          <line>17</line>
-          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\Units\MoveOnLaneBehaviour.cs" initialLine="17" containingFunctionPresentation="property 'MoveSpeed'">
-            <startOffsets>
-              <option value="572" />
-            </startOffsets>
-            <endOffsets>
-              <option value="576" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

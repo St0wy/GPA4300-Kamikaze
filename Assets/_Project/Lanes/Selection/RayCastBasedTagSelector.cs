@@ -3,27 +3,24 @@ using UnityEngine;
 
 namespace Kamikaze.Lanes.Selection
 {
-    public class RayCastBasedTagSelector : MonoBehaviour, ISelector
-    {
-        [Tag] [SerializeField] private string selectableTag;
-        [SerializeField] private LayerMask layersToIgnore;
-        [SerializeField] private float maxDistance = 1000f;
+	public class RayCastBasedTagSelector : MonoBehaviour, ISelector
+	{
+		[Tag] [SerializeField] private string selectableTag;
+		[SerializeField] private LayerMask layersToIgnore;
+		[SerializeField] private float maxDistance = 1000f;
 
-        public Transform Selection { get; private set; }
-        public Vector3 Point { get; private set; }
+		public Transform Selection { get; private set; }
+		public Vector3 Point { get; private set; }
 
-        public void Check(Ray ray)
-        {
-            Selection = null;
+		public void Check(Ray ray)
+		{
+			Selection = null;
 
-            if (!Physics.Raycast(ray, out RaycastHit hit, maxDistance, ~layersToIgnore)) return;
+			if (!Physics.Raycast(ray, out RaycastHit hit, maxDistance, ~layersToIgnore)) return;
 
-            Transform hitTransform = hit.transform;
-            Point = hit.point;
-            if (hitTransform.CompareTag(selectableTag))
-            {
-                Selection = hitTransform;
-            }
-        }
-    }
+			Transform hitTransform = hit.transform;
+			Point = hit.point;
+			if (hitTransform.CompareTag(selectableTag)) Selection = hitTransform;
+		}
+	}
 }

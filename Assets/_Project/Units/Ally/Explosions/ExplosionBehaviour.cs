@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
@@ -11,14 +10,14 @@ namespace Kamikaze.Units.Ally.Explosions
     public class ExplosionBehaviour : MonoBehaviour
     {
         private float disableTimer;
-        private ParticleSystem particleSystem;
+        private ParticleSystem particles;
 
         public ExplosionScriptableObject ScriptableObject { get; set; }
         public ExplosionManager ExplosionManager { get; set; }
 
         private void Awake()
         {
-            particleSystem = GetComponent<ParticleSystem>();
+            particles = GetComponent<ParticleSystem>();
         }
 
         private void Update()
@@ -37,7 +36,7 @@ namespace Kamikaze.Units.Ally.Explosions
             disableTimer = explosionScriptable.ExplosionTime;
             ScriptableObject = explosionScriptable;
             gameObject.SetActive(true);
-            particleSystem.Play(true);
+            particles.Play(true);
         }
     }
 }

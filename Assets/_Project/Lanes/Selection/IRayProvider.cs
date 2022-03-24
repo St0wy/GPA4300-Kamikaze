@@ -2,8 +2,8 @@
 
 namespace Kamikaze.Lanes.Selection
 {
-    public interface IRayProvider
-    {
-        Ray CreateRay();
-    }
+	public interface IRayProvider
+	{
+		Ray CreateRay();
+	}
 }

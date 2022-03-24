@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu 1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/ExampleOverlay - Circle Border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/ExampleOverlay - Circle Border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/HowToUse.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/HowToUse.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorUIExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorUIExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Item.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Item.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/TextureScale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/TextureScale.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/Drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/Drop.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/UIDropBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/UIDropBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +125,7 @@
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
       <workItem from="1648025776716" duration="11362000" />
-      <workItem from="1648111071655" duration="11156000" />
+      <workItem from="1648111071655" duration="13244000" />
     </task>
     <servers />
   </component>

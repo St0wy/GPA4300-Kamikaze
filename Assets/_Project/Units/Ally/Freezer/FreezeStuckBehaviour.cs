@@ -8,11 +8,13 @@ namespace Kamikaze.Units.Ally.Freezer
 	public class FreezeStuckBehaviour : MonoBehaviour
 	{
 		[SerializeField] private float stuckTime = 1.5f;
-
-		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float baseSpeed;
 
-		[field: ReadOnly, SerializeField] public bool IsStuck { get; private set; }
+		private MoveOnLaneBehaviour moveOnLaneBehaviour;
+
+		[field: ReadOnly]
+		[field: SerializeField]
+		public bool IsStuck { get; private set; }
 
 		private void Awake()
 		{
@@ -22,10 +24,7 @@ namespace Kamikaze.Units.Ally.Freezer
 
 		private void Update()
 		{
-			if (IsStuck)
-			{
-				moveOnLaneBehaviour.MoveSpeed = 0f;
-			}
+			if (IsStuck) moveOnLaneBehaviour.MoveSpeed = 0f;
 		}
 
 		public void Stuck()

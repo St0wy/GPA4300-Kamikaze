@@ -12,9 +12,9 @@ namespace Kamikaze.Lanes
 		[SerializeField] private UnitSelector unitSelector;
 		[SerializeField] private LanesManager lanesManager;
 		[SerializeField] private ExplosionManager explosionManager;
+		[SerializeField] private int[] unitQuantities;
 
 		private ClickOnLanesManager clickOnLanesManager;
-		[SerializeField] private int[] unitQuantities;
 
 		public int[] UnitQuantities => unitQuantities;
 
@@ -46,10 +46,7 @@ namespace Kamikaze.Lanes
 			}
 
 			var explodeOnDeathBehaviour = unit.GetComponent<ExplodeOnDeathBehaviour>();
-			if (explodeOnDeathBehaviour != null)
-			{
-				explodeOnDeathBehaviour.ExplosionsManager = explosionManager;
-			}
+			if (explodeOnDeathBehaviour != null) explodeOnDeathBehaviour.ExplosionsManager = explosionManager;
 
 			var backInInventoryBehaviour = unit.GetComponent<BackInInventoryBehaviour>();
 			if (backInInventoryBehaviour != null)
@@ -59,10 +56,7 @@ namespace Kamikaze.Lanes
 			}
 
 			var shieldTroopBehavior = unit.GetComponent<ShieldTroopBehavior>();
-			if (shieldTroopBehavior != null)
-			{
-				shieldTroopBehavior.StopPosition = pos;
-			}
+			if (shieldTroopBehavior != null) shieldTroopBehavior.StopPosition = pos;
 		}
 	}
 }

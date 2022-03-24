@@ -1,9 +1,10 @@
+using MyBox;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
 	/// <summary>
-	/// Behaviour to put on objects that should explode on death.
+	///     Behaviour to put on objects that should explode on death.
 	/// </summary>
 	[RequireComponent(typeof(HealthBehaviour))]
 	public class ExplodeOnDeathBehaviour : MonoBehaviour
@@ -32,13 +33,10 @@ namespace Kamikaze.Units.Ally.Explosions
 
 		private void OnHurt(int healthPoints)
 		{
-			if (!healthBehaviour.IsAlive)
-			{
-				Explode();
-			}
+			if (!healthBehaviour.IsAlive) Explode();
 		}
 
-		[MyBox.ButtonMethod]
+		[ButtonMethod]
 		private void Explode()
 		{
 			ExplosionsManager.TriggerExplosion(transform.position, explosionScriptableObject, ExplosionEvent);

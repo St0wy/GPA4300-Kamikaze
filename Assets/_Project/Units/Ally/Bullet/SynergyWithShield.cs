@@ -5,6 +5,8 @@ namespace Kamikaze.Units.Ally.Bullet
 {
 	public class SynergyWithShield : MonoBehaviour
 	{
+		public bool HasSynergy { get; set; }
+
 		private void Start()
 		{
 			HasSynergy = false;
@@ -15,12 +17,7 @@ namespace Kamikaze.Units.Ally.Bullet
 			if (!other.CompareTag("Ally")) return;
 
 			var shieldTroopBehavior = other.GetComponent<ShieldTroopBehavior>();
-			if (shieldTroopBehavior != null)
-			{
-				HasSynergy = true;
-			}
+			if (shieldTroopBehavior != null) HasSynergy = true;
 		}
-
-		public bool HasSynergy { get; set; }
 	}
 }

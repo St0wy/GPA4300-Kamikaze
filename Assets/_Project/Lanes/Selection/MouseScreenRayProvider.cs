@@ -3,14 +3,14 @@ using UnityEngine.InputSystem;
 
 namespace Kamikaze.Lanes.Selection
 {
-    public class MouseScreenRayProvider : MonoBehaviour, IRayProvider
-    {
-        [SerializeField] private Camera mainCamera;
+	public class MouseScreenRayProvider : MonoBehaviour, IRayProvider
+	{
+		[SerializeField] private Camera mainCamera;
 
-        public Ray CreateRay()
-        {
-            Vector2 mousePos = Mouse.current.position.ReadValue();
-            return mainCamera.ScreenPointToRay(mousePos);
-        }
-    }
+		public Ray CreateRay()
+		{
+			Vector2 mousePos = Mouse.current.position.ReadValue();
+			return mainCamera.ScreenPointToRay(mousePos);
+		}
+	}
 }

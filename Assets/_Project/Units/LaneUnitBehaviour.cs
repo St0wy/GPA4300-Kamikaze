@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Kamikaze.Units
 {
 	/// <summary>
-	/// MonoBehaviour responsible for placing an Unit on a lane.
+	///     MonoBehaviour responsible for placing an Unit on a lane.
 	/// </summary>
 	public class LaneUnitBehaviour : MonoBehaviour
 	{
@@ -22,8 +22,8 @@ namespace Kamikaze.Units
 		public int LaneId { get; set; }
 
 		/// <summary>
-		/// Gets or sets the position of the unit.
-		/// The setter is clamped between 0 and 1.
+		///     Gets or sets the position of the unit.
+		///     The setter is clamped between 0 and 1.
 		/// </summary>
 		public float Position
 		{

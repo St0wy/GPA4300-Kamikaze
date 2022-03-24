@@ -21,15 +21,13 @@ namespace Kamikaze.Lanes
 			Transform currentSelection = selectionManager.CurrentSelection;
 
 			if (currentSelection == null) return;
-			
+
 			var lane = currentSelection.GetComponent<Lane>();
-			
+
 			if (lane == null) return;
-			
+
 			Vector3 point = selectionManager.CurrentPoint;
 			OnClick?.Invoke(lane, lane.GetLanePositionFromWorld(point));
 		}
-		
-		
 	}
 }

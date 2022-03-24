@@ -16,11 +16,11 @@ namespace Kamikaze.Units.Enemy
 		[Tooltip("The number of attacks per second.")] [SerializeField]
 		private float attackSpeed = 0.5f;
 
-		[SerializeField, ReadOnly] private EnemyState state = EnemyState.Walking;
-		private HealthBehaviour target;
-		private MoveOnLaneBehaviour moveOnLaneBehaviour;
+		[SerializeField] [ReadOnly] private EnemyState state = EnemyState.Walking;
 		private float attackTimer;
+		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float oldSpeed;
+		private HealthBehaviour target;
 
 		public EnemyState State
 		{
@@ -61,7 +61,7 @@ namespace Kamikaze.Units.Enemy
 			attackTimer = attackSpeed;
 
 			if (target.IsAlive) return;
-			
+
 			State = EnemyState.Walking;
 			attackTimer = 0;
 		}

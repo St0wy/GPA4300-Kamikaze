@@ -2,28 +2,28 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
-    [RequireComponent(typeof(SynergyWithShield))]
-    public class BulletDamagingEnemy : MonoBehaviour
-    {
-        [SerializeField] private int normalDamage = 1;
-        [SerializeField] private int synergyDamage = 2;
+	[RequireComponent(typeof(SynergyWithShield))]
+	public class BulletDamagingEnemy : MonoBehaviour
+	{
+		[SerializeField] private int normalDamage = 1;
+		[SerializeField] private int synergyDamage = 2;
 
-        private SynergyWithShield synergyWithShield;
+		private SynergyWithShield synergyWithShield;
 
-        private void Awake()
-        {
-            synergyWithShield = GetComponent<SynergyWithShield>();
-        }
+		private void Awake()
+		{
+			synergyWithShield = GetComponent<SynergyWithShield>();
+		}
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if (!other.CompareTag("Shootable")) return;
-            
-            var healthBehaviour = other.GetComponent<HealthBehaviour>();
+		private void OnTriggerEnter(Collider other)
+		{
+			if (!other.CompareTag("Shootable")) return;
 
-            healthBehaviour.ReduceHealth(synergyWithShield.HasSynergy ? synergyDamage : normalDamage);
+			var healthBehaviour = other.GetComponent<HealthBehaviour>();
 
-            Destroy(gameObject);
-        }
-    }
+			healthBehaviour.ReduceHealth(synergyWithShield.HasSynergy ? synergyDamage : normalDamage);
+
+			Destroy(gameObject);
+		}
+	}
 }

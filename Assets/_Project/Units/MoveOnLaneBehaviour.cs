@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Kamikaze.Units
 {
 	/// <summary>
-	/// Makes a unit move on the lane with a specified speed and direction.
+	///     Makes a unit move on the lane with a specified speed and direction.
 	/// </summary>
 	[RequireComponent(typeof(LaneUnitBehaviour))]
 	public class MoveOnLaneBehaviour : MonoBehaviour
@@ -13,7 +13,9 @@ namespace Kamikaze.Units
 
 		private LaneUnitBehaviour laneUnitBehaviour;
 
-		[field: Tooltip("Speed in unit/second of the unit."), ReadOnly, SerializeField]
+		[field: Tooltip("Speed in unit/second of the unit.")]
+		[field: ReadOnly]
+		[field: SerializeField]
 		public float MoveSpeed { get; set; } = 0.1f;
 
 		public MoveDirection Direction

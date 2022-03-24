@@ -4,58 +4,51 @@ using UnityEngine;
 namespace Kamikaze.Units
 {
     /// <summary>
-    /// Script to put on game objects that must have health like the player or enemies.
+    ///     Script to put on game objects that must have health like the player or enemies.
     /// </summary>
     public class HealthBehaviour : MonoBehaviour
-    {
-        public delegate void HurtCallback(int healthPoints);
+	{
+		public delegate void HurtCallback(int healthPoints);
 
-        [SerializeField] private bool destroyWhenKilled = true;
+		[SerializeField] private bool destroyWhenKilled = true;
 
-        [ConditionalField(nameof(destroyWhenKilled))] [SerializeField]
-        private float destroyTime;
+		[ConditionalField(nameof(destroyWhenKilled))] [SerializeField]
+		private float destroyTime;
 
-        public HurtCallback OnHurt { get; set; }
-        public bool IsAlive { get; private set; }
+		public HurtCallback OnHurt { get; set; }
+		public bool IsAlive { get; private set; }
 
-        [field: ReadOnly, SerializeField] public int HealthPoints { get; set; }
+		[field: ReadOnly]
+		[field: SerializeField]
+		public int HealthPoints { get; set; }
 
-        public int MaxHealthPoints { get; set; } = 15;
+		public int MaxHealthPoints { get; set; } = 15;
 
-        private void Awake()
-        {
-            IsAlive = true;
-        }
+		private void Awake()
+		{
+			IsAlive = true;
+		}
 
-        private void Start()
-        {
-            // Set the health points to MaxHealthPoints
-            // Max health points should be set in an awake function
-            HealthPoints = MaxHealthPoints;
-        }
+		private void Start()
+		{
+			// Set the health points to MaxHealthPoints
+			// Max health points should be set in an awake function
+			HealthPoints = MaxHealthPoints;
+		}
 
         /// <summary>
         ///     Reduces the health of the game object and kills it if health = 0.
         /// </summary>
         /// <param name="amount">The amount of health to subtract. Defaults to 1.</param>
         public void ReduceHealth(int amount = 1)
-        {
-            HealthPoints -= amount;
+		{
+			HealthPoints -= amount;
 
-            if (HealthPoints <= 0)
-            {
-                IsAlive = false;
-            }
+			if (HealthPoints <= 0) IsAlive = false;
 
-            OnHurt?.Invoke(HealthPoints);
+			OnHurt?.Invoke(HealthPoints);
 
-            if (!IsAlive && destroyWhenKilled)
-            {
-                //LinkEnemyWaveSpawner linkEnemyWaveSpawner;
-                //linkEnemyWaveSpawner = GetComponent<LinkEnemyWaveSpawner>();
-                //linkEnemyWaveSpawner.WaveSpawner.CurrentWave.totalEnemies--;
-                Destroy(gameObject, destroyTime);
-            }
-        }
-    }
+			if (!IsAlive && destroyWhenKilled) Destroy(gameObject, destroyTime);
+		}
+	}
 }

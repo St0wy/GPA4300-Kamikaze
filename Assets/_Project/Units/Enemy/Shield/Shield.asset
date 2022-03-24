@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b93af986b7b4537816efe752b233865, type: 3}
   m_Name: Shield
   m_EditorClassIdentifier: 
-  healthPoints: 20
+  healthPoints: 60
   moveSpeed: 0.1
   dropAmount: 3

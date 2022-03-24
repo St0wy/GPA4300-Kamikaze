@@ -17,10 +17,7 @@ namespace Kamikaze.Units.Ally.Freezer
 		private static void StuckExplosion(Collider col)
 		{
 			var colStuckComponent = col.GetComponent<FreezeStuckBehaviour>();
-			if (colStuckComponent != null)
-			{
-				colStuckComponent.Stuck();
-			}
+			if (colStuckComponent != null) colStuckComponent.Stuck();
 		}
 	}
 }

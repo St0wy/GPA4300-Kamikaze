@@ -12,11 +12,11 @@ namespace Kamikaze.Units.Ally.Shield
 		[SerializeField] private GameObject shieldGo;
 		[SerializeField] private int shieldHealthPoints = 5;
 		[ReadOnly] [SerializeField] private float stopPosition;
+		private HealthBehaviour healthBehaviour;
+		private MoveOnLaneBehaviour moveOnLaneBehaviour;
+		private ShieldState state = ShieldState.Walking;
 
 		private LaneUnitBehaviour unitBehaviour;
-		private MoveOnLaneBehaviour moveOnLaneBehaviour;
-		private HealthBehaviour healthBehaviour;
-		private ShieldState state = ShieldState.Walking;
 
 		public float StopPosition
 		{

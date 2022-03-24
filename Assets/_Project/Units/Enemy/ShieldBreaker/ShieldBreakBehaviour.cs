@@ -9,7 +9,7 @@ namespace Kamikaze.Units.Enemy.ShieldBreaker
 		{
 			var shieldTroopBehavior = collision.gameObject.GetComponent<ShieldTroopBehavior>();
 			if (shieldTroopBehavior == null) return;
-			
+
 			shieldTroopBehavior.BreakShield();
 		}
 	}

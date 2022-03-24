@@ -51,6 +51,9 @@ namespace Kamikaze.Units
 
             if (!IsAlive && destroyWhenKilled)
             {
+                //LinkEnemyWaveSpawner linkEnemyWaveSpawner;
+                //linkEnemyWaveSpawner = GetComponent<LinkEnemyWaveSpawner>();
+                //linkEnemyWaveSpawner.WaveSpawner.CurrentWave.totalEnemies--;
                 Destroy(gameObject, destroyTime);
             }
         }

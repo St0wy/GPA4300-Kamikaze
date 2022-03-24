@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 9109540585198722510}
   - component: {fileID: 9109540585198722509}
   - component: {fileID: 9109540585198722508}
+  - component: {fileID: 4014480882542107919}
   m_Layer: 6
   m_Name: SprintingEnemy
   m_TagString: Shootable
@@ -177,6 +178,7 @@ MonoBehaviour:
   tagToDamage: Ally
   damage: 1
   attackSpeed: 0.5
+  state: 0
 --- !u!54 &9109540585198722496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -248,3 +250,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stuckTime: 1.5
   <IsStuck>k__BackingField: 0
+--- !u!114 &4014480882542107919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9109540585198722507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc8404cdec13524b98e2f24ac5c625f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

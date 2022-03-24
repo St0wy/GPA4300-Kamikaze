@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 1954240461644918839}
   - component: {fileID: 6228976518923442746}
   - component: {fileID: 8176919965533535319}
+  - component: {fileID: -2810715345892262708}
   m_Layer: 6
   m_Name: ShieldBreaker
   m_TagString: Shootable
@@ -802,6 +803,7 @@ MonoBehaviour:
   tagToDamage: Ally
   damage: 1
   attackSpeed: 0.5
+  state: 0
 --- !u!114 &6151587601250846141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,5 +869,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed138b312a0c98c45ac793d50a19bf65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2810715345892262708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc8404cdec13524b98e2f24ac5c625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

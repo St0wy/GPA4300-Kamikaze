@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DropOnDeathBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DropOnDeathBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropPrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +109,7 @@
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
       <workItem from="1648025776716" duration="11362000" />
-      <workItem from="1648111071655" duration="8011000" />
+      <workItem from="1648111071655" duration="10399000" />
     </task>
     <servers />
   </component>

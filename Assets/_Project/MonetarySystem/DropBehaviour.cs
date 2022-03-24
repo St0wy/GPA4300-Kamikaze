@@ -2,8 +2,5 @@
 
 namespace Kamikaze.MonetarySystem
 {
-	public class DropBehaviour : MonoBehaviour
-	{
-		
-	}
+	public class DropBehaviour : MonoBehaviour { }
 }

@@ -2,11 +2,11 @@
 
 namespace Kamikaze.Units.Ally.Explosions
 {
-    /// <summary>
-    ///     Behaviour that handles explosions.
-    ///     Should be placed on the object where the explosion should happen (not on the explosion prefab).
-    /// </summary>
-    [RequireComponent(typeof(ParticleSystem))]
+	/// <summary>
+	///     Behaviour that handles explosions.
+	///     Should be placed on the object where the explosion should happen (not on the explosion prefab).
+	/// </summary>
+	[RequireComponent(typeof(ParticleSystem))]
 	public class ExplosionBehaviour : MonoBehaviour
 	{
 		private float disableTimer;

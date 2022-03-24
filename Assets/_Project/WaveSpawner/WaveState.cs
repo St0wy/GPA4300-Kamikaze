@@ -1,12 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Kamikaze
+namespace Kamikaze.WaveSpawner
 {
-    public enum WaveState
-    {
-        Active,
-        Inactive
-    }
+	public enum WaveState
+	{
+		Active,
+		Inactive,
+	}
 }

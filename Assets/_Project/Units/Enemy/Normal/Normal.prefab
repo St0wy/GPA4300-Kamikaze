@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 2662342732285002087}
   - component: {fileID: 4067392237114813283}
   - component: {fileID: 7028750637558396464}
+  - component: {fileID: 8974859094209207796}
   m_Layer: 6
   m_Name: Normal
   m_TagString: Shootable
@@ -262,3 +263,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc8404cdec13524b98e2f24ac5c625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8974859094209207796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cf6ff6a4a04b7898d2a6dd3de19bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: ad1b14d8a47c0f74e935daaebe6bf133, type: 2}
+  flashTime: 0.3

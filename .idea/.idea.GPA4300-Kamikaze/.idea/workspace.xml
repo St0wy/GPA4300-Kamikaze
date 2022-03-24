@@ -2,27 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/SelectionManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/dropMesh.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/dropMesh.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab4.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab4.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionsManager.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionsManager.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/Wave.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/Wave.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveSpawner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveSpawner.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Runtime/RampAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Runtime/RampAsset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/AdjustTimeScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/AdjustTimeScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/ProximityActivate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/ProximityActivate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/SimpleCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/SimpleCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/SimpleCharacterMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Scripts/SimpleCharacterMotor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/LinkEnemyWaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/LinkEnemyWaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/LinkEnemyWaveSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/LinkEnemyWaveSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreakBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreakBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/MoveDirection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/SpawnerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/SpawnerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/WaveSpawner/WaveState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +143,7 @@
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
       <workItem from="1648025776716" duration="11362000" />
-      <workItem from="1648111071655" duration="3490000" />
+      <workItem from="1648111071655" duration="6720000" />
     </task>
     <servers />
   </component>

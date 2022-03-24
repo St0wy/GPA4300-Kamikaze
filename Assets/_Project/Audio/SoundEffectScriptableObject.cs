@@ -8,10 +8,10 @@ using Random = UnityEngine.Random;
 
 namespace Kamikaze.Audio
 {
-    /// <summary>
-    ///     Sound effect system based on this video https://www.youtube.com/watch?v=xDLqdZu0ll0.
-    /// </summary>
-    [CreateAssetMenu(fileName = "soundEffect", menuName = "Audio/Sound Effect", order = 0)]
+	/// <summary>
+	///     Sound effect system based on this video https://www.youtube.com/watch?v=xDLqdZu0ll0.
+	/// </summary>
+	[CreateAssetMenu(fileName = "soundEffect", menuName = "Audio/Sound Effect", order = 0)]
 	public class SoundEffectScriptableObject : ScriptableObject
 	{
 		[SerializeField] private AudioClip[] clips;
@@ -24,10 +24,10 @@ namespace Kamikaze.Audio
 
 		[ReadOnly] [SerializeField] private int playIndex;
 
-        /// <summary>
-        ///     Gets a random element from the <see cref="clips" /> array.
-        /// </summary>
-        private AudioClip NextAudioClip
+		/// <summary>
+		///     Gets a random element from the <see cref="clips" /> array.
+		/// </summary>
+		private AudioClip NextAudioClip
 		{
 			get
 			{

@@ -25,10 +25,10 @@ namespace Kamikaze.Units.Ally.Explosions
 		public float ExplosionTime => explosionTime;
 		public float ExplosionRadius => explosionRadius;
 
-        /// <summary>
-        ///     The difference between the <see cref="ExplosionRadius" /> and the <see cref="MaxDamageMargin" />.
-        /// </summary>
-        public float RadiusDifference => explosionRadius - maxDamageMargin;
+		/// <summary>
+		///     The difference between the <see cref="ExplosionRadius" /> and the <see cref="MaxDamageMargin" />.
+		/// </summary>
+		public float RadiusDifference => explosionRadius - maxDamageMargin;
 
 		public int MaxExplosionDamage => maxExplosionDamage;
 		public float MaxDamageMargin => maxDamageMargin;

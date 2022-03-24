@@ -5,7 +5,7 @@ namespace Kamikaze.Lanes.Selection
 	public class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 	{
 		[SerializeField] private Material highlightMaterial;
-		
+
 		private Material defaultMaterial;
 
 		public void OnDeselect(Transform selection)

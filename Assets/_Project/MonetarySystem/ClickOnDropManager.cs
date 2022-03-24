@@ -16,10 +16,10 @@ namespace Kamikaze.MonetarySystem
 		{
 			bool mouseClicked = Mouse.current.leftButton.wasPressedThisFrame;
 			if (selectionManager == null || !mouseClicked) return;
-			
+
 			Transform currentSelection = selectionManager.CurrentSelection;
 			if (currentSelection == null) return;
-			
+
 			OnClick?.Invoke(currentSelection.gameObject);
 		}
 	}

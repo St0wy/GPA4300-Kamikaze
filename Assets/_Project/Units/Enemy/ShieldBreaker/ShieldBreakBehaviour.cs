@@ -3,11 +3,9 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Enemy.ShieldBreaker
 {
-	
 	public class ShieldBreakBehaviour : MonoBehaviour
 	{
-        
-        private void OnCollisionEnter(Collision collision)
+		private void OnCollisionEnter(Collision collision)
 		{
 			var shieldTroopBehavior = collision.gameObject.GetComponent<ShieldTroopBehavior>();
 			if (shieldTroopBehavior == null) return;

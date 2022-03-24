@@ -3,10 +3,10 @@ using UnityEngine;
 
 namespace Kamikaze.Units
 {
-    /// <summary>
-    ///     Script to put on game objects that must have health like the player or enemies.
-    /// </summary>
-    public class HealthBehaviour : MonoBehaviour
+	/// <summary>
+	///     Script to put on game objects that must have health like the player or enemies.
+	/// </summary>
+	public class HealthBehaviour : MonoBehaviour
 	{
 		public delegate void HurtCallback(int healthPoints);
 
@@ -36,11 +36,11 @@ namespace Kamikaze.Units
 			HealthPoints = MaxHealthPoints;
 		}
 
-        /// <summary>
-        ///     Reduces the health of the game object and kills it if health = 0.
-        /// </summary>
-        /// <param name="amount">The amount of health to subtract. Defaults to 1.</param>
-        public void ReduceHealth(int amount = 1)
+		/// <summary>
+		///     Reduces the health of the game object and kills it if health = 0.
+		/// </summary>
+		/// <param name="amount">The amount of health to subtract. Defaults to 1.</param>
+		public void ReduceHealth(int amount = 1)
 		{
 			HealthPoints -= amount;
 

@@ -1,6 +1,5 @@
 ﻿using MyBox;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace Kamikaze.MonetarySystem
 {
@@ -9,7 +8,9 @@ namespace Kamikaze.MonetarySystem
 	{
 		private ClickOnDropManager clickOnDropManager;
 
-		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
+		[field: SerializeField]
+		[field: ReadOnly]
+		public int DropQuantity { get; private set; }
 
 		private void Awake()
 		{

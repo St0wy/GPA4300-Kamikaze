@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 5400964859731762734}
   - component: {fileID: 434217893589960053}
   - component: {fileID: 6100355338774338804}
+  - component: {fileID: 6402214603136795003}
   m_Layer: 6
   m_Name: Freezer
   m_TagString: Ally
@@ -447,6 +448,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb734bae4bdf44e38efde5c8739688e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6402214603136795003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cf6ff6a4a04b7898d2a6dd3de19bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: ad1b14d8a47c0f74e935daaebe6bf133, type: 2}
+  flashTime: 0.3
 --- !u!1 &6918704182983434800
 GameObject:
   m_ObjectHideFlags: 0

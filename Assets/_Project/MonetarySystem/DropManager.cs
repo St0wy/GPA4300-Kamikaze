@@ -26,9 +26,12 @@ namespace Kamikaze.MonetarySystem
 			PickupDrop(drop);
 		}
 
-		private void PickupDrop(Object drop)
+		private void PickupDrop(GameObject drop)
 		{
-			DropQuantity++;
+			var dropBehaviour = drop.GetComponent<DropBehaviour>();
+			if (dropBehaviour == null) return;
+			
+			DropQuantity += dropBehaviour.DropAmount;
 			Destroy(drop);
 		}
 	}

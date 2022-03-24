@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Anton-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-VariableFont_wght.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +115,7 @@
       <workItem from="1647518011175" duration="4300000" />
       <workItem from="1647872436826" duration="11352000" />
       <workItem from="1648025776716" duration="11362000" />
-      <workItem from="1648111071655" duration="7326000" />
+      <workItem from="1648111071655" duration="8011000" />
     </task>
     <servers />
   </component>

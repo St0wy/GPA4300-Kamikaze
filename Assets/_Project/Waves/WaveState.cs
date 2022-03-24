@@ -1,4 +1,4 @@
-namespace Kamikaze.WaveSpawner
+namespace Kamikaze.Waves
 {
 	public enum WaveState
 	{

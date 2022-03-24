@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Kamikaze.WaveSpawner
+namespace Kamikaze.Waves
 {
 	[Serializable]
 	public class SpawnerData

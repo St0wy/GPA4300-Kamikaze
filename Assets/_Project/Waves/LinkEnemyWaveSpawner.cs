@@ -1,7 +1,7 @@
 using Kamikaze.Units;
 using UnityEngine;
 
-namespace Kamikaze.WaveSpawner
+namespace Kamikaze.Waves
 {
 	[RequireComponent(typeof(HealthBehaviour))]
 	public class LinkEnemyWaveSpawner : MonoBehaviour

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kamikaze.WaveSpawner
+namespace Kamikaze.Waves
 {
 	[Serializable]
 	public class Wave

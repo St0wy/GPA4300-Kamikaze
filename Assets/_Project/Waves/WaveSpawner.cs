@@ -5,7 +5,7 @@ using Kamikaze.Units;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Kamikaze.WaveSpawner
+namespace Kamikaze.Waves
 {
 	public class WaveSpawner : MonoBehaviour
 	{

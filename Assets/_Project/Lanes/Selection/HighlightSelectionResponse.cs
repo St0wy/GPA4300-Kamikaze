@@ -4,8 +4,9 @@ namespace Kamikaze.Lanes.Selection
 {
 	public class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 	{
-		[SerializeField] public Material highlightMaterial;
-		[SerializeField] public Material defaultMaterial;
+		[SerializeField] private Material highlightMaterial;
+		
+		private Material defaultMaterial;
 
 		public void OnDeselect(Transform selection)
 		{
@@ -16,7 +17,10 @@ namespace Kamikaze.Lanes.Selection
 		public void OnSelect(Transform selection)
 		{
 			var selectionRenderer = selection.GetComponent<Renderer>();
-			if (selectionRenderer != null) selectionRenderer.material = highlightMaterial;
+			if (selectionRenderer == null) return;
+
+			defaultMaterial = selectionRenderer.material;
+			selectionRenderer.material = highlightMaterial;
 		}
 	}
 }

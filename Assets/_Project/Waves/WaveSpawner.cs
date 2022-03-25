@@ -4,12 +4,14 @@ using Kamikaze.Lanes;
 using Kamikaze.Units;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Kamikaze.PlayerLife;
 
 namespace Kamikaze.Waves
 {
 	public class WaveSpawner : MonoBehaviour
 	{
 		[SerializeField] private LanesManager lanesManager;
+		[SerializeField] private LifeManager lifeManager;
 		[SerializeField] private float waitTime;
 		[SerializeField] private Wave[] waves;
 		private int currentWaveIndex;
@@ -76,6 +78,10 @@ namespace Kamikaze.Waves
 				// Link to wave spawner
 				var linkEnemyWaveSpawner = enemy.GetComponent<LinkEnemyWaveSpawner>();
 				linkEnemyWaveSpawner.WaveSpawner = this;
+
+				// Link to life manager
+				var reducePlayerLife = enemy.GetComponent<ReducePlayerLife>();
+				reducePlayerLife.LifeManager = lifeManager;
 
 				spawner.noOfEnemiesToSpawn--;
 				spawner.nextSpawnTime = Time.time + spawner.spawnInterval;

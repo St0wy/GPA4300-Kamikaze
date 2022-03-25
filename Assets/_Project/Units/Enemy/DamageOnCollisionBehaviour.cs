@@ -10,17 +10,15 @@ namespace Kamikaze.Units.Enemy
 		[Tooltip("The tag that this object will damage.")] [Tag] [SerializeField]
 		private string tagToDamage = string.Empty;
 
-		[Tooltip("The amount of damage that the unit will inflict everytime they attack.")] [SerializeField]
-		private int damage = 1;
-
-		[Tooltip("The number of attacks per second.")] [SerializeField]
-		private float attackSpeed = 0.5f;
-
 		[SerializeField] [ReadOnly] private EnemyState state = EnemyState.Walking;
 		private float attackTimer;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float oldSpeed;
 		private HealthBehaviour target;
+
+		public int Damage { get; set; }
+
+		public float AttackSpeed { get; set; }
 
 		public EnemyState State
 		{
@@ -57,8 +55,8 @@ namespace Kamikaze.Units.Enemy
 
 			if (!(attackTimer <= 0)) return;
 
-			target.ReduceHealth(damage);
-			attackTimer = attackSpeed;
+			target.ReduceHealth(Damage);
+			attackTimer = AttackSpeed;
 
 			if (target.IsAlive) return;
 

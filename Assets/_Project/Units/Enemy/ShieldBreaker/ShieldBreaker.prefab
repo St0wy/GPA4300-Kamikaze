@@ -633,6 +633,8 @@ GameObject:
   - component: {fileID: -2810715345892262708}
   - component: {fileID: 1719641667072121846}
   - component: {fileID: 8388771814703094127}
+  - component: {fileID: 5942998716320271475}
+  - component: {fileID: 7476413645769459025}
   m_Layer: 6
   m_Name: ShieldBreaker
   m_TagString: Shootable
@@ -885,6 +887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cc8404cdec13524b98e2f24ac5c625f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <WaveSpawner>k__BackingField: {fileID: 0}
 --- !u!114 &1719641667072121846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,3 +916,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropPrefab: {fileID: 2744800963080308453, guid: d48036faeaf1c0943827af32a61fd958,
     type: 3}
+--- !u!114 &5942998716320271475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a48d3816872f184e92cde9dfd42e67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7476413645769459025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151587601250846112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3c9675000576e48a9c809002edc31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

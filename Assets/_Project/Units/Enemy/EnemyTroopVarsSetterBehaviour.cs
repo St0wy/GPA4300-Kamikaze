@@ -12,16 +12,21 @@ namespace Kamikaze.Units.Enemy
 		private HealthBehaviour healthBehaviour;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private DropOnDeathBehaviour dropOnDeathBehaviour;
+		private DamageOnCollisionBehaviour damageOnCollisionBehaviour;
 
 		private void Awake()
 		{
 			healthBehaviour = GetComponent<HealthBehaviour>();
 			moveOnLaneBehaviour = GetComponent<MoveOnLaneBehaviour>();
 			dropOnDeathBehaviour = GetComponent<DropOnDeathBehaviour>();
+			damageOnCollisionBehaviour = GetComponent<DamageOnCollisionBehaviour>();
+
 			
 			healthBehaviour.MaxHealthPoints = enemyTroopScriptableObject.HealthPoints;
 			moveOnLaneBehaviour.MoveSpeed = enemyTroopScriptableObject.MoveSpeed;
 			dropOnDeathBehaviour.DropAmount = enemyTroopScriptableObject.DropAmount;
+			damageOnCollisionBehaviour.Damage = enemyTroopScriptableObject.Damage;
+			damageOnCollisionBehaviour.AttackSpeed = enemyTroopScriptableObject.AttackSpeed;
 		}
 	}
 }

@@ -780,6 +780,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DropManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4456057882145695619, guid: 2a8cebda31c0a3749bc08c1f91a50562,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7960894833093695196, guid: 2a8cebda31c0a3749bc08c1f91a50562,
         type: 3}
       propertyPath: selectionManager
@@ -1308,8 +1313,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779169741}
-  - component: {fileID: 779169740}
   - component: {fileID: 779169739}
+  - component: {fileID: 779169740}
   m_Layer: 0
   m_Name: LifeManager
   m_TagString: Untagged
@@ -1343,7 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd98c615a4d15664ba1fd41512eea3f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <PlayerLife>k__BackingField: 0
+  <PlayerLife>k__BackingField: 100
 --- !u!4 &779169741
 Transform:
   m_ObjectHideFlags: 0
@@ -1873,9 +1878,8 @@ GameObject:
   - component: {fileID: 1323239667}
   - component: {fileID: 1323239666}
   - component: {fileID: 1323239664}
-  - component: {fileID: 1323239665}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Life Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1971,19 +1975,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1323239665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323239663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac69857714c85fd48a1950cfa57eb4af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dropManager: {fileID: 1571055812}
 --- !u!222 &1323239666
 CanvasRenderer:
   m_ObjectHideFlags: 0

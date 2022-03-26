@@ -5,17 +5,10 @@ using UnityEngine;
 
 namespace Kamikaze.PlayerLife
 {
-    
     public class LifeManager : MonoBehaviour
     {
-        [field:SerializeField, ReadOnly]
-        public int PlayerLife { get; set; }
-
-        private void Start()
-        {
-            PlayerLife = 100;
-        }
-
+        [field: SerializeField]
+        public int PlayerLife { get; set; } = 100;
        
     }
 }

@@ -11,9 +11,10 @@ namespace Kamikaze.PlayerLife
         [SerializeField] private LifeManager lifeManager;
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             lifeTextUi.text = lifeManager.PlayerLife.ToString();
         }
+      
     }
 }

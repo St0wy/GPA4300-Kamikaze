@@ -69,17 +69,18 @@ namespace Kamikaze.Waves
 				int enemyTypeIndex = Random.Range(0, spawner.typesOfEnemies.Length);
 				GameObject enemyType = spawner.typesOfEnemies[enemyTypeIndex].gameObject;
 				GameObject enemy = Instantiate(enemyType, transform.position, Quaternion.identity);
+				
 
 				//Assign its position
 				var enemyLaneUnitBehavior = enemy.GetComponent<LaneUnitBehaviour>();
 				enemyLaneUnitBehavior.LaneId = spawner.laneId;
 				enemyLaneUnitBehavior.LanesManager = lanesManager;
 
-				// Link to wave spawner
+				//Links to wave spawner
 				var linkEnemyWaveSpawner = enemy.GetComponent<LinkEnemyWaveSpawner>();
 				linkEnemyWaveSpawner.WaveSpawner = this;
 
-				// Link to life manager
+				//Links to life manager
 				var reducePlayerLife = enemy.GetComponent<ReducePlayerLife>();
 				reducePlayerLife.LifeManager = lifeManager;
 

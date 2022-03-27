@@ -51,7 +51,7 @@ namespace Kamikaze.Units.Ally.Shield
 			state = ShieldState.Shielding;
 			healthBehaviour.HealthPoints = shieldHealthPoints;
 			moveOnLaneBehaviour.MoveSpeed = 0f;
-			shieldGo.transform.localScale = new Vector3(0.2f, 0.9f, 0.9f);
+			shieldGo.transform.localScale = new Vector3(2f, 2f, 2f);
 		}
 
 		public void BreakShield()

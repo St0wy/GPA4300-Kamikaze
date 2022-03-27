@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9194724715382174158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000029802318
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193181071755724534, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196349652644903950, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
+      propertyPath: m_Name
+      value: Monster_Bat_Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 254fb5f115876d145a69bd130a1da560, type: 3}
+--- !u!1 &1625221395402176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9196349652644903950, guid: 254fb5f115876d145a69bd130a1da560,
+    type: 3}
+  m_PrefabInstance: {fileID: 9194724715382174158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6857760653529685502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625221395402176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.36, y: 0.82, z: 1}
+  m_Center: {x: 0, y: 0.55, z: 0}

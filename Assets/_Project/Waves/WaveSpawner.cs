@@ -5,6 +5,9 @@ using Kamikaze.Units;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Kamikaze.PlayerLife;
+using MyBox;
+using StowyTools.Logger;
+using TMPro;
 
 namespace Kamikaze.Waves
 {
@@ -14,7 +17,15 @@ namespace Kamikaze.Waves
 		[SerializeField] private LifeManager lifeManager;
 		[SerializeField] private float waitTime;
 		[SerializeField] private Wave[] waves;
+		[SerializeField] private GameObject winText;
+
+		[Tooltip("The time it takes to load the level menu after completing the level.")] [SerializeField]
+		private float timeToLoadLevelMenu;
+
+		[SerializeField] private SceneReference levelMenuScene;
+
 		private int currentWaveIndex;
+		private bool isLevelOver = false;
 
 		public Wave CurrentWave => waves[currentWaveIndex];
 
@@ -35,6 +46,14 @@ namespace Kamikaze.Waves
 
 		private void Update()
 		{
+			if (!isLevelOver)
+			{
+				UpdateWaveState();
+			}
+		}
+
+		private void UpdateWaveState()
+		{
 			switch (CurrentWave.waveState)
 			{
 				case WaveState.Active:
@@ -50,13 +69,24 @@ namespace Kamikaze.Waves
 					}
 
 					break;
-
 				case WaveState.Inactive:
-					if (CurrentWave.totalEnemies <= 0) Debug.Log("level completed!");
+					if (CurrentWave.totalEnemies <= 0)
+					{
+						CompleteLevel();
+					}
+
 					break;
 				default:
 					throw new ArgumentOutOfRangeException();
 			}
+		}
+
+		private void CompleteLevel()
+		{
+			this.Log("level completed!");
+			isLevelOver = true;
+			winText.SetActive(true);
+			StartCoroutine(LoadLevelMenuCoroutine());
 		}
 
 		private void SpawnWave()
@@ -93,6 +123,12 @@ namespace Kamikaze.Waves
 		{
 			yield return new WaitForSeconds(waitTime);
 			CurrentWave.waveState = WaveState.Active;
+		}
+
+		public IEnumerator LoadLevelMenuCoroutine()
+		{
+			yield return new WaitForSeconds(timeToLoadLevelMenu);
+			levelMenuScene.LoadScene();
 		}
 	}
 }

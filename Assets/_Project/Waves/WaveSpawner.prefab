@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lanesManager: {fileID: 0}
+  lifeManager: {fileID: 0}
   waitTime: 1
   waves:
   - waveName: Wave 1
@@ -140,3 +141,10 @@ MonoBehaviour:
       spawnInterval: 0
       canSpawnEnemy: 0
       typesOfEnemies: []
+  winText: {fileID: 0}
+  timeToLoadLevelMenu: 1
+  levelMenuScene:
+    Scene: {fileID: 102900000, guid: cc59a7ec213ccc9499def40490a8c2f3, type: 3}
+    SceneName: LevelPicker
+    sceneIndex: 1
+    sceneEnabled: 1

@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/Level.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/Level.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelStatus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Boximon Cyclopes.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Boximon Cyclopes.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Boximon Cyclopes.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Boximon Cyclopes.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/Bat Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/Bat Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/Monster_Bat.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/Monster_Bat.FBX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/FBX/Boximon Cyclopes.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/FBX/Boximon Cyclopes.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Materials/Boximon Cyclopes.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Materials/Boximon Cyclopes.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/amusedART/Monster Bat/Bat Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/amusedART/Monster Bat/Bat Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/amusedART/Monster Bat/Monster_Bat.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/amusedART/Monster Bat/Monster_Bat.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +105,7 @@
       <workItem from="1648025776716" duration="11362000" />
       <workItem from="1648111071655" duration="13244000" />
       <workItem from="1648458023643" duration="7600000" />
-      <workItem from="1648468795858" duration="2086000" />
+      <workItem from="1648468795858" duration="4176000" />
     </task>
     <servers />
   </component>

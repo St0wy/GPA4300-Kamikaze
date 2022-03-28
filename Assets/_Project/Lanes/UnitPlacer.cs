@@ -1,4 +1,5 @@
-﻿using Kamikaze.Units;
+﻿using Kamikaze.LevelSelect;
+using Kamikaze.Units;
 using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Shield;
@@ -12,24 +13,21 @@ namespace Kamikaze.Lanes
 		[SerializeField] private UnitSelector unitSelector;
 		[SerializeField] private LanesManager lanesManager;
 		[SerializeField] private ExplosionManager explosionManager;
-		[SerializeField] private int[] unitQuantities;
+		[SerializeField] private InventoryScriptableObject inventory;
 
 		private ClickOnLanesManager clickOnLanesManager;
-
-		public int[] UnitQuantities => unitQuantities;
 
 		private void Awake()
 		{
 			clickOnLanesManager = GetComponent<ClickOnLanesManager>();
 			clickOnLanesManager.OnClick += PlaceUnit;
-			// unitQuantities = new int[unitSelector.PrefabsLength];
 		}
 
 		private void PlaceUnit(Lane lane, float pos)
 		{
-			int unitQuantity = UnitQuantities[unitSelector.SelectedUnitId];
+			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];
 			if (unitQuantity <= 0) return;
-			UnitQuantities[unitSelector.SelectedUnitId]--;
+			inventory.UnitsAmount[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);
 		}
 

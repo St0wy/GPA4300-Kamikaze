@@ -1680,6 +1680,7 @@ MonoBehaviour:
   - {fileID: 54010904}
   - {fileID: 160925154}
   unitPlacer: {fileID: 2046513289}
+  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
 --- !u!1 &974534987
 GameObject:
   m_ObjectHideFlags: 0

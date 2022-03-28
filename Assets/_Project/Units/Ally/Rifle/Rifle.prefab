@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb734bae4bdf44e38efde5c8739688e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
 --- !u!114 &1693798986170222147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,6 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashMaterial: {fileID: 2100000, guid: ad1b14d8a47c0f74e935daaebe6bf133, type: 2}
   flashTime: 0.3
+  meshRenderer: {fileID: 0}
 --- !u!1 &8417273737587319067
 GameObject:
   m_ObjectHideFlags: 0

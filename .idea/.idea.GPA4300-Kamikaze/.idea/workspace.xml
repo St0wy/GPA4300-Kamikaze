@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/MoneyScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/MoneyScriptableObject.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopQuantityManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +113,7 @@
       <workItem from="1648025776716" duration="11362000" />
       <workItem from="1648111071655" duration="13244000" />
       <workItem from="1648458023643" duration="7600000" />
-      <workItem from="1648468795858" duration="4176000" />
+      <workItem from="1648468795858" duration="6247000" />
     </task>
     <servers />
   </component>

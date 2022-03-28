@@ -86,6 +86,8 @@ namespace Kamikaze.Waves
 			this.Log("level completed!");
 			isLevelOver = true;
 			winText.SetActive(true);
+			// TODO: Pickup all the remaining allies	
+			// TODO: Pickup the money
 			StartCoroutine(LoadLevelMenuCoroutine());
 		}
 

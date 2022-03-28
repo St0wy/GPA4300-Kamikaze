@@ -1,4 +1,5 @@
 ﻿using Kamikaze.Lanes;
+using Kamikaze.LevelSelect;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally
@@ -6,6 +7,8 @@ namespace Kamikaze.Units.Ally
 	[RequireComponent(typeof(LaneUnitBehaviour))]
 	public class BackInInventoryBehaviour : MonoBehaviour
 	{
+		[SerializeField] private InventoryScriptableObject inventory;
+		
 		private LaneUnitBehaviour laneUnitBehaviour;
 
 		public UnitPlacer UnitPlacer { get; set; }
@@ -25,7 +28,7 @@ namespace Kamikaze.Units.Ally
 
 		private void ReturnInInventory()
 		{
-			UnitPlacer.UnitQuantities[UnitId] += 1;
+			inventory.UnitsAmount[UnitId] += 1;
 			Destroy(gameObject);
 		}
 	}

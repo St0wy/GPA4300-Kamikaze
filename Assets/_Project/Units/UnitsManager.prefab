@@ -79,4 +79,4 @@ MonoBehaviour:
   unitSelector: {fileID: 3631876930757072502}
   lanesManager: {fileID: 0}
   explosionManager: {fileID: 0}
-  unitQuantities: 0a0000000a0000000a0000000a000000
+  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}

@@ -26,7 +26,7 @@ namespace Kamikaze.Units.Ally
 			ReturnInInventory();
 		}
 
-		private void ReturnInInventory()
+		public void ReturnInInventory()
 		{
 			inventory.UnitsAmount[UnitId] += 1;
 			Destroy(gameObject);

@@ -1,13 +1,14 @@
 using System;
 using System.Collections;
 using Kamikaze.Lanes;
-using Kamikaze.Units;
-using UnityEngine;
-using Random = UnityEngine.Random;
+using Kamikaze.MonetarySystem;
 using Kamikaze.PlayerLife;
+using Kamikaze.Units;
+using Kamikaze.Units.Ally;
 using MyBox;
 using StowyTools.Logger;
-using TMPro;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Kamikaze.Waves
 {
@@ -23,9 +24,10 @@ namespace Kamikaze.Waves
 		private float timeToLoadLevelMenu;
 
 		[SerializeField] private SceneReference levelMenuScene;
+		[SerializeField] private MoneyScriptableObject money;
 
 		private int currentWaveIndex;
-		private bool isLevelOver = false;
+		private bool isLevelOver;
 
 		public Wave CurrentWave => waves[currentWaveIndex];
 
@@ -86,8 +88,15 @@ namespace Kamikaze.Waves
 			this.Log("level completed!");
 			isLevelOver = true;
 			winText.SetActive(true);
-			// TODO: Pickup all the remaining allies	
-			// TODO: Pickup the money
+
+			// Pickup all the remaining allies
+			var allies = FindObjectsOfType<BackInInventoryBehaviour>();
+			allies.ForEach(ally => ally.ReturnInInventory());
+
+			// Pickup the money
+			var gems = FindObjectsOfType<DropBehaviour>();
+			gems.ForEach(gem => money.AddGem(gem));
+
 			StartCoroutine(LoadLevelMenuCoroutine());
 		}
 

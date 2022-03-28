@@ -1,5 +1,4 @@
-﻿using System;
-using Kamikaze.MonetarySystem;
+﻿using Kamikaze.MonetarySystem;
 using UnityEngine;
 
 namespace Kamikaze.Units.Enemy

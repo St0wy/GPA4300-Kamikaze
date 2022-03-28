@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Kamikaze.Units;
 
@@ -8,25 +6,22 @@ namespace Kamikaze.PlayerLife
     public class ReducePlayerLife : MonoBehaviour
     {
         private LaneUnitBehaviour laneUnitBehaviour;
-       
 
         public LifeManager LifeManager { get; set; }
-        // Start is called before the first frame update
-        void Start()
+        
+        private void Awake()
         {
             laneUnitBehaviour = GetComponent<LaneUnitBehaviour>();
         }
 
-        // Update is called once per frame
-        void Update()
+        private void Update()
         {
-            if(laneUnitBehaviour.Position <= 0)
+            if (!(laneUnitBehaviour.Position <= 0)) return;
+            
+            LifeManager.PlayerLife--;
+            if(LifeManager.PlayerLife <= 0)
             {
-                LifeManager.PlayerLife--;
-                if(LifeManager.PlayerLife <= 0)
-                {
-                    LifeManager.PlayerLife = 0;
-                }
+                LifeManager.PlayerLife = 0;
             }
         }
     }

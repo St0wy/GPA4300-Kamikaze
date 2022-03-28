@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Kamikaze.Units
 {
-	[RequireComponent(typeof(HealthBehaviour), typeof(MeshRenderer))]
+	[RequireComponent(typeof(HealthBehaviour))]
 	public class FlashOnHitBehaviour : MonoBehaviour
 	{
 		[Tooltip("Material that will be used when the player will flash.")] [SerializeField]
@@ -11,18 +11,23 @@ namespace Kamikaze.Units
 
 		[Tooltip("The time the flash will last in seconds.")] [SerializeField]
 		private float flashTime = 0.3f;
+		
+		[SerializeField] private MeshRenderer meshRenderer;
 
 		private Material baseMaterial;
 
 		private HealthBehaviour healthBehaviour;
-		private MeshRenderer meshRenderer;
+		
 
 		private void Awake()
 		{
 			healthBehaviour = GetComponent<HealthBehaviour>();
 			healthBehaviour.OnHurt += _ => Flash();
 
-			meshRenderer = GetComponent<MeshRenderer>();
+			if (meshRenderer == null)
+			{
+				meshRenderer = GetComponent<MeshRenderer>();
+			}
 			baseMaterial = meshRenderer.material;
 		}
 

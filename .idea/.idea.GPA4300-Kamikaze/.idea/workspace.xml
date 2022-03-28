@@ -2,33 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/ExampleOverlay - Circle Border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/ExampleOverlay - Circle Border.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/HowToUse.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/HowToUse.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGenerator.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorSettings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorSettings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorUIExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/IconGeneratorUIExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/Readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/TextureScale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IconGenerator/TextureScale.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/Drop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/Drop.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/UIDropBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/UIDropBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFab.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Boximon Fiery.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Boximon Fiery.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Boximon Fiery.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Boximon Fiery.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Fiery Mega Toon Series/FBX/Boximon Fiery.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Fiery Mega Toon Series/FBX/Boximon Fiery.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3D Game Assets/Meshtint Free Boximon Fiery Mega Toon Series/Materials/Boximon Fiery.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/Freezer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezerBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeBomb Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Kamikaze/KamikazeBomb Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/Shield.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/UnitsManager.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +87,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20100">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20100" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -126,6 +121,7 @@
       <workItem from="1647872436826" duration="11352000" />
       <workItem from="1648025776716" duration="11362000" />
       <workItem from="1648111071655" duration="13244000" />
+      <workItem from="1648458023643" duration="3345000" />
     </task>
     <servers />
   </component>
@@ -149,5 +145,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs</url>
+          <line>81</line>
+          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\Units\Ally\Explosions\ExplosionManager.cs" initialLine="81" containingFunctionPresentation="method 'DealDamage'">
+            <startOffsets>
+              <option value="2905" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2949" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

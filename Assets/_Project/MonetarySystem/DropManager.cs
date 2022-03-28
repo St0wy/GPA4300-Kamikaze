@@ -1,5 +1,4 @@
 ﻿using MyBox;
-using StowyTools.Logger;
 using UnityEngine;
 
 namespace Kamikaze.MonetarySystem
@@ -29,7 +28,6 @@ namespace Kamikaze.MonetarySystem
 
 		private void PickupDrop(GameObject drop)
 		{
-			this.Log(drop);
 			var dropBehaviour = drop.GetComponent<DropBehaviour>();
 			if (dropBehaviour == null) return;
 

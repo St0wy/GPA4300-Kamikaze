@@ -44,7 +44,7 @@ namespace Kamikaze.Units
 		{
 			HealthPoints -= amount;
 
-			if (HealthPoints <= 0) IsAlive = false;
+			IsAlive = HealthPoints > 0;
 
 			OnHurt?.Invoke(HealthPoints);
 

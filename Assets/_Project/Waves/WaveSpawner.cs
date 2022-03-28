@@ -69,7 +69,6 @@ namespace Kamikaze.Waves
 				int enemyTypeIndex = Random.Range(0, spawner.typesOfEnemies.Length);
 				GameObject enemyType = spawner.typesOfEnemies[enemyTypeIndex].gameObject;
 				GameObject enemy = Instantiate(enemyType, transform.position, Quaternion.identity);
-				
 
 				//Assign its position
 				var enemyLaneUnitBehavior = enemy.GetComponent<LaneUnitBehaviour>();

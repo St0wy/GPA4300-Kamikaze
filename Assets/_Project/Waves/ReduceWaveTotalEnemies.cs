@@ -20,7 +20,7 @@ namespace Kamikaze.Waves
 		private void Update()
 		{
 			if (!(laneUnitBehaviour.Position <= 0)) return;
-			
+
 			linkEnemyWaveSpawner.WaveSpawner.CurrentWave.totalEnemies--;
 			Destroy(gameObject);
 		}

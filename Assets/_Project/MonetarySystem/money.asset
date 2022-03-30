@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1ee3e8307d43c8bb2ba441083c3fc9, type: 3}
   m_Name: money
   m_EditorClassIdentifier: 
-  money: 110
+  money: 1000
   gemsValue: 5

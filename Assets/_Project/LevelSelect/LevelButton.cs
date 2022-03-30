@@ -1,4 +1,5 @@
 ﻿using System;
+using Kamikaze.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ namespace Kamikaze.LevelSelect
 	{
 		[SerializeField] private int levelId;
 		[SerializeField] private LevelsManagerScriptableObject levelsManagerScriptableObject;
+		[SerializeField] private UIShowTroopMenuBehaviour showTroopMenuBehaviour;
 
 		private Image image;
 		private Button button;
@@ -29,7 +31,8 @@ namespace Kamikaze.LevelSelect
 
 		public void LoadScene()
 		{
-			level.LevelScene.LoadScene();
+			showTroopMenuBehaviour.SceneToLoad = level.LevelScene;
+			showTroopMenuBehaviour.ShowTroopMenu();
 		}
 
 		private void UpdateStatus()

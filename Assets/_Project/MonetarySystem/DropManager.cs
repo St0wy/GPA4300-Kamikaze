@@ -3,19 +3,19 @@ using UnityEngine;
 
 namespace Kamikaze.MonetarySystem
 {
-	[RequireComponent(typeof(ClickOnDropManager))]
+	[RequireComponent(typeof(HoverOnDropManager))]
 	public class DropManager : MonoBehaviour
 	{
 		[SerializeField] private MoneyScriptableObject moneyScriptableObject;
 
 		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
 
-		private ClickOnDropManager clickOnDropManager;
+		private HoverOnDropManager hoverOnDropManager;
 
 		private void Awake()
 		{
-			clickOnDropManager = GetComponent<ClickOnDropManager>();
-			clickOnDropManager.OnClick += OnClick;
+			hoverOnDropManager = GetComponent<HoverOnDropManager>();
+			hoverOnDropManager.OnClick += OnClick;
 		}
 
 		private void OnClick(GameObject drop)

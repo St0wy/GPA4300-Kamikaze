@@ -1839,27 +1839,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
-      propertyPath: levelMenuScene.Scene
-      value: 
-      objectReference: {fileID: 102900000, guid: cc59a7ec213ccc9499def40490a8c2f3,
-        type: 3}
-    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
-        type: 3}
-      propertyPath: levelMenuScene.SceneName
-      value: LevelPicker
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
-        type: 3}
-      propertyPath: levelMenuScene.sceneIndex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
-        type: 3}
-      propertyPath: levelMenuScene.sceneEnabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
-        type: 3}
       propertyPath: waves.Array.data[1].waveName
       value: Wave 2
       objectReference: {fileID: 0}

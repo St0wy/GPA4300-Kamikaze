@@ -2,31 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/HoverOnDropManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/HoverOnDropManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Fonts/Exo2-Italic-VariableFont_wght.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/ClickOnDropManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/MoneyScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/MoneyScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFabTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFabTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1) 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 2).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 2).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 3).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 3).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal old.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal old.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Normal/Normal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/Shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker old.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker old.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/ShieldBreaker/ShieldBreaker.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy old.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy old.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +115,7 @@
       <workItem from="1648111071655" duration="13244000" />
       <workItem from="1648458023643" duration="7600000" />
       <workItem from="1648468795858" duration="8602000" />
-      <workItem from="1648628179333" duration="1796000" />
+      <workItem from="1648628179333" duration="2734000" />
     </task>
     <servers />
   </component>
@@ -151,5 +139,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Project/MonetarySystem/HoverOnDropManager.cs</url>
+          <line>15</line>
+          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\MonetarySystem\HoverOnDropManager.cs" initialLine="15" containingFunctionPresentation="method 'OnMouseOver'">
+            <startOffsets>
+              <option value="335" />
+              <option value="365" />
+            </startOffsets>
+            <endOffsets>
+              <option value="364" />
+              <option value="372" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

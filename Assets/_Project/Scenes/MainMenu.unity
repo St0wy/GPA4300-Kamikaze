@@ -773,8 +773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScene:
-    Scene: {fileID: 102900000, guid: fd86ac135b9c02c4c8a2684ec8e168a3, type: 3}
-    SceneName: SceneFab
+    Scene: {fileID: 102900000, guid: cc59a7ec213ccc9499def40490a8c2f3, type: 3}
+    SceneName: LevelPicker
     sceneIndex: 1
     sceneEnabled: 1
 --- !u!1 &1430303605

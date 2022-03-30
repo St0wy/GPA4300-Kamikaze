@@ -1,10 +1,10 @@
-﻿using Kamikaze.Lanes.Selection;
+﻿using System;
+using Kamikaze.Lanes.Selection;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Kamikaze.MonetarySystem
 {
-	public class ClickOnDropManager : MonoBehaviour
+	public class HoverOnDropManager : MonoBehaviour
 	{
 		public delegate void ClickEvent(GameObject drop);
 
@@ -14,11 +14,13 @@ namespace Kamikaze.MonetarySystem
 
 		private void Update()
 		{
-			bool mouseClicked = Mouse.current.leftButton.wasPressedThisFrame;
-			if (selectionManager == null || !mouseClicked) return;
+			if (selectionManager == null) return;
 
 			Transform currentSelection = selectionManager.CurrentSelection;
 			if (currentSelection == null) return;
+
+			var dropBehaviour = currentSelection.GetComponent<DropBehaviour>();
+			if (dropBehaviour == null) return;
 
 			OnClick?.Invoke(currentSelection.gameObject);
 		}

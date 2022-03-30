@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1569923791284003535}
-  - component: {fileID: 7960894833093695196}
   - component: {fileID: 6243838601477746771}
+  - component: {fileID: 157761319}
   m_Layer: 0
   m_Name: DropManager
   m_TagString: Untagged
@@ -32,19 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7960894833093695196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4456057882145695619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c98dbb1b2f74ae8b2ba1d0ce72b3beb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectionManager: {fileID: 0}
 --- !u!114 &6243838601477746771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,4 +44,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54ee5be237584efb8dfafe50ac201f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyScriptableObject: {fileID: 0}
   <DropQuantity>k__BackingField: 0
+--- !u!114 &157761319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456057882145695619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c98dbb1b2f74ae8b2ba1d0ce72b3beb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectionManager: {fileID: 0}

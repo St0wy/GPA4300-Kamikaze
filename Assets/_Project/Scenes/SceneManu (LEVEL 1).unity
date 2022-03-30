@@ -223,6 +223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 157761319, guid: 2a8cebda31c0a3749bc08c1f91a50562, type: 3}
+      propertyPath: selectionManager
+      value: 
+      objectReference: {fileID: 2134076853}
     - target: {fileID: 1569923791284003535, guid: 2a8cebda31c0a3749bc08c1f91a50562,
         type: 3}
       propertyPath: m_RootOrder
@@ -1832,6 +1836,12 @@ PrefabInstance:
       propertyPath: lanesManager
       value: 
       objectReference: {fileID: 1180991117}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
+      propertyPath: levelsManager
+      value: 
+      objectReference: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa,
+        type: 2}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
       propertyPath: waves.Array.size

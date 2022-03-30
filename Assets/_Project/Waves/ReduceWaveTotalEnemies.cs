@@ -8,6 +8,8 @@ namespace Kamikaze.Waves
 		private LinkEnemyWaveSpawner linkEnemyWaveSpawner;
 		private HealthBehaviour healthBehaviour;
 		private LaneUnitBehaviour laneUnitBehaviour;
+		
+		public int WaveId { get; set; }
 
 		private void Awake()
 		{
@@ -21,7 +23,7 @@ namespace Kamikaze.Waves
 		{
 			if (!(laneUnitBehaviour.Position <= 0)) return;
 
-			linkEnemyWaveSpawner.WaveSpawner.CurrentWave.totalEnemies--;
+			linkEnemyWaveSpawner.WaveSpawner.Waves[WaveId].totalEnemies--;
 			Destroy(gameObject);
 		}
 

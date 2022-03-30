@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e2d00523524c20a2ded882c12166c2, type: 3}
+  m_Name: levelsManager
+  m_EditorClassIdentifier: 
+  levels:
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}
+      SceneName: SceneManu (LEVEL 1)
+      sceneIndex: 2
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 1
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: afa9f6fe52322fd4d83989b4fdf57d6b, type: 3}
+      SceneName: SceneManu (LEVEL 2)
+      sceneIndex: 3
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: 412168696db01d44d8550e028112ee7b, type: 3}
+      SceneName: SceneManu (LEVEL 3)
+      sceneIndex: 4
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  finishedColor: {r: 0.5176471, g: 0, b: 0.02745098, a: 1}
+  playableColor: {r: 1, g: 0.24705882, b: 0.1764706, a: 1}

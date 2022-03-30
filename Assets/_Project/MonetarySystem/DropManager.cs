@@ -6,8 +6,6 @@ namespace Kamikaze.MonetarySystem
 	[RequireComponent(typeof(HoverOnDropManager))]
 	public class DropManager : MonoBehaviour
 	{
-		[SerializeField] private MoneyScriptableObject moneyScriptableObject;
-
 		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
 
 		private HoverOnDropManager hoverOnDropManager;

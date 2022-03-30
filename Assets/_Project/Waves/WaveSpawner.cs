@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Kamikaze.Lanes;
+using Kamikaze.LevelSelect;
 using Kamikaze.MonetarySystem;
 using Kamikaze.PlayerLife;
 using Kamikaze.Units;
@@ -14,6 +15,7 @@ namespace Kamikaze.Waves
 {
 	public class WaveSpawner : MonoBehaviour
 	{
+		[SerializeField] private LevelsManagerScriptableObject levelsManager;
 		[SerializeField] private LanesManager lanesManager;
 		[SerializeField] private LifeManager lifeManager;
 		[SerializeField] private float waitTime;
@@ -30,13 +32,15 @@ namespace Kamikaze.Waves
 		private int currentWaveIndex;
 		private bool isLevelOver;
 
-		public Wave CurrentWave => waves[currentWaveIndex];
+		public Wave[] Waves => waves;
+
+		public Wave CurrentWave => Waves[currentWaveIndex];
 
 		private void Start()
 		{
-			for (var i = 0; i < waves.Length; i++)
+			for (var i = 0; i < Waves.Length; i++)
 			{
-				Wave wave = waves[i];
+				Wave wave = Waves[i];
 				wave.waveState = currentWaveIndex == i ? WaveState.Active : WaveState.Inactive;
 
 				foreach (SpawnerData spawner in wave.spawners)
@@ -64,7 +68,7 @@ namespace Kamikaze.Waves
 					if (CurrentWave.totalEnemies <= 0)
 					{
 						CurrentWave.waveState = WaveState.Inactive;
-						if (currentWaveIndex + 1 < waves.Length)
+						if (currentWaveIndex + 1 < Waves.Length)
 						{
 							currentWaveIndex++;
 							StartCoroutine(StartNextWaveCoroutine());
@@ -101,6 +105,9 @@ namespace Kamikaze.Waves
 			// Add the gems to the global money
 			money.AddGems(dropManager);
 
+			// Set this level to done
+			levelsManager.FinishCurrentLevel();
+
 			StartCoroutine(LoadLevelMenuCoroutine());
 		}
 
@@ -127,6 +134,10 @@ namespace Kamikaze.Waves
 				//Links to life manager
 				var reducePlayerLife = enemy.GetComponent<ReducePlayerLife>();
 				reducePlayerLife.LifeManager = lifeManager;
+
+				// Link wave id to ReduceWaveTotalEnemies
+				var reduceWaveTotalEnemies = enemy.GetComponent<ReduceWaveTotalEnemies>();
+				reduceWaveTotalEnemies.WaveId = currentWaveIndex;
 
 				spawner.noOfEnemiesToSpawn--;
 				spawner.nextSpawnTime = Time.time + spawner.spawnInterval;

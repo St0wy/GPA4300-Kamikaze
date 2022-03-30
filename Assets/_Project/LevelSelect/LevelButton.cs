@@ -8,7 +8,7 @@ namespace Kamikaze.LevelSelect
 	public class LevelButton : MonoBehaviour
 	{
 		[SerializeField] private int levelId;
-		[SerializeField] private LevelsManager levelsManager;
+		[SerializeField] private LevelsManagerScriptableObject levelsManagerScriptableObject;
 
 		private Image image;
 		private Button button;
@@ -22,7 +22,7 @@ namespace Kamikaze.LevelSelect
 
 		private void Start()
 		{
-			level = levelsManager.Levels[levelId];
+			level = levelsManagerScriptableObject.Levels[levelId];
 
 			UpdateStatus();
 		}
@@ -37,15 +37,15 @@ namespace Kamikaze.LevelSelect
 			switch (level.LevelStatus)
 			{
 				case LevelStatus.Locked:
-					image.color = levelsManager.LockedColor;
+					image.color = levelsManagerScriptableObject.LockedColor;
 					button.interactable = false;
 					break;
 				case LevelStatus.Finished:
-					image.color = levelsManager.FinishedColor;
+					image.color = levelsManagerScriptableObject.FinishedColor;
 					button.interactable = false;
 					break;
 				case LevelStatus.Playable:
-					image.color = levelsManager.PlayableColor;
+					image.color = levelsManagerScriptableObject.PlayableColor;
 					button.interactable = true;
 					break;
 				default:

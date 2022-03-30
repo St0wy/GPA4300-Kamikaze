@@ -4,10 +4,12 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - levelsManager: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa, type: 2}
   - lanesManager: {instanceID: 0}
   - lifeManager: {instanceID: 0}
   - winText: {instanceID: 0}
   - money: {fileID: 11400000, guid: 4e874ab8c5781ec4480d092df17adf10, type: 2}
+  - dropManager: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

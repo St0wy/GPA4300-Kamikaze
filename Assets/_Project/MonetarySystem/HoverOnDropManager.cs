@@ -1,5 +1,4 @@
-﻿using System;
-using Kamikaze.Lanes.Selection;
+﻿using Kamikaze.Lanes.Selection;
 using UnityEngine;
 
 namespace Kamikaze.MonetarySystem

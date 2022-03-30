@@ -34,6 +34,11 @@ namespace Kamikaze.PlayerLife
 			levelMenuScene.LoadScene();
 		}
 
+		public void QuitGame()
+		{
+			Application.Quit();
+		}
+
 		private void TriggerGameOver()
 		{
 			gameOverMenu.SetActive(true);

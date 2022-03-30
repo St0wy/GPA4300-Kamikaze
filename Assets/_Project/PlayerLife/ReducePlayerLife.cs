@@ -18,11 +18,7 @@ namespace Kamikaze.PlayerLife
         {
             if (!(laneUnitBehaviour.Position <= 0)) return;
             
-            LifeManager.PlayerLife--;
-            if(LifeManager.PlayerLife <= 0)
-            {
-                LifeManager.PlayerLife = 0;
-            }
+            LifeManager.Hurt();
         }
     }
 }

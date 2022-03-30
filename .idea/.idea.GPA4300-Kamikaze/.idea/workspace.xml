@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/money.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/money.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 1).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 2).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 2).unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/ReducePlayerLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/ReducePlayerLife.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 3).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneManu (LEVEL 3).unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -106,7 +110,7 @@
       <workItem from="1648111071655" duration="13244000" />
       <workItem from="1648458023643" duration="7600000" />
       <workItem from="1648468795858" duration="8602000" />
-      <workItem from="1648628179333" duration="9631000" />
+      <workItem from="1648628179333" duration="11298000" />
     </task>
     <servers />
   </component>
@@ -130,5 +134,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\dev\unity\GPA4300-Kamikaze\Assets\_Project\PlayerLife\GameOverBehaviour.cs" initialLine="21" containingFunctionPresentation="lambda expression inside method 'Awake'">
+            <startOffsets>
+              <option value="518" />
+            </startOffsets>
+            <endOffsets>
+              <option value="543" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

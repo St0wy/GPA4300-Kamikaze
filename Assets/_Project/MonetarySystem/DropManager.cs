@@ -6,11 +6,11 @@ namespace Kamikaze.MonetarySystem
 	[RequireComponent(typeof(ClickOnDropManager))]
 	public class DropManager : MonoBehaviour
 	{
-		private ClickOnDropManager clickOnDropManager;
+		[SerializeField] private MoneyScriptableObject moneyScriptableObject;
 
-		[field: SerializeField]
-		[field: ReadOnly]
-		public int DropQuantity { get; private set; }
+		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
+
+		private ClickOnDropManager clickOnDropManager;
 
 		private void Awake()
 		{
@@ -31,8 +31,13 @@ namespace Kamikaze.MonetarySystem
 			var dropBehaviour = drop.GetComponent<DropBehaviour>();
 			if (dropBehaviour == null) return;
 
-			DropQuantity += dropBehaviour.DropAmount;
-			Destroy(drop);
+			PickupGem(dropBehaviour);
+		}
+
+		public void PickupGem(DropBehaviour gem)
+		{
+			DropQuantity += gem.DropAmount;
+			Destroy(gem.gameObject);
 		}
 	}
 }

@@ -20,5 +20,10 @@ namespace Kamikaze.MonetarySystem
 		{
 			money += gem.DropAmount * GemsValue;
 		}
+
+		public void AddGems(DropManager dropManager)
+		{
+			money += dropManager.DropQuantity * gemsValue;
+		}
 	}
 }

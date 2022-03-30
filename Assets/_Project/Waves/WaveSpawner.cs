@@ -25,6 +25,7 @@ namespace Kamikaze.Waves
 
 		[SerializeField] private SceneReference levelMenuScene;
 		[SerializeField] private MoneyScriptableObject money;
+		[SerializeField] private DropManager dropManager;
 
 		private int currentWaveIndex;
 		private bool isLevelOver;
@@ -93,9 +94,12 @@ namespace Kamikaze.Waves
 			var allies = FindObjectsOfType<BackInInventoryBehaviour>();
 			allies.ForEach(ally => ally.ReturnInInventory());
 
-			// Pickup the money
+			// Pickup the gems
 			var gems = FindObjectsOfType<DropBehaviour>();
-			gems.ForEach(gem => money.AddGem(gem));
+			gems.ForEach(gem => dropManager.PickupGem(gem));
+
+			// Add the gems to the global money
+			money.AddGems(dropManager);
 
 			StartCoroutine(LoadLevelMenuCoroutine());
 		}

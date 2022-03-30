@@ -1692,6 +1692,11 @@ PrefabInstance:
       objectReference: {fileID: 9092986853857514343}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
+      propertyPath: dropManager
+      value: 
+      objectReference: {fileID: 1571055812}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
       propertyPath: lifeManager
       value: 
       objectReference: {fileID: 779169740}

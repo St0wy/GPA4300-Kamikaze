@@ -13,13 +13,13 @@ namespace Kamikaze.UI
 		
 		public void ShowTroopMenu()
 		{
-			button.onClick.AddListener(ButtonClick);
+			button.onClick.AddListener(StartGame);
 			content.SetActive(true);
 		}
 
-		public void ButtonClick()
+		public void StartGame()
 		{
-			button.onClick.RemoveListener(ButtonClick);
+			button.onClick.RemoveListener(StartGame);
 			content.SetActive(false);
 			SceneToLoad.LoadScene();
 		}

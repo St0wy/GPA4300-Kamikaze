@@ -1460,6 +1460,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1578736569}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1578736571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1339262309, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1578736569}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c974bf5b7a0d4963a396ac1486a5eb79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1770580407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1652,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3631876930757072496, guid: a4bab76d84130e14280d0601a7da76a0,
+        type: 3}
+      propertyPath: pause
+      value: 
+      objectReference: {fileID: 1578736571}
     - target: {fileID: 3631876930757072496, guid: a4bab76d84130e14280d0601a7da76a0,
         type: 3}
       propertyPath: selectionManager

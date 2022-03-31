@@ -1,4 +1,5 @@
 ﻿using Kamikaze.Lanes.Selection;
+using Kamikaze.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,14 +10,15 @@ namespace Kamikaze.Lanes
 		public delegate void ClickEvent(Lane lane, float position);
 
 		[SerializeField] private SelectionManager selectionManager;
+		[SerializeField] private UIPauseBehaviour pause;
 
 		public ClickEvent OnClick { get; set; }
 
 		private void Update()
 		{
 			bool mouseClicked = Mouse.current.leftButton.wasPressedThisFrame;
-
-			if (selectionManager == null || !mouseClicked) return;
+			bool clickedSelected = selectionManager == null || !mouseClicked || pause.IsPaused;
+			if (clickedSelected) return;
 
 			Transform currentSelection = selectionManager.CurrentSelection;
 

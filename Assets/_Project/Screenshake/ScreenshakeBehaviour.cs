@@ -1,52 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
 namespace Kamikaze.Screenshake
 {
-    public class ScreenshakeBehaviour : MonoBehaviour
-    {
+	public class ScreenshakeBehaviour : MonoBehaviour
+	{
+		public static ScreenshakeBehaviour Instance { get; private set; }
+		private CinemachineVirtualCamera cinemachineVirtualCamera;
+		private float timeUntilEndOfScreenshake;
 
-        public static ScreenshakeBehaviour Instance { get; private set; }
-        private CinemachineVirtualCamera cinemachineVirtualCamera;
-        private float timeUntilEndOfScreenshake;
+		private void Awake()
+		{
+			cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
+		}
 
-        // Start is called before the first frame update
-        void Awake()
-        {
-            cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
-        }
+		private void Update()
+		{
+			if (!(timeUntilEndOfScreenshake > 0)) return;
+			timeUntilEndOfScreenshake -= Time.deltaTime;
 
-        private void Start()
-        {
-           
-        }
-        // Update is called once per frame
-        void Update()
-        {
-            if(timeUntilEndOfScreenshake > 0)
-            {
-                timeUntilEndOfScreenshake -= Time.deltaTime;
-                if(timeUntilEndOfScreenshake <= 0f)
-                {
-                    //end!
-                    CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin =
-                        cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+			if (!(timeUntilEndOfScreenshake <= 0f)) return;
 
-                    cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = 0f;
+			var cinemachineBasicMultiChannelPerlin =
+				cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
-                }
-            }
-        }
+			cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = 0f;
+		}
 
-        public void StartScreenShake(float intensity, float duration)
-        {
-            CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin =
-                cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+		public void StartScreenShake(float intensity, float duration)
+		{
+			var cinemachineBasicMultiChannelPerlin =
+				cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
 
-            cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
-            timeUntilEndOfScreenshake = duration;
-        }
-    }
+			cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
+			timeUntilEndOfScreenshake = duration;
+		}
+	}
 }

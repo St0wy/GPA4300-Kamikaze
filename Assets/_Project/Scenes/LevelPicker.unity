@@ -941,8 +941,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cette troupe explose au contact d''un enemis. Elle avance tout droit jusqu''a
-    cette explosion. '
+  m_text: This troop explodes to the contact of an ennemy. It goes forward until
+    this explosion.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -2558,8 +2558,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cette troupe se met la ou vous cliquez. Elle se placera en sortant son
-    bouclier afin de vous prot\xE9ger."
+  m_text: This troop goes where you click. It will place itself by taking its shield
+    out to protect you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -4160,7 +4160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1509880727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4416,8 +4416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cette troupe tire avec sa baguette magique afin de toucher les enemis a
-    distance.
+  m_text: This troop shoots with its magic wand to hit distant enemies.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -5636,8 +5635,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cette troupe ralentis les enemis dans une zone autour d'elle. Elle les
-    immobilise en mourant.
+  m_text: This troop slows down all the enemies in a zone around it. It immobilizes
+    them when dying.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,

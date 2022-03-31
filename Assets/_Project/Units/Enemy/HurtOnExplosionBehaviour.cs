@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Kamikaze.Screenshake;
 
 namespace Kamikaze.Units.Enemy
 {
@@ -17,7 +18,7 @@ namespace Kamikaze.Units.Enemy
 
 		public void Hurt(int damage)
 		{
-			healthBehaviour.ReduceHealth(damage);
+			healthBehaviour.ReduceHealth(damage);		
 		}
 	}
 }

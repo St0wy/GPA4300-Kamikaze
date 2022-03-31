@@ -1,5 +1,6 @@
 using UnityEngine;
 using Kamikaze.Units;
+using Kamikaze.Screenshake;
 
 namespace Kamikaze.Waves
 {

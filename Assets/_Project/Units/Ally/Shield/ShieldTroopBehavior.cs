@@ -13,21 +13,20 @@ namespace Kamikaze.Units.Ally.Shield
 		[SerializeField] private GameObject shieldGo;
 		[SerializeField] private int shieldHealthPoints = 5;
 		[ReadOnly] [SerializeField] private float stopPosition;
+
 		private HealthBehaviour healthBehaviour;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
-		
-
 		private LaneUnitBehaviour unitBehaviour;
 
+		#region Properties
+
 		public ShieldState State { get; set; } = ShieldState.Walking;
-			
+
 		public float StopPosition
 		{
 			get => stopPosition;
 			set => stopPosition = Mathf.Clamp01(value);
 		}
-
-		
 
 		private bool PassedPosition
 		{
@@ -42,12 +41,9 @@ namespace Kamikaze.Units.Ally.Shield
 			}
 		}
 
-		public RifleAndShieldContactBehavior RifleAndShieldContactBehavior
-		{ 
-			get;
-			set; 
-		}
+		public RifleAndShieldContactBehavior RifleAndShieldContactBehavior { get; set; }
 
+		#endregion
 
 		private void Awake()
 		{
@@ -58,8 +54,7 @@ namespace Kamikaze.Units.Ally.Shield
 			healthBehaviour.OnHurt += VerifyAbilityToProtectRifle;
 		}
 
-        
-        private void Update()
+		private void Update()
 		{
 			if (!(State == ShieldState.Walking && PassedPosition)) return;
 
@@ -79,13 +74,9 @@ namespace Kamikaze.Units.Ally.Shield
 		private void VerifyAbilityToProtectRifle(int healthPoints)
 		{
 			if (healthPoints <= 0 && RifleAndShieldContactBehavior != null)
-            {
-				RifleAndShieldContactBehavior.RifleStayBehind = false;				
-            }
-
+			{
+				RifleAndShieldContactBehavior.RifleStayBehind = false;
+			}
 		}
-
-		
-       
-    }
+	}
 }

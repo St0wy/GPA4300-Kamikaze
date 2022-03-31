@@ -11,7 +11,7 @@ namespace Kamikaze.Units.Ally.Rifle
         private float initialSpeed;
         
 
-        public bool ShieldCanProtectRifle { get; set; }
+        public bool RifleStayBehind { get; set; }
 
         private void Awake()
         {
@@ -29,7 +29,7 @@ namespace Kamikaze.Units.Ally.Rifle
         // Update is called once per frame
         void Update()
         {
-            switch(ShieldCanProtectRifle)
+            switch(RifleStayBehind)
             {
                 case true:    
                     moveOnLaneBehaviour.MoveSpeed = 0f;

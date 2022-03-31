@@ -1,6 +1,7 @@
 using System;
 using MyBox;
 using UnityEngine;
+using Kamikaze.Units.Ally.Rifle;
 
 namespace Kamikaze.Units.Ally.Shield
 {
@@ -14,15 +15,20 @@ namespace Kamikaze.Units.Ally.Shield
 		[ReadOnly] [SerializeField] private float stopPosition;
 		private HealthBehaviour healthBehaviour;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
-		private ShieldState state = ShieldState.Walking;
+		
 
 		private LaneUnitBehaviour unitBehaviour;
+
+		public ShieldState State { get; set; } = ShieldState.Walking;
+			
 
 		public float StopPosition
 		{
 			get => stopPosition;
 			set => stopPosition = Mathf.Clamp01(value);
 		}
+
+		
 
 		private bool PassedPosition
 		{
@@ -37,18 +43,28 @@ namespace Kamikaze.Units.Ally.Shield
 			}
 		}
 
+		public RifleAndShieldContactBehavior RifleAndShieldContactBehavior
+		{ 
+			get;
+			set; 
+		}
+
+
 		private void Awake()
 		{
 			unitBehaviour = GetComponent<LaneUnitBehaviour>();
 			moveOnLaneBehaviour = GetComponent<MoveOnLaneBehaviour>();
 			healthBehaviour = GetComponent<HealthBehaviour>();
+
+			healthBehaviour.OnHurt += VerifyAbilityToProtectRifle;
 		}
 
-		private void Update()
+        
+        private void Update()
 		{
-			if (!(state == ShieldState.Walking && PassedPosition)) return;
+			if (!(State == ShieldState.Walking && PassedPosition)) return;
 
-			state = ShieldState.Shielding;
+			State = ShieldState.Shielding;
 			healthBehaviour.HealthPoints = shieldHealthPoints;
 			moveOnLaneBehaviour.MoveSpeed = 0f;
 			shieldGo.transform.localScale = new Vector3(2f, 2f, 2f);
@@ -60,5 +76,17 @@ namespace Kamikaze.Units.Ally.Shield
 			healthBehaviour.ReduceHealth(damage);
 			shieldGo.SetActive(false);
 		}
-	}
+
+		private void VerifyAbilityToProtectRifle(int healthPoints)
+		{
+			if (healthPoints <= 0 && RifleAndShieldContactBehavior != null)
+            {
+				RifleAndShieldContactBehavior.ShieldCanProtectRifle = false;				
+            }
+
+		}
+
+		
+       
+    }
 }

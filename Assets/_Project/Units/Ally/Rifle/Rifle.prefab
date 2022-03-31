@@ -68,6 +68,8 @@ GameObject:
   - component: {fileID: 354827774685127708}
   - component: {fileID: 584350965053610105}
   - component: {fileID: 1693798986170222147}
+  - component: {fileID: 8460565445118082261}
+  - component: {fileID: 3360289000481989649}
   m_Layer: 6
   m_Name: Rifle
   m_TagString: Ally
@@ -286,6 +288,30 @@ MonoBehaviour:
   flashMaterial: {fileID: 2100000, guid: ad1b14d8a47c0f74e935daaebe6bf133, type: 2}
   flashTime: 0.3
   meshRenderer: {fileID: 0}
+--- !u!114 &8460565445118082261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbfa895ab2022f4287b1e2fd32da2f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3360289000481989649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a808979894098e14baea8b9a9d44f5a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8417273737587319067
 GameObject:
   m_ObjectHideFlags: 0

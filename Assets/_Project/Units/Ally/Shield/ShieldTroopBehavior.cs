@@ -21,7 +21,6 @@ namespace Kamikaze.Units.Ally.Shield
 
 		public ShieldState State { get; set; } = ShieldState.Walking;
 			
-
 		public float StopPosition
 		{
 			get => stopPosition;

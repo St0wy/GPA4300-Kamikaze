@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: -3386866767147022265}
   - component: {fileID: -8152830337876113923}
   - component: {fileID: 4875049686410679431}
+  - component: {fileID: 1126420951706428546}
   m_Layer: 6
   m_Name: Shield
   m_TagString: Shootable
@@ -266,6 +267,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b3c9675000576e48a9c809002edc31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1126420951706428546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667864841788888341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396419976d2618b48a31882ea3329f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5669505804745740729

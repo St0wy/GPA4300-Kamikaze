@@ -13,6 +13,7 @@ namespace Kamikaze.Units.Enemy
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private DropOnDeathBehaviour dropOnDeathBehaviour;
 		private DamageOnCollisionBehaviour damageOnCollisionBehaviour;
+	
 
 		private void Awake()
 		{

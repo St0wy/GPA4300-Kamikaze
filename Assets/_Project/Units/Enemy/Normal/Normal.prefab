@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f466599890d4f0f92f6c0f796db4ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stuckTime: 1.5
+  stuckTime: 3
   <IsStuck>k__BackingField: 0
 --- !u!114 &-6605518242129266221
 MonoBehaviour:

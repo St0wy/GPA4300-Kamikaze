@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
+using Kamikaze.Screenshake;
 
 namespace Kamikaze.PlayerLife
 {
-	public class LifeManager : MonoBehaviour
+    public class LifeManager : MonoBehaviour
 	{
 		public delegate void HurtEvent();
 
@@ -20,6 +20,7 @@ namespace Kamikaze.PlayerLife
 			if (playerLife > 0)
 			{
 				playerLife--;
+				ScreenshakeController.Instance.StartScreenShake(0.2f, 0.2f);
 			}
 
 			OnHurt?.Invoke();

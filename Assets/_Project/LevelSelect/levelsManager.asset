@@ -15,19 +15,19 @@ MonoBehaviour:
   levels:
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}
-      SceneName: SceneManu (LEVEL 1)
+      SceneName: LEVEL 1(Manu)
       sceneIndex: 2
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 1
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: afa9f6fe52322fd4d83989b4fdf57d6b, type: 3}
-      SceneName: SceneManu (LEVEL 2)
+      SceneName: Level 2(Manu)
       sceneIndex: 3
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 412168696db01d44d8550e028112ee7b, type: 3}
-      SceneName: SceneManu (LEVEL 3)
+      SceneName: Level 3(Manu)
       sceneIndex: 4
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0

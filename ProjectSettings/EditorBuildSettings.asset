@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/MainMenu.unity
     guid: 97b8935906f3fc54792d612ab010f3ad
   - enabled: 1
-    path: Assets/_Project/Scenes/LevelPicker.unity
+    path: Assets/_Project/Scenes/LevelPicker Fab.unity
     guid: cc59a7ec213ccc9499def40490a8c2f3
   - enabled: 1
     path: Assets/_Project/Scenes/LEVEL 1(Manu).unity

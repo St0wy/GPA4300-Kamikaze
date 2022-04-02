@@ -6,7 +6,7 @@ namespace Kamikaze.UI
 {
 	public class UIPauseBehaviour : MonoBehaviour
 	{
-		[SerializeField] private GameObject content;
+		[SerializeField] private UnityEngine.GameObject content;
 		[SerializeField] private SceneReference mainMenuScene;
 
 		public bool IsPaused { get; private set; } = false;

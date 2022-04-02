@@ -6,7 +6,7 @@ namespace Kamikaze.UI
 	public class UISelectionButtonBehaviour : MonoBehaviour
 	{
 		[ReadOnly] [SerializeField] private bool isSelected;
-		[SerializeField] private GameObject selectionBrackets;
+		[SerializeField] private UnityEngine.GameObject selectionBrackets;
 		[SerializeField] private int unitId;
 
 		public bool IsSelected

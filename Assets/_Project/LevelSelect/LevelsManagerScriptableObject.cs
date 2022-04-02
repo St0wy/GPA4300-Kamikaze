@@ -10,7 +10,7 @@ namespace Kamikaze.LevelSelect
 		[SerializeField] private Color finishedColor;
 		[SerializeField] private Color playableColor;
 
-		private int currentLevelId;
+		public int CurrentLevelId { get; set; } = 0;
 
 		public Level[] Levels => levels;
 		public Color LockedColor => lockedColor;
@@ -19,17 +19,17 @@ namespace Kamikaze.LevelSelect
 
 		public void FinishCurrentLevel()
 		{
-			currentLevelId++;
+			CurrentLevelId++;
 			
 			for (var i = 0; i < levels.Length; i++)
 			{
-				if (i < currentLevelId)
+				if (i < CurrentLevelId)
 				{
 					levels[i].LevelStatus = LevelStatus.Finished;
-				} else if (i == currentLevelId)
+				} else if (i == CurrentLevelId)
 				{
 					levels[i].LevelStatus = LevelStatus.Playable;
-				} else if (i > currentLevelId)
+				} else if (i > CurrentLevelId)
 				{
 					levels[i].LevelStatus = LevelStatus.Locked;
 				}

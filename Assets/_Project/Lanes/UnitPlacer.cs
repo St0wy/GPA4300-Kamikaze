@@ -27,6 +27,11 @@ namespace Kamikaze.Lanes
 		{
 			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];
 			if (unitQuantity <= 0) return;
+
+			bool isUnlocked = unitSelector.SelectedUnit.GetComponent<AllyTroopVarsSetterBehaviour>().
+				AllyTroopScriptableObject.IsUnlocked;
+			if (!isUnlocked) return;
+
 			inventory.UnitsAmount[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);
 		}

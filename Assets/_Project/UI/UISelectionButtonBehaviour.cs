@@ -1,5 +1,6 @@
 ﻿using MyBox;
 using UnityEngine;
+using Kamikaze.UnlockSystem;
 
 namespace Kamikaze.UI
 {
@@ -8,7 +9,13 @@ namespace Kamikaze.UI
 		[ReadOnly] [SerializeField] private bool isSelected;
 		[SerializeField] private UnityEngine.GameObject selectionBrackets;
 		[SerializeField] private int unitId;
+		[SerializeField] private UIShowTroopButtonBehaviour showTroopButtonBehaviour;
 
+
+		public UIShowTroopButtonBehaviour ShowTroopButtonBehaviour
+        {
+			get => showTroopButtonBehaviour;
+        }
 		public bool IsSelected
 		{
 			get => isSelected;
@@ -18,6 +25,8 @@ namespace Kamikaze.UI
 				selectionBrackets.SetActive(isSelected);
 			}
 		}
+
+	
 
 		public int UnitId => unitId;
 

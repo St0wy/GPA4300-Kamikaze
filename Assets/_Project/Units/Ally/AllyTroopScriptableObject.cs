@@ -8,6 +8,15 @@ namespace Kamikaze.Units.Ally
 		[Tooltip("Price of the troop in $.")] [SerializeField]
 		private int cost;
 
+		[Tooltip("Tell if the troop is unlocked")][SerializeField]
+		private bool isUnlocked;
+
 		public int Cost => cost;
+
+		public bool IsUnlocked 
+		{ 
+			get => isUnlocked; 
+			set => isUnlocked = value;
+		}
 	}
 }

@@ -227,6 +227,109 @@ PrefabInstance:
       propertyPath: lifeManager
       value: 
       objectReference: {fileID: 779169740}
+    - target: {fileID: 2135292220643124412, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2632736395082341806, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: showTroopButtonBehaviour
+      value: 
+      objectReference: {fileID: 1739926626}
+    - target: {fileID: 2632736395129317926, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: showTroopButtonBehaviour
+      value: 
+      objectReference: {fileID: 1125622633}
+    - target: {fileID: 2632736395257429092, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: showTroopButtonBehaviour
+      value: 
+      objectReference: {fileID: 116291670}
+    - target: {fileID: 2871843782416497779, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871843782453988347, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871843782594583993, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145575746738311413, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: troopData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7391fe699e54c8145a4e3b7cee6767e0,
+        type: 2}
+    - target: {fileID: 3145575746738311413, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: allyTroopScriptableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 7391fe699e54c8145a4e3b7cee6767e0,
+        type: 2}
+    - target: {fileID: 8151173280279910318, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: troopData
+      value: 
+      objectReference: {fileID: 11400000, guid: 19f67055bc19a7a4191f00187dba2401,
+        type: 2}
+    - target: {fileID: 8151173280279910318, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: levelToReach
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151173280279910318, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: allyTroopScriptableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 19f67055bc19a7a4191f00187dba2401,
+        type: 2}
+    - target: {fileID: 8151173280308502566, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: troopData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a5ad7a05dd23e64fb856092ea834435,
+        type: 2}
+    - target: {fileID: 8151173280308502566, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: levelToReach
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151173280308502566, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: allyTroopScriptableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 3a5ad7a05dd23e64fb856092ea834435,
+        type: 2}
+    - target: {fileID: 8151173280416268780, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: troopData
+      value: 
+      objectReference: {fileID: 11400000, guid: 855cfaed22d14e84398f11ec6a2fadf2,
+        type: 2}
+    - target: {fileID: 8151173280416268780, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: levelToReach
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151173280416268780, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: allyTroopScriptableObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 855cfaed22d14e84398f11ec6a2fadf2,
+        type: 2}
+    - target: {fileID: 9035146799945551008, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9092986852263301220, guid: e976ea8973e6f834bb2e73087a31e9a8,
         type: 3}
       propertyPath: dropManager
@@ -242,6 +345,11 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 88.18
       objectReference: {fileID: 0}
+    - target: {fileID: 9092986853484293501, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: showTroopButtonBehaviour
+      value: 
+      objectReference: {fileID: 2130397044}
     - target: {fileID: 9092986853647133706, guid: e976ea8973e6f834bb2e73087a31e9a8,
         type: 3}
       propertyPath: m_Name
@@ -375,6 +483,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c974bf5b7a0d4963a396ac1486a5eb79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &116291670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151173280416268780, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 105066853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77934b8a9fb563042b898f16a78a1490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &157761317
@@ -640,6 +760,27 @@ PrefabInstance:
         type: 3}
       propertyPath: waves.Array.size
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
+      propertyPath: levelMenuScene.Scene
+      value: 
+      objectReference: {fileID: 102900000, guid: dbbc82a64f21f904a9c505072c7c0178,
+        type: 3}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
+      propertyPath: levelMenuScene.SceneName
+      value: LevelPicker Manu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
+      propertyPath: levelMenuScene.sceneIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
+        type: 3}
+      propertyPath: levelMenuScene.sceneEnabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
@@ -2752,6 +2893,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1125622633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151173280279910318, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 105066853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77934b8a9fb563042b898f16a78a1490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1180991115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,6 +3427,18 @@ MonoBehaviour:
   startPos: {fileID: 692023631}
   endPos: {fileID: 1537042242}
   <Id>k__BackingField: 0
+--- !u!114 &1739926626 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8151173280308502566, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 105066853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77934b8a9fb563042b898f16a78a1490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1770580407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,6 +3741,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b48ff072d4344a1a22276e897f56e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2130397044 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3145575746738311413, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 105066853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77934b8a9fb563042b898f16a78a1490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2134076852

@@ -1,6 +1,7 @@
 ﻿using MyBox;
 using UnityEngine;
 using UnityEngine.UI;
+using Kamikaze.UnlockSystem;
 
 namespace Kamikaze.UI
 {
@@ -8,19 +9,18 @@ namespace Kamikaze.UI
 	{
 		[SerializeField] private Button button;
 		[SerializeField] private GameObject content;
-		private UIShowTroopBehaviour[] panelsInContent;
+		private UIShowTroopPanelBehaviour[] panelsInContent;
 
 		public SceneReference SceneToLoad { get; set; }
 
         private void Awake()
         {
-			panelsInContent = content.GetComponentsInChildren<UIShowTroopBehaviour>();
+			panelsInContent = content.GetComponentsInChildren<UIShowTroopPanelBehaviour>();
         }
 
         public void ShowTroopMenu()
 		{
 			button.onClick.AddListener(StartGame);
-			content.SetActive(true);
 			LoadContent();
 		}
 
@@ -33,19 +33,11 @@ namespace Kamikaze.UI
 
 		public void LoadContent()
         {
-			foreach(var panel in panelsInContent)
-            {
-				if(panel.IsUnlocked)
-                {
-					panel.ShowUnlockedPanel();
-					panel.HideLockedPanel();
-                }
+			content.SetActive(true);
 
-                else
-                {
-					panel.ShowLockedPanel();
-					panel.HideUnlockedPanel();
-				}
+			foreach (var panel in panelsInContent)
+            {
+				panel.ShowPanel();
             }
 		}
 

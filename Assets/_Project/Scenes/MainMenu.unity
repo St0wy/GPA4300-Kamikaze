@@ -773,9 +773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScene:
-    Scene: {fileID: 102900000, guid: cc59a7ec213ccc9499def40490a8c2f3, type: 3}
-    SceneName: LevelPicker
-    sceneIndex: 1
+    Scene: {fileID: 102900000, guid: dbbc82a64f21f904a9c505072c7c0178, type: 3}
+    SceneName: LevelPicker Manu
+    sceneIndex: 2
     sceneEnabled: 1
 --- !u!1 &1430303605
 GameObject:

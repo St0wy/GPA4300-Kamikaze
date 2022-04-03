@@ -1,4 +1,5 @@
-﻿using MyBox;
+﻿using JetBrains.Annotations;
+using MyBox;
 using UnityEngine;
 using Kamikaze.UnlockSystem;
 
@@ -7,15 +8,12 @@ namespace Kamikaze.UI
 	public class UISelectionButtonBehaviour : MonoBehaviour
 	{
 		[ReadOnly] [SerializeField] private bool isSelected;
-		[SerializeField] private UnityEngine.GameObject selectionBrackets;
+		[SerializeField] private GameObject selectionBrackets;
 		[SerializeField] private int unitId;
 		[SerializeField] private UIShowTroopButtonBehaviour showTroopButtonBehaviour;
 
+		public UIShowTroopButtonBehaviour ShowTroopButtonBehaviour => showTroopButtonBehaviour;
 
-		public UIShowTroopButtonBehaviour ShowTroopButtonBehaviour
-        {
-			get => showTroopButtonBehaviour;
-        }
 		public bool IsSelected
 		{
 			get => isSelected;
@@ -26,11 +24,10 @@ namespace Kamikaze.UI
 			}
 		}
 
-	
-
 		public int UnitId => unitId;
 
 		[ButtonMethod]
+		[UsedImplicitly]
 		public void ToggleIsSelected()
 		{
 			IsSelected = !IsSelected;

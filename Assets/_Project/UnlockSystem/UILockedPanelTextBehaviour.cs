@@ -1,28 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using TMPro;
+
 namespace Kamikaze.UnlockSystem
 {
-    public class UILockedPanelTextBehaviour : MonoBehaviour
-    {
+	public class UILockedPanelTextBehaviour : MonoBehaviour
+	{
+		[SerializeField] private UIShowTroopPanelBehaviour uIShowTroopBehaviour;
+		[SerializeField] private TextMeshProUGUI textMeshProUGUI;
 
-        [SerializeField] private UIShowTroopPanelBehaviour uIShowTroopBehaviour;
-        [SerializeField] private TextMeshProUGUI textMeshProUGUI;
+		private void Start()
+		{
+			DisplayMenuLockPanelText();
+		}
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            DisplayMenuLockPanelText();        
-        }
-
-        void DisplayMenuLockPanelText()
-        {
-            textMeshProUGUI.text =
-                "Finish\x0A"
-                + "level " + uIShowTroopBehaviour.LevelToReach.ToString() + "\x0A"
-                + "to unlock\x0A"
-                + "troop!";
-        }
-    }
+		private void DisplayMenuLockPanelText()
+		{
+			textMeshProUGUI.text =
+				$"Finish{Environment.NewLine}level {uIShowTroopBehaviour.LevelToReach}{Environment.NewLine}" +
+				$"to unlock{Environment.NewLine}troop";
+		}
+	}
 }

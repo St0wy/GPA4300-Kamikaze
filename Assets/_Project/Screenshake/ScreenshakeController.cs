@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Kamikaze.Screenshake
 {
@@ -11,19 +10,19 @@ namespace Kamikaze.Screenshake
 		public static ScreenshakeController Instance { get; private set; }
 
 		private void Awake()
-        {
-			Instance = this;
-        }
-        private void Start()
 		{
-			//StartScreenShake(0.5f,1);
+			Instance = this;
+		}
+
+		private void Start()
+		{
 			initialPosition = transform.position;
 		}
 
-        private void LateUpdate()
-        {
-            if(timeUntilEndOfShake > 0)
-            {
+		private void LateUpdate()
+		{
+			if (timeUntilEndOfShake > 0)
+			{
 				timeUntilEndOfShake -= Time.deltaTime;
 
 				float xShake = Random.Range(-1f, 1f) * shakePower;
@@ -31,14 +30,13 @@ namespace Kamikaze.Screenshake
 
 				transform.position += new Vector3(xShake, yShake, 0);
 			}
-
-            else
-            {
+			else
+			{
 				transform.position = initialPosition;
-            }
-        }
+			}
+		}
 
-        public void StartScreenShake(float power, float duration)
+		public void StartScreenShake(float power, float duration)
 		{
 			timeUntilEndOfShake = duration;
 			shakePower = power;

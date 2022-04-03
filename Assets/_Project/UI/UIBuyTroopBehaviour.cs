@@ -1,5 +1,4 @@
-﻿using System;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Kamikaze.LevelSelect;
 using Kamikaze.MonetarySystem;
 using Kamikaze.Units.Ally;

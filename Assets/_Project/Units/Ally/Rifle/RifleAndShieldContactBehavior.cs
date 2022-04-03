@@ -1,45 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Kamikaze.Units.Ally.Shield;
 
 namespace Kamikaze.Units.Ally.Rifle
 {
-    public class RifleAndShieldContactBehavior : MonoBehaviour
-    {
-        private MoveOnLaneBehaviour moveOnLaneBehaviour;
-        private float initialSpeed;
-        
+	public class RifleAndShieldContactBehavior : MonoBehaviour
+	{
+		private MoveOnLaneBehaviour moveOnLaneBehaviour;
+		private float initialSpeed;
 
-        public bool RifleStayBehind { get; set; }
+		public bool RifleStayBehind { get; set; }
 
-        private void Awake()
-        {
-            moveOnLaneBehaviour = transform.GetComponent<MoveOnLaneBehaviour>();
-        }
+		private void Awake()
+		{
+			moveOnLaneBehaviour = transform.GetComponent<MoveOnLaneBehaviour>();
+		}
 
+		private void Start()
+		{
+			initialSpeed = moveOnLaneBehaviour.MoveSpeed;
+		}
 
-        // Start is called before the first frame update
-        void Start()
-        {
-            initialSpeed = moveOnLaneBehaviour.MoveSpeed;
-            
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-            switch(RifleStayBehind)
-            {
-                case true:    
-                    moveOnLaneBehaviour.MoveSpeed = 0f;
-                    break;
-
-                case false:
-                    moveOnLaneBehaviour.MoveSpeed = initialSpeed;
-                    break;
-
-            }
-        }
-    }
+		private void Update()
+		{
+			moveOnLaneBehaviour.MoveSpeed = RifleStayBehind ? 0f : initialSpeed;
+		}
+	}
 }

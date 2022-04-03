@@ -1,25 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Kamikaze.Screenshake
 {
-    public class CameraController : MonoBehaviour
-    {    
-        [SerializeField] private Transform target;
-        private float startY;
+	public class CameraController : MonoBehaviour
+	{
+		[SerializeField] private Transform target;
 
-        private void Start()
-        {
-            startY = transform.position.y;
-        }
+		private float startY;
 
-        private void Update()
-        {
-            if(target!=null)
-            {
-                transform.position = new Vector3(target.position.x, startY, transform.position.z);
-            }
-        }
-    }
+		private void Start()
+		{
+			startY = transform.position.y;
+		}
+
+		private void Update()
+		{
+			if (target == null) return;
+			
+			Transform myTransform = transform;
+			myTransform.position = new Vector3(target.position.x, startY, myTransform.position.z);
+		}
+	}
 }

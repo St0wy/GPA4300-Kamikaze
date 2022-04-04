@@ -2,6 +2,7 @@
 using MyBox;
 using UnityEngine;
 using Kamikaze.Units.Enemy;
+using Kamikaze.Units.Enemy.Shield;
 
 namespace Kamikaze.Units.Ally.Freezer
 {
@@ -44,14 +45,34 @@ namespace Kamikaze.Units.Ally.Freezer
 		{
 			moveOnLaneBehaviour.MoveSpeed = 0f;
 			IsStuck = true;
+			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
+			if(explosionProtection!=null)
+            {
+				
+				if(explosionProtection.IsEnabled)
+                {
+					explosionProtection.IsEnabled = false;
+					Debug.Log("shield enemy is now vulnerable");
+				}
+            }
 			StartCoroutine(UnStuckCoroutine());
 		}
 
 		private IEnumerator UnStuckCoroutine()
-		{
+		{		
 			yield return new WaitForSeconds(stuckTime);
-			moveOnLaneBehaviour.MoveSpeed = baseSpeed;
+			moveOnLaneBehaviour.MoveSpeed = baseSpeed;			
 			IsStuck = false;
+			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
+			if (explosionProtection != null)
+			{
+				if (!explosionProtection.IsEnabled)
+				{
+
+					explosionProtection.IsEnabled = true;
+					Debug.Log("shield enemy is now invulnerable");
+				}
+			}
 		}
 	}
 }

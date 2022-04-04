@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using Kamikaze.Units.Enemy.Shield;
 
 namespace Kamikaze.Units
 {
@@ -33,9 +34,24 @@ namespace Kamikaze.Units
 
 		private void Flash()
 		{
-			meshRenderer.material = flashMaterial;
-			StartCoroutine(UnFlashCoroutine());
+			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
+			if(explosionProtection!=null)
+            {
+				if(!explosionProtection.IsEnabled)
+                {
+					meshRenderer.material = flashMaterial;
+					StartCoroutine(UnFlashCoroutine());
+				}
+            }
+
+            else
+            {
+				meshRenderer.material = flashMaterial;
+				StartCoroutine(UnFlashCoroutine());
+			}
 		}
+			
+		
 
 		private IEnumerator UnFlashCoroutine()
 		{

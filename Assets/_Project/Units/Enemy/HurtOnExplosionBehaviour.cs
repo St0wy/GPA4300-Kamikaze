@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Kamikaze.Units.Ally.Freezer;
+using Kamikaze.Units.Enemy.Shield;
 
 namespace Kamikaze.Units.Enemy
 {
@@ -20,22 +21,32 @@ namespace Kamikaze.Units.Enemy
 		{
 			int realDamage = 0;
 			FreezeStuckBehaviour freezeStuckBehaviour = GetComponent<FreezeStuckBehaviour>();
-			if(freezeStuckBehaviour!=null)
+			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
+			if(explosionProtection!=null)
             {
-				if(freezeStuckBehaviour.IsStuck)
+				if(!explosionProtection.IsEnabled)
                 {
 					realDamage = damage + bonus;
-					Debug.Log("stuck damage " + realDamage);
-                }
-				else
+				}
+            }
+
+            else
+            {
+				if (freezeStuckBehaviour != null)
 				{
+					if (freezeStuckBehaviour.IsStuck)
+					{
+						realDamage = damage + bonus;
 					
-					realDamage = damage;
-					Debug.Log("normal damage " + realDamage);
+					}
+					else
+					{
+
+						realDamage = damage;
+					}
 				}
 			}
-       
-
+			
 			healthBehaviour.ReduceHealth(realDamage);		
 		}
 	}

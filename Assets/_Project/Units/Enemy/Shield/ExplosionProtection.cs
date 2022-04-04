@@ -13,11 +13,5 @@ namespace Kamikaze.Units.Enemy.Shield
         {
             IsEnabled = true;
         }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
     }
 }

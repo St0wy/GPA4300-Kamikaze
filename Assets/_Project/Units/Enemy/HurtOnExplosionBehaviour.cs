@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Kamikaze.Units.Ally.Freezer;
 
 namespace Kamikaze.Units.Enemy
 {
@@ -15,9 +16,27 @@ namespace Kamikaze.Units.Enemy
 			healthBehaviour = GetComponent<HealthBehaviour>();
 		}
 
-		public void Hurt(int damage)
-		{	
-			healthBehaviour.ReduceHealth(damage);		
+		public void Hurt(int damage, int bonus = 20)
+		{
+			int realDamage = 0;
+			FreezeStuckBehaviour freezeStuckBehaviour = GetComponent<FreezeStuckBehaviour>();
+			if(freezeStuckBehaviour!=null)
+            {
+				if(freezeStuckBehaviour.IsStuck)
+                {
+					realDamage = damage + bonus;
+					Debug.Log("stuck damage " + realDamage);
+                }
+				else
+				{
+					
+					realDamage = damage;
+					Debug.Log("normal damage " + realDamage);
+				}
+			}
+       
+
+			healthBehaviour.ReduceHealth(realDamage);		
 		}
 	}
 }

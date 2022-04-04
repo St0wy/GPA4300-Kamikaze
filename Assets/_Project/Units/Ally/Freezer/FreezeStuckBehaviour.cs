@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using MyBox;
 using UnityEngine;
+using Kamikaze.Units.Enemy;
 
 namespace Kamikaze.Units.Ally.Freezer
 {
@@ -11,6 +12,7 @@ namespace Kamikaze.Units.Ally.Freezer
 		private float baseSpeed;
 
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
+		[SerializeField] private FreezeStuckIndicatorBehaviour freezeStuckIndicator;
 
 		[field: ReadOnly]
 		[field: SerializeField]
@@ -24,7 +26,18 @@ namespace Kamikaze.Units.Ally.Freezer
 
 		private void Update()
 		{
-			if (IsStuck) moveOnLaneBehaviour.MoveSpeed = 0f;
+			if (IsStuck)
+            {
+				moveOnLaneBehaviour.MoveSpeed = 0f;
+				freezeStuckIndicator.gameObject.SetActive(true);
+				freezeStuckIndicator.StartAnim(1.4f, 20);
+			}
+
+            else
+            {
+				freezeStuckIndicator.gameObject.SetActive(false);
+			}
+				
 		}
 
 		public void Stuck()

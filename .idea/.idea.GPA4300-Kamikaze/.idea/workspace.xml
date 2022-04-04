@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/InventoryScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Screenshake/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Screenshake/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Screenshake/ScreenshakeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Screenshake/ScreenshakeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIBuyTroopBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIBuyTroopBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UISelectionButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UISelectionButtonBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UILockedPanelTextBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UILockedPanelTextBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopButtonBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopPanelBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopPanelBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +103,7 @@
       <workItem from="1648468795858" duration="8602000" />
       <workItem from="1648628179333" duration="13685000" />
       <workItem from="1648718846595" duration="6019000" />
-      <workItem from="1649001474870" duration="881000" />
+      <workItem from="1649001474870" duration="1200000" />
     </task>
     <servers />
   </component>

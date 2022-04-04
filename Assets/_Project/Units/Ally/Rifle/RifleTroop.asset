@@ -15,4 +15,4 @@ MonoBehaviour:
   healthPoints: 1
   moveSpeed: 0.05
   cost: 70
-  isUnlocked: 1
+  isUnlocked: 0

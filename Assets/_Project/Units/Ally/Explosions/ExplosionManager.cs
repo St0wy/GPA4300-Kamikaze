@@ -72,14 +72,14 @@ namespace Kamikaze.Units.Ally.Explosions
 			{
 				Collider explosionCol = explosionColliders[i];
 
-				explosionEvent?.Invoke(explosionCol);
-
 				var hurtOnExplosionBehaviour = explosionCol.GetComponent<HurtOnExplosionBehaviour>();
 				if (hurtOnExplosionBehaviour == null) continue;
 
 				float distance = Vector3.Distance(hurtOnExplosionBehaviour.transform.position, position);
 				float damage = ComputeDamage(distance, explosionScriptable);
 				hurtOnExplosionBehaviour.Hurt((int) damage);
+				
+				explosionEvent?.Invoke(explosionCol);
 			}
 		}
 

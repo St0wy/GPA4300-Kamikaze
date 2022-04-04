@@ -2020,6 +2020,12 @@ PrefabInstance:
       objectReference: {fileID: 1180991117}
     - target: {fileID: 3631876930757072503, guid: a4bab76d84130e14280d0601a7da76a0,
         type: 3}
+      propertyPath: deployTroopSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ed75f998bdf97640b5a8e36d35d3472,
+        type: 2}
+    - target: {fileID: 3631876930757072503, guid: a4bab76d84130e14280d0601a7da76a0,
+        type: 3}
       propertyPath: explosionManager
       value: 
       objectReference: {fileID: 759622491}

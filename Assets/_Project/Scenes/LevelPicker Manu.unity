@@ -2446,6 +2446,7 @@ MonoBehaviour:
   levelsManagerScriptableObject: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa,
     type: 2}
   showTroopMenuBehaviour: {fileID: 1138287824}
+  clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &605129283
 GameObject:
   m_ObjectHideFlags: 0
@@ -3954,6 +3955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 1580285831}
   content: {fileID: 1509880726}
+  clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1228516262
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +4555,7 @@ MonoBehaviour:
   levelsManagerScriptableObject: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa,
     type: 2}
   showTroopMenuBehaviour: {fileID: 1138287824}
+  clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1463352548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5573,6 +5576,7 @@ MonoBehaviour:
   levelsManagerScriptableObject: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa,
     type: 2}
   showTroopMenuBehaviour: {fileID: 1138287824}
+  clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1640914231
 GameObject:
   m_ObjectHideFlags: 0

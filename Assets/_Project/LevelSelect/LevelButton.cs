@@ -2,6 +2,7 @@
 using Kamikaze.UI;
 using UnityEngine;
 using UnityEngine.UI;
+using Kamikaze.Audio;
 
 namespace Kamikaze.LevelSelect
 {
@@ -11,6 +12,7 @@ namespace Kamikaze.LevelSelect
 		[SerializeField] private int levelId;
 		[SerializeField] private LevelsManagerScriptableObject levelsManagerScriptableObject;
 		[SerializeField] private UIShowTroopMenuBehaviour showTroopMenuBehaviour;
+		[SerializeField] private SoundEffectScriptableObject clickMenuSound;
 
 		private Image image;
 		private Button button;
@@ -31,6 +33,7 @@ namespace Kamikaze.LevelSelect
 
 		public void LoadScene()
 		{
+			clickMenuSound.Play();
 			showTroopMenuBehaviour.SceneToLoad = level.LevelScene;
 			showTroopMenuBehaviour.ShowTroopMenu();
 		}

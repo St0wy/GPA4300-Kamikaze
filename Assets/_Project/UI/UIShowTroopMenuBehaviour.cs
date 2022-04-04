@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Kamikaze.UnlockSystem;
+using Kamikaze.Audio;
 
 namespace Kamikaze.UI
 {
@@ -9,6 +10,7 @@ namespace Kamikaze.UI
 	{
 		[SerializeField] private Button button;
 		[SerializeField] private GameObject content;
+		[SerializeField] private SoundEffectScriptableObject clickMenuSound;
 		private UIShowTroopPanelBehaviour[] panelsInContent;
 
 		public SceneReference SceneToLoad { get; set; }
@@ -26,6 +28,7 @@ namespace Kamikaze.UI
 
 		public void StartGame()
 		{
+			clickMenuSound.Play();
 			button.onClick.RemoveListener(StartGame);
 			content.SetActive(false);
 			SceneToLoad.LoadScene();

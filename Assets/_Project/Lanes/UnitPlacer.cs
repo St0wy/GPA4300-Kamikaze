@@ -3,6 +3,7 @@ using Kamikaze.Units;
 using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Shield;
+using Kamikaze.Audio;
 using UnityEngine;
 
 namespace Kamikaze.Lanes
@@ -14,6 +15,7 @@ namespace Kamikaze.Lanes
 		[SerializeField] private LanesManager lanesManager;
 		[SerializeField] private ExplosionManager explosionManager;
 		[SerializeField] private InventoryScriptableObject inventory;
+		[SerializeField] private SoundEffectScriptableObject deployTroopSound;
 
 		private ClickOnLanesManager clickOnLanesManager;
 
@@ -38,6 +40,7 @@ namespace Kamikaze.Lanes
 
 		private void InstantiateUnit(Lane lane, float pos)
 		{
+			deployTroopSound.Play();
 			GameObject unitPrefab = unitSelector.SelectedUnit;
 			GameObject unit = Instantiate(unitPrefab, lane.StartPos, Quaternion.identity);
 

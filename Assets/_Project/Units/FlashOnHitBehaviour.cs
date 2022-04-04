@@ -37,7 +37,7 @@ namespace Kamikaze.Units
 			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
 			if(explosionProtection!=null)
             {
-				if(!explosionProtection.IsEnabled)
+				if(!explosionProtection.IsProtected)
                 {
 					meshRenderer.material = flashMaterial;
 					StartCoroutine(UnFlashCoroutine());

@@ -49,9 +49,9 @@ namespace Kamikaze.Units.Ally.Freezer
 			if(explosionProtection!=null)
             {
 				
-				if(explosionProtection.IsEnabled)
+				if(explosionProtection.IsProtected)
                 {
-					explosionProtection.IsEnabled = false;
+					explosionProtection.IsProtected = false;
 					Debug.Log("shield enemy is now vulnerable");
 				}
             }
@@ -66,10 +66,10 @@ namespace Kamikaze.Units.Ally.Freezer
 			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
 			if (explosionProtection != null)
 			{
-				if (!explosionProtection.IsEnabled)
+				if (!explosionProtection.IsProtected)
 				{
 
-					explosionProtection.IsEnabled = true;
+					explosionProtection.IsProtected = true;
 					Debug.Log("shield enemy is now invulnerable");
 				}
 			}

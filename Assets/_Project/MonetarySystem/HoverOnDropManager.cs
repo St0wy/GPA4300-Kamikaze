@@ -8,6 +8,7 @@ namespace Kamikaze.MonetarySystem
 		public delegate void ClickEvent(GameObject drop);
 
 		[SerializeField] private SelectionManager selectionManager;
+	
 
 		public ClickEvent OnClick { get; set; }
 
@@ -21,6 +22,7 @@ namespace Kamikaze.MonetarySystem
 			var dropBehaviour = currentSelection.GetComponent<DropBehaviour>();
 			if (dropBehaviour == null) return;
 
+			
 			OnClick?.Invoke(currentSelection.gameObject);
 		}
 	}

@@ -3,6 +3,7 @@ using MyBox;
 using UnityEngine;
 using Kamikaze.Units.Enemy;
 using Kamikaze.Units.Enemy.Shield;
+using Kamikaze.Audio;
 
 namespace Kamikaze.Units.Ally.Freezer
 {
@@ -14,6 +15,7 @@ namespace Kamikaze.Units.Ally.Freezer
 
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		[SerializeField] private FreezeStuckIndicatorBehaviour freezeStuckIndicator;
+		[SerializeField] private SoundEffectScriptableObject freezeStuckSound;
 
 		[field: ReadOnly]
 		[field: SerializeField]
@@ -43,12 +45,12 @@ namespace Kamikaze.Units.Ally.Freezer
 
 		public void Stuck()
 		{
+			freezeStuckSound.Play();
 			moveOnLaneBehaviour.MoveSpeed = 0f;
 			IsStuck = true;
 			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
 			if(explosionProtection!=null)
-            {
-				
+            {			
 				if(explosionProtection.IsProtected)
                 {
 					explosionProtection.IsProtected = false;
@@ -68,7 +70,6 @@ namespace Kamikaze.Units.Ally.Freezer
 			{
 				if (!explosionProtection.IsProtected)
 				{
-
 					explosionProtection.IsProtected = true;
 					Debug.Log("shield enemy is now invulnerable");
 				}

@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Kamikaze.Audio;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
@@ -21,9 +22,15 @@ namespace Kamikaze.Units.Ally.Explosions
 		[Tooltip("A margin at which the damage calculation will keep the max damages")] [SerializeField]
 		private float maxDamageMargin = 2f;
 
+		[Tooltip("Sound of explosion")] [SerializeField]
+		private SoundEffectScriptableObject explosionSound;
+
+
 		public ExplosionType Type => type;
 		public float ExplosionTime => explosionTime;
 		public float ExplosionRadius => explosionRadius;
+
+		public SoundEffectScriptableObject ExplosionSound => explosionSound;
 
 		/// <summary>
 		///     The difference between the <see cref="ExplosionRadius" /> and the <see cref="MaxDamageMargin" />.

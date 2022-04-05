@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ba4288191cf5d419a91d45b5d8dd32, type: 3}
+  m_Name: freeze
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 77f56b68bf8b3954a895491b53c6af40, type: 3}
+  - {fileID: 8300000, guid: 114a83caa486a914b97cfd965a7b6f18, type: 3}
+  volume:
+    Min: 0.6282051
+    Max: 0.74038464
+  pitch:
+    Min: 1
+    Max: 1
+  playOrder: 0
+  playIndex: 1

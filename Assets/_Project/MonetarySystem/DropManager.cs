@@ -1,5 +1,6 @@
 ﻿using MyBox;
 using UnityEngine;
+using Kamikaze.Audio;
 
 namespace Kamikaze.MonetarySystem
 {
@@ -9,6 +10,7 @@ namespace Kamikaze.MonetarySystem
 		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
 
 		private HoverOnDropManager hoverOnDropManager;
+		[SerializeField] private SoundEffectScriptableObject recoltSound;
 
 		private void Awake()
 		{
@@ -34,6 +36,7 @@ namespace Kamikaze.MonetarySystem
 
 		public void PickupGem(DropBehaviour gem)
 		{
+			recoltSound.Play();
 			DropQuantity += gem.DropAmount;
 			Destroy(gem.gameObject);
 		}

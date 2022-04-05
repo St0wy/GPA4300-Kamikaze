@@ -5007,6 +5007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenKilled: 1
   destroyTime: 0
+  deathSound: {fileID: 11400000, guid: fb0bbede51d096840bba5dc8d4641faa, type: 2}
   <HealthPoints>k__BackingField: 0
 --- !u!114 &701277758084741598
 MonoBehaviour:
@@ -5103,6 +5104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stuckTime: 3
   freezeStuckIndicator: {fileID: 3243116888388669062}
+  freezeStuckSound: {fileID: 11400000, guid: 8c87f2dd363d5474da8863e93d7eb64b, type: 2}
   <IsStuck>k__BackingField: 0
 --- !u!114 &-6471393170347583258
 MonoBehaviour:

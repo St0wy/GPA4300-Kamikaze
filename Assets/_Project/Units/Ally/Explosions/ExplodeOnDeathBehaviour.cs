@@ -38,8 +38,9 @@ namespace Kamikaze.Units.Ally.Explosions
 
 		[ButtonMethod]
 		private void Explode()
-		{
-			ExplosionsManager.TriggerExplosion(transform.position, explosionScriptableObject, ExplosionEvent);	
+		{		
+			ExplosionsManager.TriggerExplosion(transform.position, explosionScriptableObject, ExplosionEvent);
+			explosionScriptableObject.ExplosionSound.Play();
 		}
 	}
 }

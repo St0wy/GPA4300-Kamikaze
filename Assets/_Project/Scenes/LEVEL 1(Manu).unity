@@ -292,6 +292,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6243838601477746771, guid: 2a8cebda31c0a3749bc08c1f91a50562,
+        type: 3}
+      propertyPath: recoltSound
+      value: 
+      objectReference: {fileID: 11400000, guid: 56f4a3d09bba94145bce18def2995d7b,
+        type: 2}
     - target: {fileID: 7960894833093695196, guid: 2a8cebda31c0a3749bc08c1f91a50562,
         type: 3}
       propertyPath: selectionManager

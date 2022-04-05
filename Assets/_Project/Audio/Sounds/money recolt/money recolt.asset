@@ -9,12 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: befdec5cd5b5408198deec7dffa9f66b, type: 3}
-  m_Name: KamikazeExplosion
+  m_Script: {fileID: 11500000, guid: 34ba4288191cf5d419a91d45b5d8dd32, type: 3}
+  m_Name: money recolt
   m_EditorClassIdentifier: 
-  type: 0
-  explosionTime: 2
-  explosionRadius: 2.2
-  maxExplosionDamage: 20
-  maxDamageMargin: 1.5
-  explosionSound: {fileID: 11400000, guid: b1404bfc9b93cd34cac9fcca7349f1da, type: 2}
+  clips:
+  - {fileID: 8300000, guid: 6ecd22d3cc51ae947b044c8aa617a45b, type: 3}
+  volume:
+    Min: 0.5
+    Max: 0.5
+  pitch:
+    Min: 1
+    Max: 1
+  playOrder: 0
+  playIndex: 0

@@ -11,7 +11,7 @@ namespace Kamikaze.Units.Ally.Explosions
 
 	public class ExplosionManager : MonoBehaviour
 	{
-		[SerializeField] private SoundEffectScriptableObject explosionSound;
+		//[SerializeField] private SoundEffectScriptableObject explosionSound;
 		[SerializeField] private GameObject bigExplosionPrefab;
 		[SerializeField] private GameObject smallExplosionPrefab;
 		[SerializeField] private GameObject freezeExplosionPrefab;
@@ -37,7 +37,6 @@ namespace Kamikaze.Units.Ally.Explosions
 		{
 			DealDamage(position, explosionScriptable, explosionEvent);
 			ShowExplosionAnimation(position, explosionScriptable);
-			explosionSound.Play();
 		}
 
 		private ExplosionBehaviour GetExplosionInstance(Stack<ExplosionBehaviour> stack, GameObject prefab)

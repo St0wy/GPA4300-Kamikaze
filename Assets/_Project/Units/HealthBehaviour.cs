@@ -1,5 +1,6 @@
 ﻿using MyBox;
 using UnityEngine;
+using Kamikaze.Audio;
 
 namespace Kamikaze.Units
 {
@@ -14,6 +15,8 @@ namespace Kamikaze.Units
 
 		[ConditionalField(nameof(destroyWhenKilled))] [SerializeField]
 		private float destroyTime;
+
+		[SerializeField] private SoundEffectScriptableObject deathSound;
 
 		public HurtCallback OnHurt { get; set; }
 		public bool IsAlive { get; private set; }
@@ -48,7 +51,14 @@ namespace Kamikaze.Units
 
 			OnHurt?.Invoke(HealthPoints);
 
-			if (!IsAlive && destroyWhenKilled) Destroy(gameObject, destroyTime);
+			if (!IsAlive && destroyWhenKilled)
+			{
+				if(deathSound!=null)
+                {
+					deathSound.Play();
+                }
+				Destroy(gameObject, destroyTime);
+			}
 		}
 	}
 }

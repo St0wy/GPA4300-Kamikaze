@@ -1,5 +1,6 @@
 using MyBox;
 using UnityEngine;
+using Kamikaze.Screenshake;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
@@ -40,7 +41,10 @@ namespace Kamikaze.Units.Ally.Explosions
 		private void Explode()
 		{		
 			ExplosionsManager.TriggerExplosion(transform.position, explosionScriptableObject, ExplosionEvent);
-			explosionScriptableObject.ExplosionSound.Play();
+			float screenShakePower = explosionScriptableObject.ScreenShakePower;
+			float screeShakeDuration = explosionScriptableObject.ScreenShakeDuration;
+			ScreenshakeController.Instance.StartScreenShake(screenShakePower, screeShakeDuration);
+			explosionScriptableObject.ExplosionSound.Play();		
 		}
 	}
 }

@@ -25,10 +25,18 @@ namespace Kamikaze.Units.Ally.Explosions
 		[Tooltip("Sound of explosion")] [SerializeField]
 		private SoundEffectScriptableObject explosionSound;
 
+		[Tooltip("The intensity of the screenshake that the explosion will produce")] [SerializeField]
+		private float screenShakePower;
+
+		[Tooltip("The duration of the sreenshake that the explosion will produce")] [SerializeField]
+		private float screenShakeDuration;
+
 
 		public ExplosionType Type => type;
 		public float ExplosionTime => explosionTime;
 		public float ExplosionRadius => explosionRadius;
+		public float ScreenShakePower => screenShakePower;
+		public float ScreenShakeDuration => screenShakeDuration;
 
 		public SoundEffectScriptableObject ExplosionSound => explosionSound;
 

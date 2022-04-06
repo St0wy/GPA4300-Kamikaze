@@ -21,6 +21,8 @@ namespace Kamikaze.Lanes.Selection
 
 			defaultMaterial = selectionRenderer.material;
 			selectionRenderer.material = highlightMaterial;
+
+
 		}
 	}
 }

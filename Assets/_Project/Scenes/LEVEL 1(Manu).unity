@@ -123,6 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35218194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9092986853484293488, guid: e976ea8973e6f834bb2e73087a31e9a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1578736569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &35218195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35218194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0489dae1903bc9a4eb52addf68683318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
+  unitID: 0
 --- !u!1 &89199460
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +498,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1578736569}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 35218194}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77934b8a9fb563042b898f16a78a1490, type: 3}
@@ -1468,6 +1488,11 @@ PrefabInstance:
       propertyPath: showTroopButtonBehaviour
       value: 
       objectReference: {fileID: 1137675687}
+    - target: {fileID: 2632736395129317925, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2632736395129317926, guid: e976ea8973e6f834bb2e73087a31e9a8,
         type: 3}
       propertyPath: unitId
@@ -1616,6 +1641,26 @@ PrefabInstance:
       propertyPath: showTroopButtonBehaviour
       value: 
       objectReference: {fileID: 385577063}
+    - target: {fileID: 9092986853484293502, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092986853484293503, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092986853484293503, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092986853484293503, guid: e976ea8973e6f834bb2e73087a31e9a8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9092986853647133706, guid: e976ea8973e6f834bb2e73087a31e9a8,
         type: 3}
       propertyPath: m_Name

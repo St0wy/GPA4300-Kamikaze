@@ -44,7 +44,11 @@ namespace Kamikaze.Units.Ally.Explosions
 			float screenShakePower = explosionScriptableObject.ScreenShakePower;
 			float screeShakeDuration = explosionScriptableObject.ScreenShakeDuration;
 			ScreenshakeController.Instance.StartScreenShake(screenShakePower, screeShakeDuration);
-			explosionScriptableObject.ExplosionSound.Play();		
+			if(explosionScriptableObject!=null)
+            {
+				explosionScriptableObject.ExplosionSound.Play();
+			}
+				
 		}
 	}
 }

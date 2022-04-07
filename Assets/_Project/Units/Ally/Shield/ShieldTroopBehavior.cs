@@ -75,7 +75,7 @@ namespace Kamikaze.Units.Ally.Shield
 		{
 			if (healthPoints <= 0 && RifleAndShieldContactBehavior != null)
 			{
-				RifleAndShieldContactBehavior.RifleStayBehind = false;
+				RifleAndShieldContactBehavior.BlockRifle = false;
 			}
 		}
 	}

@@ -7,7 +7,7 @@ namespace Kamikaze.Units.Ally.Rifle
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float initialSpeed;
 
-		public bool RifleStayBehind { get; set; }
+		public bool BlockRifle { get; set; }
 
 		private void Awake()
 		{
@@ -21,7 +21,7 @@ namespace Kamikaze.Units.Ally.Rifle
 
 		private void Update()
 		{
-			moveOnLaneBehaviour.MoveSpeed = RifleStayBehind ? 0f : initialSpeed;
+			moveOnLaneBehaviour.MoveSpeed = BlockRifle ? 0f : initialSpeed;
 		}
 	}
 }

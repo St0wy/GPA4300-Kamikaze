@@ -18,7 +18,7 @@ namespace Kamikaze.Units.Ally.Rifle
             shieldTroopBehavior = collision.transform.GetComponent<ShieldTroopBehavior>();
             if (shieldTroopBehavior == null || shieldTroopBehavior.State != ShieldState.Shielding) return;
             
-            rifleAndShieldContactBehavior.RifleStayBehind = true;
+            rifleAndShieldContactBehavior.BlockRifle = true;
             shieldTroopBehavior.RifleAndShieldContactBehavior = rifleAndShieldContactBehavior;
         }
      

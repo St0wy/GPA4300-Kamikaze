@@ -41,5 +41,7 @@ namespace Kamikaze.Lanes
 		{
 			return VectorUtils.InverseLerp(StartPos, EndPos, pos);
 		}
+
+		
 	}
 }

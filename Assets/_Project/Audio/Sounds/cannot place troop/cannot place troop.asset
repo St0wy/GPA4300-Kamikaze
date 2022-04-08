@@ -9,7 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba493f7834434eb9a36679c6e5d60560, type: 3}
-  m_Name: inventory
+  m_Script: {fileID: 11500000, guid: 34ba4288191cf5d419a91d45b5d8dd32, type: 3}
+  m_Name: cannot place troop
   m_EditorClassIdentifier: 
-  unitsAmount: 0b0000000b0000000b0000000a000000
+  clips:
+  - {fileID: 8300000, guid: de9fbfbfdb4f119408fd6337db7da421, type: 3}
+  volume:
+    Min: 0.5
+    Max: 0.5
+  pitch:
+    Min: 1
+    Max: 1
+  playOrder: 0
+  playIndex: 0

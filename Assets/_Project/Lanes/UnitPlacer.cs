@@ -16,6 +16,7 @@ namespace Kamikaze.Lanes
 		[SerializeField] private ExplosionManager explosionManager;
 		[SerializeField] private InventoryScriptableObject inventory;
 		[SerializeField] private SoundEffectScriptableObject deployTroopSound;
+		[SerializeField] private SoundEffectScriptableObject cannotPlaceTroopSound;
 
 		private ClickOnLanesManager clickOnLanesManager;
 
@@ -29,11 +30,20 @@ namespace Kamikaze.Lanes
 		private void PlaceUnit(Lane lane, float pos)
 		{
 			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];
-			if (unitQuantity <= 0) return;
+			if (unitQuantity <= 0)
+			{
+				cannotPlaceTroopSound.Play();
+				var shakeBehaviour = lane.GetComponent<ShakeBehaviour>();
+				shakeBehaviour.StartShake();
+				return;
+			}
+   
 
 			bool isUnlocked = unitSelector.SelectedUnit.GetComponent<AllyTroopVarsSetterBehaviour>().
 				AllyTroopScriptableObject.IsUnlocked;
 			if (!isUnlocked) return;
+
+			
 
 			inventory.UnitsAmount[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);

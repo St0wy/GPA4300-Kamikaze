@@ -15,13 +15,13 @@ GameObject:
   - component: {fileID: 5400964859731762774}
   - component: {fileID: 5400964859731762728}
   - component: {fileID: 5400964859731762729}
-  - component: {fileID: 5400964859731762731}
-  - component: {fileID: 5400964859731762734}
+  - component: {fileID: 5494060446609590598}
+  - component: {fileID: 1492766900012169830}
   - component: {fileID: 4173926392679385605}
+  - component: {fileID: -6126948732035681689}
   - component: {fileID: 5400964859731762732}
-  - component: {fileID: 2871759180400663997}
-  - component: {fileID: 8444239418971420821}
   - component: {fileID: 5823178378721905687}
+  - component: {fileID: -6190265668544424992}
   m_Layer: 6
   m_Name: ShieldGhost
   m_TagString: Ally
@@ -155,7 +155,7 @@ MonoBehaviour:
   destroyTime: 0
   deathSound: {fileID: 0}
   <HealthPoints>k__BackingField: 0
---- !u!114 &5400964859731762731
+--- !u!114 &5494060446609590598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allyTroopScriptableObject: {fileID: 11400000, guid: 855cfaed22d14e84398f11ec6a2fadf2,
     type: 2}
---- !u!114 &5400964859731762734
+--- !u!114 &1492766900012169830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,6 +199,19 @@ MonoBehaviour:
   shieldGo: {fileID: 3802210457328262224}
   shieldHealthPoints: 5
   stopPosition: 0.2
+--- !u!114 &-6126948732035681689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400964859731762769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb734bae4bdf44e38efde5c8739688e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
 --- !u!54 &5400964859731762732
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -215,7 +228,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &2871759180400663997
+--- !u!114 &5823178378721905687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,11 +237,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 5400964859731762769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb734bae4bdf44e38efde5c8739688e2, type: 3}
+  m_Script: {fileID: 11500000, guid: bfb5ad1dca876ca469020baa0ec80a7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
---- !u!114 &8444239418971420821
+  selectionManager: {fileID: 0}
+  unitSelector: {fileID: 0}
+  unitID: 0
+--- !u!114 &-6190265668544424992
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,19 +258,6 @@ MonoBehaviour:
   flashMaterial: {fileID: 2100000, guid: ad1b14d8a47c0f74e935daaebe6bf133, type: 2}
   flashTime: 0.3
   meshRenderer: {fileID: 0}
---- !u!114 &5823178378721905687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5400964859731762769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb5ad1dca876ca469020baa0ec80a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectionManager: {fileID: 0}
 --- !u!1 &9106996870957093380
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using Kamikaze.Units.Ally.Shield;
 using Kamikaze.Units;
+using Kamikaze.LevelSelect;
 
 namespace Kamikaze.Lanes.Selection
 {
 	public class HighlightSelectionResponse : MonoBehaviour, ISelectionResponse
 	{
-		[SerializeField] private Material highlightMaterial;
+		[SerializeField] private Material highlightMaterialUnitAvailable;
+		[SerializeField] private Material highlightMaterialNoUnit;
 		[SerializeField] private UnitSelector unitSelector;
+		[SerializeField] private InventoryScriptableObject inventory;
 				
 		private Material defaultMaterial;
 
@@ -23,7 +26,15 @@ namespace Kamikaze.Lanes.Selection
 			if (selectionRenderer == null) return;
 
 			defaultMaterial = selectionRenderer.material;
-			selectionRenderer.material = highlightMaterial;			
+			if(inventory.UnitsAmount[unitSelector.SelectedUnitId] <= 0)
+            {
+				selectionRenderer.material = highlightMaterialNoUnit;
+            }
+            else
+            {
+				selectionRenderer.material = highlightMaterialUnitAvailable;
+			}
+			
 		}
 	}
 }

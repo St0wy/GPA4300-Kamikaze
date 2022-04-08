@@ -2485,6 +2485,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3863722386970427550, guid: 0351f6638bb0c08468f79caa178bba85,
         type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906,
+        type: 2}
+    - target: {fileID: 3863722386970427550, guid: 0351f6638bb0c08468f79caa178bba85,
+        type: 3}
       propertyPath: unitSelector
       value: 
       objectReference: {fileID: 329653225}
@@ -2493,6 +2499,16 @@ PrefabInstance:
       propertyPath: shieldGhostBehaviour
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3863722386970427550, guid: 0351f6638bb0c08468f79caa178bba85,
+        type: 3}
+      propertyPath: highlightMaterialNoUnit
+      value: 
+      objectReference: {fileID: 2100000, guid: 9de90ef51cb5bab4c8b4d23cd1dba930, type: 2}
+    - target: {fileID: 3863722386970427550, guid: 0351f6638bb0c08468f79caa178bba85,
+        type: 3}
+      propertyPath: highlightMaterialUnitAvailable
+      value: 
+      objectReference: {fileID: 2100000, guid: f4ba1fef5cfb30d41a5c9f00d46e7593, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0351f6638bb0c08468f79caa178bba85, type: 3}
 --- !u!114 &2134076853 stripped

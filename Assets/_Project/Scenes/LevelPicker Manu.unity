@@ -4624,6 +4624,7 @@ MonoBehaviour:
   troop: {fileID: 11400000, guid: 7391fe699e54c8145a4e3b7cee6767e0, type: 2}
   textAmount: {fileID: 541962323}
   troopId: 0
+  clickSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1509880726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5251,7 +5252,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1580285832
 MonoBehaviour:
@@ -6523,6 +6524,7 @@ MonoBehaviour:
   troop: {fileID: 11400000, guid: 855cfaed22d14e84398f11ec6a2fadf2, type: 2}
   textAmount: {fileID: 1579657813}
   troopId: 3
+  clickSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1875849919
 GameObject:
   m_ObjectHideFlags: 0
@@ -7577,6 +7579,7 @@ MonoBehaviour:
   troop: {fileID: 11400000, guid: 3a5ad7a05dd23e64fb856092ea834435, type: 2}
   textAmount: {fileID: 1926682858}
   troopId: 2
+  clickSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &2106026985
 GameObject:
   m_ObjectHideFlags: 0
@@ -7753,3 +7756,4 @@ MonoBehaviour:
   troop: {fileID: 11400000, guid: 19f67055bc19a7a4191f00187dba2401, type: 2}
   textAmount: {fileID: 1656601678}
   troopId: 1
+  clickSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}

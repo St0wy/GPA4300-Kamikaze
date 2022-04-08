@@ -29,6 +29,7 @@ namespace Kamikaze.UI
 		public void StartGame()
 		{
 			clickMenuSound.Play();
+
 			button.onClick.RemoveListener(StartGame);
 			content.SetActive(false);
 			SceneToLoad.LoadScene();

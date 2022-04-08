@@ -4,6 +4,7 @@ using Kamikaze.MonetarySystem;
 using Kamikaze.Units.Ally;
 using TMPro;
 using UnityEngine;
+using Kamikaze.Audio;
 
 namespace Kamikaze.UI
 {
@@ -14,6 +15,7 @@ namespace Kamikaze.UI
 		[SerializeField] private AllyTroopScriptableObject troop;
 		[SerializeField] private TextMeshProUGUI textAmount;
 		[SerializeField] private int troopId;
+		[SerializeField] private SoundEffectScriptableObject clickSound;
 
 		private void Start()
 		{
@@ -25,6 +27,7 @@ namespace Kamikaze.UI
 		{
 			if (money.Money < troop.Cost) return;
 
+			clickSound.Play();
 			money.Money -= troop.Cost;
 			inventory.UnitsAmount[troopId]++;
 			UpdateText();
@@ -35,6 +38,7 @@ namespace Kamikaze.UI
 		{
 			if (inventory.UnitsAmount[troopId] <= 0) return;
 
+			clickSound.Play();
 			money.Money += troop.Cost;
 			inventory.UnitsAmount[troopId]--;
 			UpdateText();

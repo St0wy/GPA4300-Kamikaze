@@ -36,18 +36,18 @@ namespace Kamikaze.Units.Ally.Shield
                 {
                     Show();
 
-                    //Get lane position to ghost
+                    //Get lane position of ghost cursor
                     var lane = currentSelection.GetComponent<Lane>();
                     Vector3 mousePos = selectionManager.CurrentPoint;
                     float ghostPositionOnLane = lane.GetLanePositionFromWorld(mousePos);
 
-                    //Get lane id to ghost
+                    //Get lane id of ghost
                     var laneUnitBehaviour = GetComponent<LaneUnitBehaviour>();
-                    int laneId = lane.Id;
-                    laneUnitBehaviour.LaneId = laneId;
-
+                    int currentSelectionLaneId = lane.Id;
+                    
                     //Apply      
-                    laneUnitBehaviour.Position = ghostPositionOnLane; 
+                    laneUnitBehaviour.Position = ghostPositionOnLane;
+                    laneUnitBehaviour.LaneId = currentSelectionLaneId;
                 }
             }       
         }

@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shieldGo: {fileID: 3553138588751110959}
-  shieldHealthPoints: 5
+  shieldHealthPoints: 30
   stopPosition: 0.2
 --- !u!54 &5400964859731762732
 Rigidbody:

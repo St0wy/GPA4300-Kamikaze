@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/LevelPicker Manu.unity
     guid: dbbc82a64f21f904a9c505072c7c0178
   - enabled: 1
-    path: Assets/_Project/Scenes/LEVEL 1(Manu).unity
+    path: Assets/_Project/Scenes/Level 1(Manu).unity
     guid: 049b726f1ef82bb4abd367e9e1688115
   - enabled: 1
     path: Assets/_Project/Scenes/Level 2(Manu).unity
@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Level 3(Manu).unity
     guid: 412168696db01d44d8550e028112ee7b
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level 4(Manu).unity
+    guid: 6b46eb0ff2067284cbb6d6b2da5ad1c6
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level 5(Manu).unity
+    guid: 64bea034f4bb9744a8996e799928c49e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Level 6(Manu).unity
+    guid: f6b67e519f650754f9a245a50e673860
   m_configObjects: {}

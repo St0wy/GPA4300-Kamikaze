@@ -17,7 +17,7 @@ namespace Kamikaze.UnlockSystem
 		private void DisplayMenuLockPanelText()
 		{
 			textMeshProUGUI.text =
-				$"Finish{Environment.NewLine}level {uIShowTroopBehaviour.LevelToReach}{Environment.NewLine}" +
+				$"Finish{Environment.NewLine}level {uIShowTroopBehaviour.LevelToReach-1}{Environment.NewLine}" +
 				$"to unlock{Environment.NewLine}troop";
 		}
 	}

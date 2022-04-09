@@ -15,7 +15,7 @@ MonoBehaviour:
   levels:
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}
-      SceneName: LEVEL 1(Manu)
+      SceneName: Level 1(Manu)
       sceneIndex: 2
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 1
@@ -29,6 +29,24 @@ MonoBehaviour:
       Scene: {fileID: 102900000, guid: 412168696db01d44d8550e028112ee7b, type: 3}
       SceneName: Level 3(Manu)
       sceneIndex: 4
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: 6b46eb0ff2067284cbb6d6b2da5ad1c6, type: 3}
+      SceneName: Level 4(Manu)
+      sceneIndex: 5
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: 64bea034f4bb9744a8996e799928c49e, type: 3}
+      SceneName: Level 5(Manu)
+      sceneIndex: 6
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: f6b67e519f650754f9a245a50e673860, type: 3}
+      SceneName: Level 6(Manu)
+      sceneIndex: 7
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}

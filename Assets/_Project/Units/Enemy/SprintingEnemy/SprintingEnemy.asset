@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b93af986b7b4537816efe752b233865, type: 3}
   m_Name: SprintingEnemy
   m_EditorClassIdentifier: 
-  healthPoints: 10
+  healthPoints: 15
   moveSpeed: 0.15
   dropAmount: 3
   damage: 1

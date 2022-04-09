@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Kamikaze.Lanes
 {
 	/// <summary>
-	///     Class that represents a lane.
+	/// Class that represents a lane.
 	/// </summary>
 	public class Lane : MonoBehaviour
 	{
@@ -11,7 +11,7 @@ namespace Kamikaze.Lanes
 		[SerializeField] private Transform endPos;
 
 		/// <summary>
-		///     Gets the start position of the lane.
+		/// Gets the start position of the lane.
 		/// </summary>
 		public Vector3 StartPos => startPos.position;
 
@@ -41,7 +41,5 @@ namespace Kamikaze.Lanes
 		{
 			return VectorUtils.InverseLerp(StartPos, EndPos, pos);
 		}
-
-		
 	}
 }

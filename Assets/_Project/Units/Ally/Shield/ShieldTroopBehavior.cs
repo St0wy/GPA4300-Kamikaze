@@ -1,7 +1,7 @@
 using System;
+using Kamikaze.Units.Ally.Rifle;
 using MyBox;
 using UnityEngine;
-using Kamikaze.Units.Ally.Rifle;
 
 namespace Kamikaze.Units.Ally.Shield
 {
@@ -74,9 +74,7 @@ namespace Kamikaze.Units.Ally.Shield
 		private void VerifyAbilityToProtectRifle(int healthPoints)
 		{
 			if (healthPoints <= 0 && RifleAndShieldContactBehavior != null)
-			{
 				RifleAndShieldContactBehavior.BlockRifle = false;
-			}
 		}
 	}
 }

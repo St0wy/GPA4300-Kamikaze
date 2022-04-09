@@ -1,9 +1,9 @@
-using UnityEngine;
 using Kamikaze.Screenshake;
+using UnityEngine;
 
 namespace Kamikaze.PlayerLife
 {
-    public class LifeManager : MonoBehaviour
+	public class LifeManager : MonoBehaviour
 	{
 		public delegate void HurtEvent();
 

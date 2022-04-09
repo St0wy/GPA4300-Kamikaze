@@ -1,6 +1,6 @@
-﻿using MyBox;
+﻿using Kamikaze.Audio;
+using MyBox;
 using UnityEngine;
-using Kamikaze.Audio;
 
 namespace Kamikaze.Units
 {
@@ -51,14 +51,10 @@ namespace Kamikaze.Units
 
 			OnHurt?.Invoke(HealthPoints);
 
-			if (!IsAlive && destroyWhenKilled)
-			{
-				if(deathSound!=null)
-                {
-					deathSound.Play();
-                }
-				Destroy(gameObject, destroyTime);
-			}
+			if (IsAlive || !destroyWhenKilled) return;
+			
+			if (deathSound != null) deathSound.Play();
+			Destroy(gameObject, destroyTime);
 		}
 	}
 }

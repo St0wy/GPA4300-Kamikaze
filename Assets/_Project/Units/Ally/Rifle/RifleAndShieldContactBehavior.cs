@@ -4,8 +4,8 @@ namespace Kamikaze.Units.Ally.Rifle
 {
 	public class RifleAndShieldContactBehavior : MonoBehaviour
 	{
-		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float initialSpeed;
+		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 
 		public bool BlockRifle { get; set; }
 

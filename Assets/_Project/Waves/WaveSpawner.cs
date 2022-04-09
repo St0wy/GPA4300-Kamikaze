@@ -53,10 +53,7 @@ namespace Kamikaze.Waves
 
 		private void Update()
 		{
-			if (!isLevelOver)
-			{
-				UpdateWaveState();
-			}
+			if (!isLevelOver) UpdateWaveState();
 		}
 
 		private void UpdateWaveState()
@@ -77,10 +74,7 @@ namespace Kamikaze.Waves
 
 					break;
 				case WaveState.Inactive:
-					if (CurrentWave.totalEnemies <= 0)
-					{
-						CompleteLevel();
-					}
+					if (CurrentWave.totalEnemies <= 0) CompleteLevel();
 
 					break;
 				default:

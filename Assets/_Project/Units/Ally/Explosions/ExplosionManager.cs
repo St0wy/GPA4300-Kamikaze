@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Kamikaze.Units.Enemy;
 using MyBox;
 using UnityEngine;
-using Kamikaze.Screenshake;
 
 namespace Kamikaze.Units.Ally.Explosions
 {
@@ -11,7 +10,6 @@ namespace Kamikaze.Units.Ally.Explosions
 
 	public class ExplosionManager : MonoBehaviour
 	{
-		//[SerializeField] private SoundEffectScriptableObject explosionSound;
 		[SerializeField] private GameObject bigExplosionPrefab;
 		[SerializeField] private GameObject smallExplosionPrefab;
 		[SerializeField] private GameObject freezeExplosionPrefab;
@@ -77,7 +75,7 @@ namespace Kamikaze.Units.Ally.Explosions
 				float distance = Vector3.Distance(hurtOnExplosionBehaviour.transform.position, position);
 				float damage = ComputeDamage(distance, explosionScriptable);
 				hurtOnExplosionBehaviour.Hurt((int) damage);
-				
+
 				explosionEvent?.Invoke(explosionCol);
 			}
 		}
@@ -87,6 +85,7 @@ namespace Kamikaze.Units.Ally.Explosions
 			if (distance < explosionScriptable.MaxDamageMargin) return explosionScriptable.MaxExplosionDamage;
 
 			float distDiff = distance - explosionScriptable.MaxDamageMargin;
+
 			// Damage equation so that the damages are lowered the furthest the explosion happens
 			float damage =
 				(explosionScriptable.MaxExplosionDamage * explosionScriptable.RadiusDifference *

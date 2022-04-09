@@ -1,9 +1,9 @@
-﻿using Kamikaze.LevelSelect;
+﻿using Kamikaze.Audio;
+using Kamikaze.LevelSelect;
 using Kamikaze.Units;
 using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Shield;
-using Kamikaze.Audio;
 using UnityEngine;
 
 namespace Kamikaze.Lanes
@@ -26,7 +26,7 @@ namespace Kamikaze.Lanes
 			clickOnLanesManager.OnClick += PlaceUnit;
 		}
 
-		
+
 		private void PlaceUnit(Lane lane, float pos)
 		{
 			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];
@@ -37,17 +37,15 @@ namespace Kamikaze.Lanes
 				shakeBehaviour.StartShake();
 				return;
 			}
-   
 
-			bool isUnlocked = unitSelector.SelectedUnit.GetComponent<AllyTroopVarsSetterBehaviour>().
-				AllyTroopScriptableObject.IsUnlocked;
+
+			bool isUnlocked = unitSelector.SelectedUnit.GetComponent<AllyTroopVarsSetterBehaviour>()
+				.AllyTroopScriptableObject.IsUnlocked;
 			if (!isUnlocked) return;
 
-			
 
 			inventory.UnitsAmount[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);
-
 		}
 
 		private void InstantiateUnit(Lane lane, float pos)

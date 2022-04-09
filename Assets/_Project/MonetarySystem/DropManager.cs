@@ -1,16 +1,21 @@
-﻿using MyBox;
+﻿using Kamikaze.Audio;
+using MyBox;
 using UnityEngine;
-using Kamikaze.Audio;
+using UnityEngine.Serialization;
 
 namespace Kamikaze.MonetarySystem
 {
 	[RequireComponent(typeof(HoverOnDropManager))]
 	public class DropManager : MonoBehaviour
 	{
-		[field: SerializeField, ReadOnly] public int DropQuantity { get; private set; }
+		[FormerlySerializedAs("recoltSound")] [SerializeField]
+		private SoundEffectScriptableObject pickupSound;
 
 		private HoverOnDropManager hoverOnDropManager;
-		[SerializeField] private SoundEffectScriptableObject recoltSound;
+
+		[field: SerializeField]
+		[field: ReadOnly]
+		public int DropQuantity { get; private set; }
 
 		private void Awake()
 		{
@@ -36,7 +41,7 @@ namespace Kamikaze.MonetarySystem
 
 		public void PickupGem(DropBehaviour gem)
 		{
-			recoltSound.Play();
+			pickupSound.Play();
 			DropQuantity += gem.DropAmount;
 			Destroy(gem.gameObject);
 		}

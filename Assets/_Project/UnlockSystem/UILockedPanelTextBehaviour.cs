@@ -1,12 +1,15 @@
 using System;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Kamikaze.UnlockSystem
 {
 	public class UILockedPanelTextBehaviour : MonoBehaviour
 	{
-		[SerializeField] private UIShowTroopPanelBehaviour uIShowTroopBehaviour;
+		[FormerlySerializedAs("uIShowTroopBehaviour")] [SerializeField]
+		private UIShowTroopPanelBehaviour showTroopBehaviour;
+
 		[SerializeField] private TextMeshProUGUI textMeshProUGUI;
 
 		private void Start()
@@ -17,7 +20,7 @@ namespace Kamikaze.UnlockSystem
 		private void DisplayMenuLockPanelText()
 		{
 			textMeshProUGUI.text =
-				$"Finish{Environment.NewLine}level {uIShowTroopBehaviour.LevelToReach-1}{Environment.NewLine}" +
+				$"Finish{Environment.NewLine}level {showTroopBehaviour.LevelToReach - 1}{Environment.NewLine}" +
 				$"to unlock{Environment.NewLine}troop";
 		}
 	}

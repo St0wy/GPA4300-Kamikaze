@@ -1,7 +1,7 @@
 using JetBrains.Annotations;
+using Kamikaze.Audio;
 using MyBox;
 using UnityEngine;
-using Kamikaze.Audio;
 
 namespace Kamikaze
 {

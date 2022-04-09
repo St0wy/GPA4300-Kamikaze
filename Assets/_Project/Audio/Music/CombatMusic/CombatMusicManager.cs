@@ -1,34 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Kamikaze.Audio.Music.CombatMusic
 {
-    public class CombatMusicManager : MonoBehaviour
-    {
-        private AudioSource audio;
+	public class CombatMusicManager : MonoBehaviour
+	{
+		private AudioSource audioSource;
 
-        void Awake()
-        {
-            audio = GetComponent<AudioSource>();
-            DontDestroyOnLoad(gameObject);
-        }
+		private void Awake()
+		{
+			audioSource = GetComponent<AudioSource>();
+			DontDestroyOnLoad(gameObject);
+		}
 
-        void Update()
-        {
-            if (audio == null) return;
+		private void Update()
+		{
+			if (audioSource == null) return;
 
-            GameObject laneGo = GameObject.FindGameObjectWithTag("Selectable");
-            if (laneGo != null)
-            {
-                if (!audio.isPlaying) audio.Play();
-                return;
-            }
+			var laneGo = GameObject.FindGameObjectWithTag("Selectable");
+			if (laneGo != null)
+			{
+				if (!audioSource.isPlaying) audioSource.Play();
+				return;
+			}
 
-            audio.Stop(); return;
-
-
-
-        }
-    }
+			audioSource.Stop();
+		}
+	}
 }

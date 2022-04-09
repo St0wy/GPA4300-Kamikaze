@@ -6,9 +6,21 @@ namespace Kamikaze.Units.Enemy
 	{
 		[SerializeField] private float startScale;
 		[SerializeField] private Transform component;
-		private float animTargetScale;
+
 		private float animSpeed;
+		private float animTargetScale;
 		private bool canStartAnim;
+
+		public bool IsSmallerThanTargetScale
+		{
+			get
+			{
+				Vector3 localScale = component.localScale;
+				return localScale.x < animTargetScale
+				       && localScale.y < animTargetScale
+				       && localScale.z < animTargetScale;
+			}
+		}
 
 		private void Start()
 		{
@@ -18,13 +30,11 @@ namespace Kamikaze.Units.Enemy
 		private void Update()
 		{
 			if (!canStartAnim) return;
-			
-			if (component.localScale.x < animTargetScale
-			    && component.localScale.y < animTargetScale
-			    && component.localScale.z < animTargetScale)
+
+			if (IsSmallerThanTargetScale)
 			{
-				component.localScale += new Vector3(Time.deltaTime * animSpeed, Time.deltaTime * animSpeed,
-					Time.deltaTime * animSpeed);
+				float newScale = Time.deltaTime * animSpeed;
+				component.localScale += new Vector3(newScale, newScale, newScale);
 			}
 			else
 			{

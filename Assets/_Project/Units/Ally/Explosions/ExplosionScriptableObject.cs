@@ -1,6 +1,6 @@
 ﻿using System;
-using UnityEngine;
 using Kamikaze.Audio;
+using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Explosions
 {

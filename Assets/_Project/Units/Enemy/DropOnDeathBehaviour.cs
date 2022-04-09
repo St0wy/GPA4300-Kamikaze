@@ -9,7 +9,7 @@ namespace Kamikaze.Units.Enemy
 		[SerializeField] private GameObject dropPrefab;
 
 		private HealthBehaviour healthBehaviour;
-		
+
 		public int DropAmount { get; set; }
 
 		private void Awake()
@@ -20,10 +20,7 @@ namespace Kamikaze.Units.Enemy
 
 		private void OnHurt(int healthPoints)
 		{
-			if (!healthBehaviour.IsAlive)
-			{
-				DropItem();
-			}
+			if (!healthBehaviour.IsAlive) DropItem();
 		}
 
 		private void DropItem()

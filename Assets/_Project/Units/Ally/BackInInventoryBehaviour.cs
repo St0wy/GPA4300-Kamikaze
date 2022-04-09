@@ -8,7 +8,7 @@ namespace Kamikaze.Units.Ally
 	public class BackInInventoryBehaviour : MonoBehaviour
 	{
 		[SerializeField] private InventoryScriptableObject inventory;
-		
+
 		private LaneUnitBehaviour laneUnitBehaviour;
 
 		public UnitPlacer UnitPlacer { get; set; }

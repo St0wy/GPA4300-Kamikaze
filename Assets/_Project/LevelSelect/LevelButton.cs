@@ -1,8 +1,8 @@
 ﻿using System;
+using Kamikaze.Audio;
 using Kamikaze.UI;
 using UnityEngine;
 using UnityEngine.UI;
-using Kamikaze.Audio;
 
 namespace Kamikaze.LevelSelect
 {
@@ -13,9 +13,9 @@ namespace Kamikaze.LevelSelect
 		[SerializeField] private LevelsManagerScriptableObject levelsManagerScriptableObject;
 		[SerializeField] private UIShowTroopMenuBehaviour showTroopMenuBehaviour;
 		[SerializeField] private SoundEffectScriptableObject clickMenuSound;
-
-		private Image image;
+		
 		private Button button;
+		private Image image;
 		private Level level;
 
 		private void Awake()

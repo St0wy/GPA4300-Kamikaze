@@ -1,11 +1,11 @@
-﻿using UnityEngine;
-using Kamikaze.Units.Ally.Freezer;
+﻿using Kamikaze.Units.Ally.Freezer;
 using Kamikaze.Units.Enemy.Shield;
+using UnityEngine;
 
 namespace Kamikaze.Units.Enemy
 {
 	/// <summary>
-	/// Behaviour to put on the objects that should be damaged by explosions.
+	///     Behaviour to put on the objects that should be damaged by explosions.
 	/// </summary>
 	[RequireComponent(typeof(HealthBehaviour))]
 	public class HurtOnExplosionBehaviour : MonoBehaviour
@@ -24,23 +24,16 @@ namespace Kamikaze.Units.Enemy
 			var explosionProtection = GetComponent<ExplosionProtection>();
 			if (explosionProtection != null)
 			{
-				if (!explosionProtection.IsProtected)
-				{
-					realDamage = damage + bonus;
-				}
+				if (!explosionProtection.IsProtected) realDamage = damage + bonus;
 			}
 			else
 			{
 				if (freezeStuckBehaviour != null)
 				{
 					if (freezeStuckBehaviour.IsStuck)
-					{
 						realDamage = damage + bonus;
-					}
 					else
-					{
 						realDamage = damage;
-					}
 				}
 			}
 

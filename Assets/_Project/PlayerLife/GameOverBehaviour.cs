@@ -17,10 +17,7 @@ namespace Kamikaze.PlayerLife
 		{
 			lifeManager.OnHurt += () =>
 			{
-				if (!lifeManager.IsAlive)
-				{
-					TriggerGameOver();
-				}
+				if (!lifeManager.IsAlive) TriggerGameOver();
 			};
 		}
 

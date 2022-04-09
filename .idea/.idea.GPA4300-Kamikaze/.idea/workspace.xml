@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="" />
+    <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/CombatMusic/CombatMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/CombatMusic/CombatMusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UITroopButtonColorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopButtonColorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
+    <property name="settings.editor.selected.configurable" value="CodeInspectionSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -104,6 +113,8 @@
       <workItem from="1648628179333" duration="13685000" />
       <workItem from="1648718846595" duration="6019000" />
       <workItem from="1649001474870" duration="1200000" />
+      <workItem from="1649074048874" duration="1516000" />
+      <workItem from="1649532116024" duration="1042000" />
     </task>
     <servers />
   </component>

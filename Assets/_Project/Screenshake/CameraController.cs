@@ -16,7 +16,7 @@ namespace Kamikaze.Screenshake
 		private void Update()
 		{
 			if (target == null) return;
-			
+
 			Transform myTransform = transform;
 			myTransform.position = new Vector3(target.position.x, startY, myTransform.position.z);
 		}

@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
+using Kamikaze.UnlockSystem;
 using MyBox;
 using UnityEngine;
-using Kamikaze.UnlockSystem;
 
 namespace Kamikaze.UI
 {

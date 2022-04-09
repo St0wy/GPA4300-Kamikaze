@@ -1,6 +1,6 @@
-using UnityEngine;
 using Kamikaze.LevelSelect;
 using Kamikaze.Units.Ally;
+using UnityEngine;
 
 namespace Kamikaze.UnlockSystem
 {
@@ -17,10 +17,7 @@ namespace Kamikaze.UnlockSystem
 
 		private void Start()
 		{
-			if (levelsManagerScriptableObject.CurrentLevelId + 1 >= levelToReach)
-			{
-				troopData.IsUnlocked = true;
-			}
+			if (levelsManagerScriptableObject.CurrentLevelId + 1 >= levelToReach) troopData.IsUnlocked = true;
 
 			ShowButton();
 		}

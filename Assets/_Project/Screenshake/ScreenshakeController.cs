@@ -4,8 +4,8 @@ namespace Kamikaze.Screenshake
 {
 	public class ScreenshakeController : MonoBehaviour
 	{
-		private float timeUntilEndOfShake, shakePower;
 		private Vector3 initialPosition;
+		private float timeUntilEndOfShake, shakePower;
 
 		public static ScreenshakeController Instance { get; private set; }
 

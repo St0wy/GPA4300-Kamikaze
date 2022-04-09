@@ -11,6 +11,7 @@ namespace Kamikaze.Units.Enemy
 		private string tagToDamage = string.Empty;
 
 		[SerializeField] [ReadOnly] private EnemyState state = EnemyState.Walking;
+
 		private float attackTimer;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 		private float oldSpeed;

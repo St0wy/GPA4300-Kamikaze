@@ -1,5 +1,5 @@
-using UnityEngine;
 using Kamikaze.LevelSelect;
+using UnityEngine;
 
 namespace Kamikaze.UnlockSystem
 {
@@ -15,10 +15,7 @@ namespace Kamikaze.UnlockSystem
 
 		public void ShowPanel()
 		{
-			if (levelsManagerScriptableObject.CurrentLevelId + 1 >= levelToReach)
-			{
-				CanUnlockPanel = true;
-			}
+			if (levelsManagerScriptableObject.CurrentLevelId + 1 >= levelToReach) CanUnlockPanel = true;
 
 			troopPanelUnlock.SetActive(CanUnlockPanel);
 			troopPanelLock.SetActive(!CanUnlockPanel);

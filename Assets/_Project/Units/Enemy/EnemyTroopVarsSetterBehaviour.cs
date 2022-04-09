@@ -8,12 +8,12 @@ namespace Kamikaze.Units.Enemy
 	public class EnemyTroopVarsSetterBehaviour : MonoBehaviour
 	{
 		[SerializeField] private EnemyTroopScriptableObject enemyTroopScriptableObject;
+		private DamageOnCollisionBehaviour damageOnCollisionBehaviour;
+		private DropOnDeathBehaviour dropOnDeathBehaviour;
 
 		private HealthBehaviour healthBehaviour;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
-		private DropOnDeathBehaviour dropOnDeathBehaviour;
-		private DamageOnCollisionBehaviour damageOnCollisionBehaviour;
-	
+
 
 		private void Awake()
 		{
@@ -22,7 +22,6 @@ namespace Kamikaze.Units.Enemy
 			dropOnDeathBehaviour = GetComponent<DropOnDeathBehaviour>();
 			damageOnCollisionBehaviour = GetComponent<DamageOnCollisionBehaviour>();
 
-			
 			healthBehaviour.MaxHealthPoints = enemyTroopScriptableObject.HealthPoints;
 			moveOnLaneBehaviour.MoveSpeed = enemyTroopScriptableObject.MoveSpeed;
 			dropOnDeathBehaviour.DropAmount = enemyTroopScriptableObject.DropAmount;

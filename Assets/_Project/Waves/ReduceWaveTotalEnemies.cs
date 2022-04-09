@@ -1,14 +1,14 @@
-using UnityEngine;
 using Kamikaze.Units;
+using UnityEngine;
 
 namespace Kamikaze.Waves
 {
 	public class ReduceWaveTotalEnemies : MonoBehaviour
 	{
-		private LinkEnemyWaveSpawner linkEnemyWaveSpawner;
 		private HealthBehaviour healthBehaviour;
 		private LaneUnitBehaviour laneUnitBehaviour;
-		
+		private LinkEnemyWaveSpawner linkEnemyWaveSpawner;
+
 		public int WaveId { get; set; }
 
 		private void Awake()

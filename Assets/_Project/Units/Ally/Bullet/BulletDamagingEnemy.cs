@@ -1,5 +1,5 @@
-using UnityEngine;
 using Kamikaze.Units.Enemy.Shield;
+using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Bullet
 {
@@ -20,9 +20,9 @@ namespace Kamikaze.Units.Ally.Bullet
 		{
 			if (!other.CompareTag("Shootable")) return;
 
-			BulletProtection bulletProtection = other.GetComponent<BulletProtection>();
-			if(bulletProtection==null)
-            {
+			var bulletProtection = other.GetComponent<BulletProtection>();
+			if (bulletProtection == null)
+			{
 				var healthBehaviour = other.GetComponent<HealthBehaviour>();
 
 				healthBehaviour.ReduceHealth(synergyWithShield.HasSynergy ? synergyDamage : normalDamage);
@@ -31,7 +31,6 @@ namespace Kamikaze.Units.Ally.Bullet
 			}
 
 			Destroy(gameObject);
-
 		}
 	}
 }

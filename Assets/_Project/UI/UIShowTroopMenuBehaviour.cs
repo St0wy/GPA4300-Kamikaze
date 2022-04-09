@@ -1,8 +1,8 @@
-﻿using MyBox;
+﻿using Kamikaze.Audio;
+using Kamikaze.UnlockSystem;
+using MyBox;
 using UnityEngine;
 using UnityEngine.UI;
-using Kamikaze.UnlockSystem;
-using Kamikaze.Audio;
 
 namespace Kamikaze.UI
 {
@@ -15,12 +15,12 @@ namespace Kamikaze.UI
 
 		public SceneReference SceneToLoad { get; set; }
 
-        private void Awake()
-        {
+		private void Awake()
+		{
 			panelsInContent = content.GetComponentsInChildren<UIShowTroopPanelBehaviour>();
-        }
+		}
 
-        public void ShowTroopMenu()
+		public void ShowTroopMenu()
 		{
 			button.onClick.AddListener(StartGame);
 			LoadContent();
@@ -36,16 +36,10 @@ namespace Kamikaze.UI
 		}
 
 		public void LoadContent()
-        {
+		{
 			content.SetActive(true);
 
-			foreach (var panel in panelsInContent)
-            {
-				panel.ShowPanel();
-            }
+			foreach (UIShowTroopPanelBehaviour panel in panelsInContent) panel.ShowPanel();
 		}
-
-	
-
 	}
 }

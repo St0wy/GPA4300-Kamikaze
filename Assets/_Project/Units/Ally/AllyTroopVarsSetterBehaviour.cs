@@ -13,10 +13,7 @@ namespace Kamikaze.Units.Ally
 		private HealthBehaviour healthBehaviour;
 		private MoveOnLaneBehaviour moveOnLaneBehaviour;
 
-		public AllyTroopScriptableObject AllyTroopScriptableObject 
-		{ 
-			get => allyTroopScriptableObject; 
-		}
+		public AllyTroopScriptableObject AllyTroopScriptableObject => allyTroopScriptableObject;
 
 		private void Awake()
 		{

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
-using UnityEngine;
 using Kamikaze.Units.Enemy.Shield;
+using UnityEngine;
 
 namespace Kamikaze.Units
 {
@@ -12,46 +12,39 @@ namespace Kamikaze.Units
 
 		[Tooltip("The time the flash will last in seconds.")] [SerializeField]
 		private float flashTime = 0.3f;
-		
+
 		[SerializeField] private MeshRenderer meshRenderer;
 
 		private Material baseMaterial;
-
 		private HealthBehaviour healthBehaviour;
-		
 
 		private void Awake()
 		{
 			healthBehaviour = GetComponent<HealthBehaviour>();
 			healthBehaviour.OnHurt += _ => Flash();
 
-			if (meshRenderer == null)
-			{
-				meshRenderer = GetComponent<MeshRenderer>();
-			}
+			if (meshRenderer == null) meshRenderer = GetComponent<MeshRenderer>();
 			baseMaterial = meshRenderer.material;
 		}
 
 		private void Flash()
 		{
-			ExplosionProtection explosionProtection = GetComponent<ExplosionProtection>();
-			if(explosionProtection!=null)
-            {
-				if(!explosionProtection.IsProtected)
-                {
-					meshRenderer.material = flashMaterial;
-					StartCoroutine(UnFlashCoroutine());
-				}
-            }
+			var explosionProtection = GetComponent<ExplosionProtection>();
+			if (explosionProtection != null)
+			{
+				if (explosionProtection.IsProtected) return;
+				
+				meshRenderer.material = flashMaterial;
+				StartCoroutine(UnFlashCoroutine());
+			}
 
-            else
-            {
+			else
+			{
 				meshRenderer.material = flashMaterial;
 				StartCoroutine(UnFlashCoroutine());
 			}
 		}
-			
-		
+
 
 		private IEnumerator UnFlashCoroutine()
 		{

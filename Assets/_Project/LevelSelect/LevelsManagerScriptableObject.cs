@@ -20,19 +20,14 @@ namespace Kamikaze.LevelSelect
 		public void FinishCurrentLevel()
 		{
 			CurrentLevelId++;
-			
+
 			for (var i = 0; i < levels.Length; i++)
 			{
 				if (i < CurrentLevelId)
-				{
 					levels[i].LevelStatus = LevelStatus.Finished;
-				} else if (i == CurrentLevelId)
-				{
+				else if (i == CurrentLevelId)
 					levels[i].LevelStatus = LevelStatus.Playable;
-				} else if (i > CurrentLevelId)
-				{
-					levels[i].LevelStatus = LevelStatus.Locked;
-				}
+				else if (i > CurrentLevelId) levels[i].LevelStatus = LevelStatus.Locked;
 			}
 		}
 	}

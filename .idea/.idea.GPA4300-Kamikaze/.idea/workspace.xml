@@ -5,11 +5,54 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/CombatMusic/CombatMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/CombatMusic/CombatMusicManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Lane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Lane.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/Selection/HighlightSelectionResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/DropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/HoverOnDropManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/HoverOnDropManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/ReducePlayerLife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/ReducePlayerLife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/UiLifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/UiLifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Screenshake/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Screenshake/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Screenshake/ScreenshakeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Screenshake/ScreenshakeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIBuyTroopBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIBuyTroopBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UISelectionButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UISelectionButtonBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UITroopButtonColorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopButtonColorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UITroopSelectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UITroopSelectionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/AllyTroopVarsSetterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/BackInInventoryBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletDamagingEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Bullet/BulletDamagingEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplosionScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeStuckBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Freezer/FreezeStuckBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleAndShieldContactTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldTroopBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldTroopBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DamageOnCollisionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DropOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/DropOnDeathBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopScriptableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/EnemyTroopVarsSetterBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/FreezeStuckIndicatorBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/FreezeStuckIndicatorBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/HurtOnExplosionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/BulletProtection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/BulletProtection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/ExplosionProtection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/Shield/ExplosionProtection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/HealthBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UILockedPanelTextBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UILockedPanelTextBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopButtonBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopButtonBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopPanelBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UnlockSystem/UIShowTroopPanelBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/LinkEnemyWaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/LinkEnemyWaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/ReduceWaveTotalEnemies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +157,7 @@
       <workItem from="1648718846595" duration="6019000" />
       <workItem from="1649001474870" duration="1200000" />
       <workItem from="1649074048874" duration="1516000" />
-      <workItem from="1649532116024" duration="1042000" />
+      <workItem from="1649532116024" duration="2282000" />
     </task>
     <servers />
   </component>

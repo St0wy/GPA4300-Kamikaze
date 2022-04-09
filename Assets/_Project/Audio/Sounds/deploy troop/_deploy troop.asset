@@ -18,10 +18,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 63437df31cf7fd346a203d8effb33ff1, type: 3}
   - {fileID: 8300000, guid: 81301d94ec2b64348a870ac091262e22, type: 3}
   volume:
-    Min: 0.12927353
-    Max: 0.2040599
+    Min: 0.16833287
+    Max: 0.29816502
   pitch:
     Min: 1
     Max: 1
   playOrder: 0
-  playIndex: 0
+  playIndex: 1

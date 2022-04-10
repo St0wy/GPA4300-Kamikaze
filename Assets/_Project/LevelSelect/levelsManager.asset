@@ -15,7 +15,7 @@ MonoBehaviour:
   levels:
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}
-      SceneName: Level 1(Manu)
+      SceneName: LEVEL 1(Manu)
       sceneIndex: 2
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 1

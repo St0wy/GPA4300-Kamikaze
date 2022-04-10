@@ -18,5 +18,5 @@ MonoBehaviour:
   maxExplosionDamage: 20
   maxDamageMargin: 1.5
   explosionSound: {fileID: 11400000, guid: b1404bfc9b93cd34cac9fcca7349f1da, type: 2}
-  screenShakePower: 0
-  screenShakeDuration: 0
+  screenShakePower: 0.01
+  screenShakeDuration: 0.1

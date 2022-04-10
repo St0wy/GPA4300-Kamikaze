@@ -26,27 +26,45 @@ MonoBehaviour:
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   - <LevelScene>k__BackingField:
-      Scene: {fileID: 102900000, guid: 412168696db01d44d8550e028112ee7b, type: 3}
+      Scene: {fileID: 102900000, guid: b26df11d1eef7d049a2d79dc9b9a6773, type: 3}
       SceneName: Level 3(Manu)
       sceneIndex: 4
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   - <LevelScene>k__BackingField:
-      Scene: {fileID: 102900000, guid: 6b46eb0ff2067284cbb6d6b2da5ad1c6, type: 3}
+      Scene: {fileID: 102900000, guid: 412168696db01d44d8550e028112ee7b, type: 3}
       SceneName: Level 4(Manu)
       sceneIndex: 5
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   - <LevelScene>k__BackingField:
-      Scene: {fileID: 102900000, guid: 64bea034f4bb9744a8996e799928c49e, type: 3}
+      Scene: {fileID: 102900000, guid: 6b46eb0ff2067284cbb6d6b2da5ad1c6, type: 3}
       SceneName: Level 5(Manu)
       sceneIndex: 6
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   - <LevelScene>k__BackingField:
-      Scene: {fileID: 102900000, guid: f6b67e519f650754f9a245a50e673860, type: 3}
+      Scene: {fileID: 102900000, guid: 64bea034f4bb9744a8996e799928c49e, type: 3}
       SceneName: Level 6(Manu)
       sceneIndex: 7
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: f6b67e519f650754f9a245a50e673860, type: 3}
+      SceneName: Level 7(Manu)
+      sceneIndex: 8
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: d302eee22796c774cba27674a08e70df, type: 3}
+      SceneName: Level 8(Manu)
+      sceneIndex: 9
+      sceneEnabled: 1
+    <LevelStatus>k__BackingField: 0
+  - <LevelScene>k__BackingField:
+      Scene: {fileID: 102900000, guid: 5a5947dda15a90b4884b757af1a839f8, type: 3}
+      SceneName: Level 9(Manu)
+      sceneIndex: 10
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
   lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}

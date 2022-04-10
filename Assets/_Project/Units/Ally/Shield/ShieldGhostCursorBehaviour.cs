@@ -17,12 +17,9 @@ namespace Kamikaze.Units.Ally.Shield
 		private void Awake()
 		{
 			laneUnitBehaviour = GetComponent<LaneUnitBehaviour>();
-		}
-
-		private void Start()
-		{
 			var moveOnLaneBehaviour = GetComponent<MoveOnLaneBehaviour>();
 			moveOnLaneBehaviour.MoveSpeed = 0;
+			Hide();
 		}
 
 		private void Update()

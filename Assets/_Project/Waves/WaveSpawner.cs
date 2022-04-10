@@ -99,6 +99,12 @@ namespace Kamikaze.Waves
 			// Add the gems to the global money
 			money.AddGems(dropManager);
 
+			// Stop the placement of units
+			foreach (Lane lane in lanesManager.Lanes)
+			{
+				lane.tag = "Lane";
+			}
+			
 			// Set this level to done
 			levelsManager.FinishCurrentLevel();
 

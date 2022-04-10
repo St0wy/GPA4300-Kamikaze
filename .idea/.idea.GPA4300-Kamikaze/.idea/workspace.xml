@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level Test (fabian).unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level Test (fabian).unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/EndScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/EndScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/EndGameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/EndGameManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Shield/ShieldGhostCursorBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Waves/WaveSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +119,7 @@
       <workItem from="1649001474870" duration="1200000" />
       <workItem from="1649074048874" duration="1516000" />
       <workItem from="1649532116024" duration="2882000" />
-      <workItem from="1649599731397" duration="1573000" />
+      <workItem from="1649599731397" duration="3096000" />
     </task>
     <servers />
   </component>

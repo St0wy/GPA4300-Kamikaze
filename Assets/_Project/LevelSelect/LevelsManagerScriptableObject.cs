@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 namespace Kamikaze.LevelSelect
 {
@@ -16,6 +17,8 @@ namespace Kamikaze.LevelSelect
 		public Color LockedColor => lockedColor;
 		public Color FinishedColor => finishedColor;
 		public Color PlayableColor => playableColor;
+
+		public bool AreAllLevelsFinished => Levels.All(level => level.LevelStatus == LevelStatus.Finished);
 
 		public void FinishCurrentLevel()
 		{

@@ -773,9 +773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScene:
-    Scene: {fileID: 102900000, guid: dbbc82a64f21f904a9c505072c7c0178, type: 3}
-    SceneName: LevelPicker Manu
-    sceneIndex: 1
+    Scene: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f, type: 3}
+    SceneName: LevelPicker Fab
+    sceneIndex: 12
     sceneEnabled: 1
   clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1430303605

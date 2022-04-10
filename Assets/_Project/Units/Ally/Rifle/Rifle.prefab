@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6573593390100609360}
   - component: {fileID: 8869016147639056529}
+  - component: {fileID: 3045887859237162264}
   m_Layer: 6
-  m_Name: Rifle
+  m_Name: Rifle (Weapon)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,6 +48,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6792835275805921556, guid: 17f565f96f46c8b47a95b359e20fea09, type: 3}
   firePoint: {fileID: 8006832890116669808}
+--- !u!65 &3045887859237162264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071906943389985299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.18, y: 0.18, z: 0.16}
+  m_Center: {x: 1.02, y: 0, z: 0}
 --- !u!1 &5400964859731762769
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenKilled: 1
   destroyTime: 0
+  deathSound: {fileID: 0}
   <HealthPoints>k__BackingField: 0
 --- !u!114 &5400964859731762731
 MonoBehaviour:
@@ -336,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8417273737587319067}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0100002, y: 0, z: 0.029999733}
+  m_LocalPosition: {x: 1.21, y: 0, z: 0.029999733}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6573593390100609360}
@@ -382,7 +397,7 @@ PrefabInstance:
     - target: {fileID: 644261907496521105, guid: 050acf98387527c47952334325fdde80,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.80999994
+      value: 0.67
       objectReference: {fileID: 0}
     - target: {fileID: 644261907496521105, guid: 050acf98387527c47952334325fdde80,
         type: 3}

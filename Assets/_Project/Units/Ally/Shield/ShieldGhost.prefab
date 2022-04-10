@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: -6190265668544424992}
   m_Layer: 6
   m_Name: ShieldGhost
-  m_TagString: Ally
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +243,7 @@ MonoBehaviour:
   selectionManager: {fileID: 0}
   unitSelector: {fileID: 0}
   unitID: 0
+  renderers: []
 --- !u!114 &-6190265668544424992
 MonoBehaviour:
   m_ObjectHideFlags: 0

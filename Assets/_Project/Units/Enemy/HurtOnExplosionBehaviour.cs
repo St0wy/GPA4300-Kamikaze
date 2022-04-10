@@ -17,7 +17,7 @@ namespace Kamikaze.Units.Enemy
 			healthBehaviour = GetComponent<HealthBehaviour>();
 		}
 
-		public void Hurt(int damage, int bonus = 20)
+		public void Hurt(int damage, int bonus = 40)
 		{
 			var realDamage = 0;
 			var freezeStuckBehaviour = GetComponent<FreezeStuckBehaviour>();

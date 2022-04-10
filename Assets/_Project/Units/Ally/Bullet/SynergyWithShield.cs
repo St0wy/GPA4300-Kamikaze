@@ -5,6 +5,7 @@ namespace Kamikaze.Units.Ally.Bullet
 {
 	public class SynergyWithShield : MonoBehaviour
 	{
+		[SerializeField] private TrailRenderer trailRenderer;
 		public bool HasSynergy { get; set; }
 
 		private void Start()
@@ -12,7 +13,20 @@ namespace Kamikaze.Units.Ally.Bullet
 			HasSynergy = false;
 		}
 
-		private void OnTriggerEnter(Collider other)
+        private void Update()
+        {
+			if(HasSynergy)
+            {
+				trailRenderer.enabled = true;
+				Debug.Log("synergy");
+            }
+            else
+            {
+				trailRenderer.enabled = false;
+			}
+        }
+
+        private void OnTriggerEnter(Collider other)
 		{
 			if (!other.CompareTag("Ally")) return;
 

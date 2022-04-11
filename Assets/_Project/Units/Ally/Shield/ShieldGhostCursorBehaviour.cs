@@ -5,64 +5,65 @@ using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Shield
 {
-	public class ShieldGhostCursorBehaviour : MonoBehaviour
-	{
-		[SerializeField] private SelectionManager selectionManager;
-		[SerializeField] private UnitSelector unitSelector;
-		[SerializeField] private int unitID;
-		[SerializeField] private MeshRenderer[] renderers;
+    public class ShieldGhostCursorBehaviour : MonoBehaviour
+    {
+        [SerializeField] private SelectionManager selectionManager;
+        [SerializeField] private UnitSelector unitSelector;
+        [SerializeField] private int unitID;
+        [SerializeField] private MeshRenderer[] renderers;
 
-		private LaneUnitBehaviour laneUnitBehaviour;
+        private LaneUnitBehaviour laneUnitBehaviour;
 
-		private void Awake()
-		{
-			laneUnitBehaviour = GetComponent<LaneUnitBehaviour>();
-			var moveOnLaneBehaviour = GetComponent<MoveOnLaneBehaviour>();
-			moveOnLaneBehaviour.MoveSpeed = 0;
-			Hide();
-		}
+        private void Awake()
+        {
+            laneUnitBehaviour = GetComponent<LaneUnitBehaviour>();
+            HideGhost();
+        }
 
-		private void Update()
-		{
-			Transform currentSelection = selectionManager.CurrentSelection;
+        private void Update()
+        {
+            Transform currentSelection = selectionManager.CurrentSelection;
 
-			if (currentSelection == null)
-			{
-				Hide();
-			}
-			else
-			{
-				if (unitSelector.SelectedUnitId != unitID) return;
+            if (currentSelection == null)
+            {
+                HideGhost();
+            }
+            else
+            {
+                if (unitSelector.SelectedUnitId != unitID) return;
 
-				Show();
+                ShowGhost();
 
-				//Get lane position of ghost cursor
-				var lane = currentSelection.GetComponent<Lane>();
-				Vector3 mousePos = selectionManager.CurrentPoint;
-				float ghostPositionOnLane = lane.GetLanePositionFromWorld(mousePos);
+                //Get lane position of ghost cursor
+                var lane = currentSelection.GetComponent<Lane>();
 
-				// Get lane id of ghost
-				int currentSelectionLaneId = lane.Id;
+                if (lane == null) return;
 
-				// Place the ghost on lane
-				laneUnitBehaviour.Position = ghostPositionOnLane;
-				laneUnitBehaviour.LaneId = currentSelectionLaneId;
-			}
-		}
+                Vector3 mousePos = selectionManager.CurrentPoint;
+                float ghostPositionOnLane = lane.GetLanePositionFromWorld(mousePos);
 
-		public void Hide()
-		{
-			SetEnableOnRenderers(false);
-		}
+                // Get lane id of ghost
+                int currentSelectionLaneId = lane.Id;
 
-		public void Show()
-		{
-			SetEnableOnRenderers(true);
-		}
+                // Place the ghost on lane
+                laneUnitBehaviour.Position = ghostPositionOnLane;
+                laneUnitBehaviour.LaneId = currentSelectionLaneId;
+            }
+        }
 
-		private void SetEnableOnRenderers(bool status)
-		{
-			renderers.ForEach(render => render.enabled = status);
-		}
-	}
+        public void HideGhost()
+        {
+            SetEnableOnRenderers(false);
+        }
+
+        public void ShowGhost()
+        {
+            SetEnableOnRenderers(true);
+        }
+
+        private void SetEnableOnRenderers(bool status)
+        {
+            renderers.ForEach(render => render.enabled = status);
+        }
+    }
 }

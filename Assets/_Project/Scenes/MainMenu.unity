@@ -775,7 +775,7 @@ MonoBehaviour:
   startScene:
     Scene: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f, type: 3}
     SceneName: LevelPicker Fab
-    sceneIndex: 12
+    sceneIndex: 11
     sceneEnabled: 1
   clickMenuSound: {fileID: 11400000, guid: 03dcfa9633919c34e9c5c7c788e83cd5, type: 2}
 --- !u!1 &1430303605
@@ -1179,90 +1179,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760063136}
   m_CullTransparentMesh: 1
---- !u!1001 &1804538336
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1403472292095525826, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_Name
-      value: CombatMusic
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525828, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266051181335351900, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266051181335351900, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.008
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266051181335351900, guid: 9838b703c99a7d14b84d55122e11f120,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9838b703c99a7d14b84d55122e11f120, type: 3}
 --- !u!1001 &1403472291806895753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1283,12 +1199,12 @@ PrefabInstance:
     - target: {fileID: 1403472292095525828, guid: 7bf0445d1904f164394d88a190cca92c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 997
       objectReference: {fileID: 0}
     - target: {fileID: 1403472292095525828, guid: 7bf0445d1904f164394d88a190cca92c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 1403472292095525828, guid: 7bf0445d1904f164394d88a190cca92c,
         type: 3}
@@ -1330,11 +1246,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1403472292095525829, guid: 7bf0445d1904f164394d88a190cca92c,
-        type: 3}
-      propertyPath: menuMusic
-      value: 
-      objectReference: {fileID: 11400000, guid: e81d5b36d72772147b6662080f61626e,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bf0445d1904f164394d88a190cca92c, type: 3}

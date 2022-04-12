@@ -22,10 +22,6 @@ namespace Kamikaze.LevelSelect
 		{
 			image = GetComponent<Image>();
 			button = GetComponent<Button>();
-		}
-
-		private void Start()
-		{
 			level = levelsManagerScriptableObject.Levels[levelId];
 
 			UpdateStatus();

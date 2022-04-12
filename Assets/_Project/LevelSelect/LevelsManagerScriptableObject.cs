@@ -6,12 +6,17 @@ namespace Kamikaze.LevelSelect
 	[CreateAssetMenu(order = 0, fileName = "levelsManager", menuName = "Levels/Levels Manager")]
 	public class LevelsManagerScriptableObject : ScriptableObject
 	{
-		[SerializeField] private Level[] levels;
 		[SerializeField] public Color lockedColor;
 		[SerializeField] private Color finishedColor;
 		[SerializeField] private Color playableColor;
+		[SerializeField] private int currentLevelId;
+		[SerializeField] private Level[] levels;
 
-		public int CurrentLevelId { get; set; }
+		public int CurrentLevelId
+		{
+			get => currentLevelId;
+			set => currentLevelId = value;
+		}
 
 		public Level[] Levels => levels;
 		public Color LockedColor => lockedColor;

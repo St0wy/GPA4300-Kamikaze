@@ -1,29 +1,39 @@
+using System;
 using UnityEngine;
 
 namespace Kamikaze.Audio.Music.MenuMusic
 {
+	/// <summary>
+	/// Script to put on the music audio source to be delete once a level is started.
+	/// </summary>
 	public class MenuMusicManager : MonoBehaviour
 	{
-		private AudioSource audioSource;
+		private AudioSource musicSource;
 
 		private void Awake()
 		{
-			audioSource = GetComponent<AudioSource>();
-			DontDestroyOnLoad(gameObject);
+			musicSource = GetComponent<AudioSource>();
 		}
 
-		private void Update()
+		private void Start()
 		{
-			if (audioSource == null) return;
+			DontDestroyOnLoad(this);
+		}
 
-			var laneGo = GameObject.FindGameObjectWithTag("Selectable");
-			if (laneGo != null)
+		public void PlayMusic()
+		{
+			if (!musicSource.isPlaying)
 			{
-				audioSource.Stop();
-				return;
+				musicSource.Play();
 			}
+		}
 
-			if (!audioSource.isPlaying) audioSource.Play();
+		public void StopMusic()
+		{
+			if (musicSource.isPlaying)
+			{
+				musicSource.Stop();
+			}
 		}
 	}
 }

@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e2d00523524c20a2ded882c12166c2, type: 3}
   m_Name: levelsManager
   m_EditorClassIdentifier: 
+  lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+  finishedColor: {r: 0.091235295, g: 0.22301972, b: 0.517, a: 1}
+  playableColor: {r: 0.17647058, g: 0.4314399, b: 1, a: 1}
+  currentLevelId: 0
   levels:
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}
@@ -67,6 +71,3 @@ MonoBehaviour:
       sceneIndex: 9
       sceneEnabled: 1
     <LevelStatus>k__BackingField: 0
-  lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-  finishedColor: {r: 0.091235295, g: 0.22301972, b: 0.517, a: 1}
-  playableColor: {r: 0.17647058, g: 0.4314399, b: 1, a: 1}

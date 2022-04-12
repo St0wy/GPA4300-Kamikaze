@@ -1,4 +1,5 @@
 ﻿using Kamikaze.Audio;
+using Kamikaze.Audio.Music.MenuMusic;
 using Kamikaze.UnlockSystem;
 using MyBox;
 using UnityEngine;
@@ -32,6 +33,13 @@ namespace Kamikaze.UI
 
 			button.onClick.RemoveListener(StartGame);
 			content.SetActive(false);
+
+			var musicManager = FindObjectOfType<MenuMusicManager>();
+			if (musicManager != null)
+			{
+				musicManager.StopMusic();
+			}
+
 			SceneToLoad.LoadScene();
 		}
 
@@ -39,7 +47,7 @@ namespace Kamikaze.UI
 		{
 			content.SetActive(true);
 
-			foreach (UIShowTroopPanelBehaviour panel in panelsInContent) panel.ShowPanel();
+			panelsInContent.ForEach(panel => panel.ShowPanel());
 		}
 	}
 }

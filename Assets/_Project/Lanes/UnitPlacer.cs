@@ -26,7 +26,6 @@ namespace Kamikaze.Lanes
 			clickOnLanesManager.OnClick += PlaceUnit;
 		}
 
-
 		private void PlaceUnit(Lane lane, float pos)
 		{
 			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];

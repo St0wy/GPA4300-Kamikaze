@@ -399,6 +399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
+  money: {fileID: 11400000, guid: 4e874ab8c5781ec4480d092df17adf10, type: 2}
   lifeManager: {fileID: 0}
   gameOverMenu: {fileID: 733616274}
   levelMenuScene:

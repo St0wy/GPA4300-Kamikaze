@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/UnitPlacer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/LevelsManagerScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/levelsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/levelsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/LEVEL 1(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LEVEL 1(Manu).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 9(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 9(Manu).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/LevelPicker Fab.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +114,7 @@
       <workItem from="1649074048874" duration="1516000" />
       <workItem from="1649532116024" duration="2882000" />
       <workItem from="1649599731397" duration="3376000" />
-      <workItem from="1649754627698" duration="5367000" />
+      <workItem from="1649754627698" duration="6618000" />
     </task>
     <servers />
   </component>

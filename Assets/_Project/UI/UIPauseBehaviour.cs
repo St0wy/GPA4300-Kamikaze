@@ -1,4 +1,5 @@
 ﻿using JetBrains.Annotations;
+using Kamikaze.Audio.Music.MenuMusic;
 using MyBox;
 using UnityEngine;
 
@@ -31,6 +32,12 @@ namespace Kamikaze.UI
 		public void LoadMainMenu()
 		{
 			Resume();
+			var musicManager = FindObjectOfType<MenuMusicManager>();
+			if (musicManager != null)
+			{
+				musicManager.PlayMusic();
+			}
+
 			mainMenuScene.LoadScene();
 		}
 

@@ -2316,6 +2316,11 @@ PrefabInstance:
       propertyPath: lanesManager
       value: 
       objectReference: {fileID: 1180991117}
+    - target: {fileID: 2653700658548732080, guid: 6eeffdca29c97b747b90e402a1be9652,
+        type: 3}
+      propertyPath: waves.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2653700658548732081, guid: 6eeffdca29c97b747b90e402a1be9652,
         type: 3}
       propertyPath: m_RootOrder

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Credits.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Credits.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UICreditsBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +113,7 @@
       <workItem from="1649074048874" duration="1516000" />
       <workItem from="1649532116024" duration="2882000" />
       <workItem from="1649599731397" duration="3376000" />
-      <workItem from="1649754627698" duration="13042000" />
+      <workItem from="1649754627698" duration="14253000" />
     </task>
     <servers />
   </component>

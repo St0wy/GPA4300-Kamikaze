@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 namespace Kamikaze.Audio
 {
 	/// <summary>
-	///     Sound effect system based on this video https://www.youtube.com/watch?v=xDLqdZu0ll0.
+	/// Sound effect system based on this video https://www.youtube.com/watch?v=xDLqdZu0ll0.
 	/// </summary>
 	[CreateAssetMenu(fileName = "soundEffect", menuName = "Audio/Sound Effect", order = 0)]
 	public class SoundEffectScriptableObject : ScriptableObject
@@ -25,7 +25,7 @@ namespace Kamikaze.Audio
 		[ReadOnly] [SerializeField] private int playIndex;
 
 		/// <summary>
-		///     Gets a random element from the <see cref="clips" /> array.
+		/// Gets a random element from the <see cref="clips" /> array.
 		/// </summary>
 		private AudioClip NextAudioClip
 		{
@@ -71,7 +71,9 @@ namespace Kamikaze.Audio
 #if UNITY_EDITOR
 			if (audioSourceParam != previewer)
 #endif
+			{
 				Destroy(audioSourceParam.gameObject, audioSourceParam.clip.length / audioSourceParam.pitch);
+			}
 
 			return audioSourceParam;
 		}
@@ -106,7 +108,6 @@ namespace Kamikaze.Audio
 			previewer.Stop();
 		}
 #endif
-
 		#endregion
 	}
 }

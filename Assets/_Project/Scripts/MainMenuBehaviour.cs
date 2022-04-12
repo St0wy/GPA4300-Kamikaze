@@ -8,6 +8,7 @@ namespace Kamikaze
 	public class MainMenuBehaviour : MonoBehaviour
 	{
 		[SerializeField] private SceneReference startScene;
+		[SerializeField] private SceneReference creditsScene;
 		[SerializeField] private SoundEffectScriptableObject clickMenuSound;
 
 		[UsedImplicitly]
@@ -22,6 +23,13 @@ namespace Kamikaze
 		{
 			clickMenuSound.Play();
 			Application.Quit();
+		}
+
+		[UsedImplicitly]
+		public void ShowCredits()
+		{
+			clickMenuSound.Play();
+			creditsScene.LoadScene();
 		}
 	}
 }

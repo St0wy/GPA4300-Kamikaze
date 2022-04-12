@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/screenshots.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Credits.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Credits.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI/UICreditsBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/SoundEffectScriptableObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/MainMenuBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1649074048874" duration="1516000" />
       <workItem from="1649532116024" duration="2882000" />
       <workItem from="1649599731397" duration="3376000" />
-      <workItem from="1649754627698" duration="10992000" />
+      <workItem from="1649754627698" duration="13042000" />
     </task>
     <servers />
   </component>

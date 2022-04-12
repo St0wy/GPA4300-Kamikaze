@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7faff8e1e409064b9578d0a822751fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelsManager: {fileID: 0}
   lanesManager: {fileID: 0}
   lifeManager: {fileID: 0}
   waitTime: 1
@@ -96,9 +97,9 @@ MonoBehaviour:
   winText: {fileID: 0}
   timeToLoadLevelMenu: 3
   levelMenuScene:
-    Scene: {fileID: 102900000, guid: cc59a7ec213ccc9499def40490a8c2f3, type: 3}
-    SceneName: LevelPicker
-    sceneIndex: 1
+    Scene: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f, type: 3}
+    SceneName: LevelPicker Fab
+    sceneIndex: 11
     sceneEnabled: 1
   money: {fileID: 11400000, guid: 4e874ab8c5781ec4480d092df17adf10, type: 2}
   dropManager: {fileID: 0}

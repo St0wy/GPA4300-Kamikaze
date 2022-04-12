@@ -81,3 +81,6 @@ MonoBehaviour:
   lanesManager: {fileID: 0}
   explosionManager: {fileID: 0}
   inventory: {fileID: 11400000, guid: a7aeefbc57e66ac4ca9823eca75fd906, type: 2}
+  deployTroopSound: {fileID: 11400000, guid: 6ed75f998bdf97640b5a8e36d35d3472, type: 2}
+  cannotPlaceTroopSound: {fileID: 11400000, guid: b50d0e7de94c4e84985d18a733fb2c1c,
+    type: 2}

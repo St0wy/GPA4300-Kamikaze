@@ -47,17 +47,17 @@ PrefabInstance:
         type: 3}
       propertyPath: levelMenuScene.Scene
       value: 
-      objectReference: {fileID: 102900000, guid: dbbc82a64f21f904a9c505072c7c0178,
+      objectReference: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f,
         type: 3}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
       propertyPath: levelMenuScene.SceneName
-      value: LevelPicker Manu
+      value: LevelPicker Fab
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
       propertyPath: levelMenuScene.sceneIndex
-      value: 1
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/screenshots.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/kamikaze_2022-04-12_04-40-13.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle Pack/Shared/Ramps/Editor/RampAssetEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/MenuMusicSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/ScriptableObjectsHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.domybest.mybox@efa34f54bc/Extensions/MyAlgorithms.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/727244ed448e424eb4f6515553bff6c82e00/fd/3b9b7aaf/ScreenCapture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/db/85889b0d/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -114,7 +117,7 @@
       <workItem from="1649074048874" duration="1516000" />
       <workItem from="1649532116024" duration="2882000" />
       <workItem from="1649599731397" duration="3376000" />
-      <workItem from="1649754627698" duration="6618000" />
+      <workItem from="1649754627698" duration="10992000" />
     </task>
     <servers />
   </component>

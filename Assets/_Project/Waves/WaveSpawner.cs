@@ -75,7 +75,10 @@ namespace Kamikaze.Waves
 
 					break;
 				case WaveState.Inactive:
-					if (CurrentWave.totalEnemies <= 0) CompleteLevel();
+					if (CurrentWave.totalEnemies <= 0 && lifeManager.IsAlive)
+					{
+						CompleteLevel();
+					}
 
 					break;
 				default:
@@ -131,6 +134,7 @@ namespace Kamikaze.Waves
 				var enemyLaneUnitBehavior = enemy.GetComponent<LaneUnitBehaviour>();
 				enemyLaneUnitBehavior.LaneId = spawner.laneId;
 				enemyLaneUnitBehavior.LanesManager = lanesManager;
+				enemyLaneUnitBehavior.UpdatePosition();
 
 				//Links to wave spawner
 				var linkEnemyWaveSpawner = enemy.GetComponent<LinkEnemyWaveSpawner>();

@@ -34,15 +34,16 @@ namespace Kamikaze.Units
 
 		private void Awake()
 		{
-			UpdatePosition();
+			if (LanesManager != null)
+				UpdatePosition();
 		}
 
 		private void Update()
 		{
-			UpdatePosition();	
+			UpdatePosition();
 		}
 
-		private void UpdatePosition()
+		public void UpdatePosition()
 		{
 			// Get the lane this unit should be placed on.
 			Lane lane = LanesManager.Lanes[LaneId];

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Kamikaze.Units.Enemy.Shield;
 using UnityEngine;
 
@@ -21,10 +22,20 @@ namespace Kamikaze.Units
 		private void Awake()
 		{
 			healthBehaviour = GetComponent<HealthBehaviour>();
-			healthBehaviour.OnHurt += _ => Flash();
+			healthBehaviour.OnHurt += OnHurt;
 
 			if (meshRenderer == null) meshRenderer = GetComponent<MeshRenderer>();
 			baseMaterial = meshRenderer.material;
+		}
+
+		private void OnDestroy()
+		{
+			healthBehaviour.OnHurt -= OnHurt;
+		}
+
+		private void OnHurt(int healthPoints)
+		{
+			Flash();
 		}
 
 		private void Flash()
@@ -33,7 +44,7 @@ namespace Kamikaze.Units
 			if (explosionProtection != null)
 			{
 				if (explosionProtection.IsProtected) return;
-				
+
 				meshRenderer.material = flashMaterial;
 				StartCoroutine(UnFlashCoroutine());
 			}

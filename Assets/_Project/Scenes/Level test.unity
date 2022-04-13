@@ -2145,6 +2145,22 @@ PrefabInstance:
       propertyPath: waves.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5180192883318350767, guid: 6c629d4dafffcbc4db813ccfcf022ee6,
+        type: 3}
+      propertyPath: waves.Array.data[0].spawners.Array.data[2].noOfEnemiesToSpawn
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180192883318350767, guid: 6c629d4dafffcbc4db813ccfcf022ee6,
+        type: 3}
+      propertyPath: waves.Array.data[0].spawners.Array.data[2].typesOfEnemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180192883318350767, guid: 6c629d4dafffcbc4db813ccfcf022ee6,
+        type: 3}
+      propertyPath: waves.Array.data[0].spawners.Array.data[2].typesOfEnemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 9196349652644903950, guid: 254fb5f115876d145a69bd130a1da560,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c629d4dafffcbc4db813ccfcf022ee6, type: 3}
 --- !u!1001 &6809725820282491078

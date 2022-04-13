@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: money
   m_EditorClassIdentifier: 
   money: 1000
-  gemsValue: 30
+  gemsValue: 35

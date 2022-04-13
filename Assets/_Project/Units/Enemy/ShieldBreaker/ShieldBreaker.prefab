@@ -5169,7 +5169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f466599890d4f0f92f6c0f796db4ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stuckTime: 1.5
+  stuckTime: 5
   freezeStuckIndicator: {fileID: 7710641913905028832}
   freezeStuckSound: {fileID: 11400000, guid: 8c87f2dd363d5474da8863e93d7eb64b, type: 2}
   <IsStuck>k__BackingField: 0

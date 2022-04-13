@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ShieldBreaker
   m_EditorClassIdentifier: 
   healthPoints: 140
-  moveSpeed: 0.025
+  moveSpeed: 0.05
   dropAmount: 6
   damage: 1
   attackSpeed: 0.5

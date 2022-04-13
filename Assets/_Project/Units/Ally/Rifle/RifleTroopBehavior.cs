@@ -1,3 +1,4 @@
+using MyBox;
 using UnityEngine;
 
 namespace Kamikaze.Units.Ally.Rifle
@@ -5,7 +6,7 @@ namespace Kamikaze.Units.Ally.Rifle
 	public class RifleTroopBehavior : MonoBehaviour
 	{
 		[SerializeField] private float timeBetweenShoots = 0.2f;
-		[SerializeField] private float timeUntilNextShoot;
+		[ReadOnly] [SerializeField] private float timeUntilNextShoot;
 		private HealthBehaviour healthBehaviour;
 
 		private Rifle rifle;

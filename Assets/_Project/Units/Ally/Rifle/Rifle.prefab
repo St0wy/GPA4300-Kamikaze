@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be576326bb01d3f41a1e9d1ea4d582cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenShoots: 0.2
+  timeBetweenShoots: 0.5
   timeUntilNextShoot: 0
 --- !u!114 &584350965053610105
 MonoBehaviour:

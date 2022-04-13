@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakePower: 0.05
-  shakeDuration: 0.0125
+  shakeDuration: 0.025
 --- !u!1 &315244861
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakePower: 0.05
-  shakeDuration: 0.0125
+  shakeDuration: 0.025
 --- !u!1001 &952779122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakePower: 0.05
-  shakeDuration: 0.0125
+  shakeDuration: 0.025
 --- !u!1 &1537042241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakePower: 0.05
-  shakeDuration: 0.0125
+  shakeDuration: 0.025
 --- !u!114 &1571055812 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6243838601477746771, guid: 2a8cebda31c0a3749bc08c1f91a50562,
@@ -1665,7 +1665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakePower: 0.05
-  shakeDuration: 0.0125
+  shakeDuration: 0.025
 --- !u!1 &1905834891
 GameObject:
   m_ObjectHideFlags: 0

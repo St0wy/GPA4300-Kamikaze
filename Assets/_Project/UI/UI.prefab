@@ -1746,6 +1746,7 @@ MonoBehaviour:
     SceneName: MainMenu
     sceneIndex: 0
     sceneEnabled: 1
+  gameOverBehaviour: {fileID: 237580753}
 --- !u!1 &1474549629
 GameObject:
   m_ObjectHideFlags: 0

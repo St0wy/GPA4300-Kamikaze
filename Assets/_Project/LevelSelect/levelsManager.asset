@@ -15,7 +15,7 @@ MonoBehaviour:
   lockedColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
   finishedColor: {r: 0.091235295, g: 0.22301972, b: 0.517, a: 1}
   playableColor: {r: 0.17647058, g: 0.4314399, b: 1, a: 1}
-  currentLevelId: 1
+  currentLevelId: 0
   levels:
   - <LevelScene>k__BackingField:
       Scene: {fileID: 102900000, guid: 049b726f1ef82bb4abd367e9e1688115, type: 3}

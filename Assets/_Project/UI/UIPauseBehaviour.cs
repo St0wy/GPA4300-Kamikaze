@@ -1,5 +1,6 @@
 ﻿using JetBrains.Annotations;
 using Kamikaze.Audio.Music.MenuMusic;
+using Kamikaze.PlayerLife;
 using MyBox;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace Kamikaze.UI
 	{
 		[SerializeField] private GameObject content;
 		[SerializeField] private SceneReference mainMenuScene;
+		[SerializeField] private GameOverBehaviour gameOverBehaviour;
 
 		public bool IsPaused { get; private set; }
 
@@ -32,11 +34,16 @@ namespace Kamikaze.UI
 		public void LoadMainMenu()
 		{
 			Resume();
+
+			// Play main menu music
 			var musicManager = FindObjectOfType<MenuMusicManager>();
 			if (musicManager != null)
 			{
 				musicManager.PlayMusic();
 			}
+
+			// Reset money and inventory
+			gameOverBehaviour.ResetValues();
 
 			mainMenuScene.LoadScene();
 		}

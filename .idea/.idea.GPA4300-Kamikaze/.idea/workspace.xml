@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/Rifle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleTroop.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleTroop.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleTroopBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Rifle/RifleTroopBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/levelsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/levelsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/money.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/MonetarySystem/money.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/GameOverBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 2(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 2(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 3(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 3(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 4(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 4(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 5(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 5(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 6(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 6(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 7(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 7(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 8(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 8(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 9(Manu).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Level 9(Manu).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFabian (LEVEL 1).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SceneFabian (LEVEL 1).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +124,7 @@
       <workItem from="1649532116024" duration="2882000" />
       <workItem from="1649599731397" duration="3376000" />
       <workItem from="1649754627698" duration="14253000" />
-      <workItem from="1649836441880" duration="700000" />
+      <workItem from="1649836441880" duration="1591000" />
     </task>
     <servers />
   </component>

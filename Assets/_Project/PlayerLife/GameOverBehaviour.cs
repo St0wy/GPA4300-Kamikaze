@@ -43,11 +43,16 @@ namespace Kamikaze.PlayerLife
 			Application.Quit();
 		}
 
+		public void ResetValues()
+		{
+			inventory.UnitsAmount = inventoryClone;
+			money.Money = moneyClone;
+		}
+		
 		private void TriggerGameOver()
 		{
 			gameOverMenu.SetActive(true);
-			inventory.UnitsAmount = inventoryClone;
-			money.Money = moneyClone;
+			ResetValues();
 		}
 	}
 }

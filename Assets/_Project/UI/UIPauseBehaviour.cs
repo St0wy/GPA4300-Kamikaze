@@ -1,8 +1,10 @@
-﻿using JetBrains.Annotations;
+﻿using System;
+using JetBrains.Annotations;
 using Kamikaze.Audio.Music.MenuMusic;
 using Kamikaze.PlayerLife;
 using MyBox;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Kamikaze.UI
 {
@@ -52,6 +54,15 @@ namespace Kamikaze.UI
 		public void QuitGame()
 		{
 			Application.Quit();
+		}
+
+		[UsedImplicitly]
+		public void RestartLevel()
+		{
+			Resume();
+			gameOverBehaviour.ResetValues();
+			Scene currentScene = SceneManager.GetActiveScene();
+			SceneManager.LoadScene(currentScene.name);
 		}
 	}
 }

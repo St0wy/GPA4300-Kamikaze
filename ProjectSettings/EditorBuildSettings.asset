@@ -42,9 +42,6 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/LevelPicker Fab.unity
     guid: cad3cc23e5225a248ab26832ecfeca8f
   - enabled: 1
-    path: Assets/_Project/Scenes/Level Test (fabian).unity
-    guid: a76247f03d4abd449b47d8ae18525918
-  - enabled: 1
     path: Assets/_Project/Scenes/Credits.unity
     guid: c51449d96ecbc7c4abab2ea3d4db23d8
   m_configObjects: {}

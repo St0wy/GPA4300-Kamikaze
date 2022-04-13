@@ -1255,8 +1255,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3386,8 +3386,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This troop goes where you click. It will place itself by taking its shield
-    out to protect you.
+  m_text: This troop goes where you click. It will first go forward with no shield
+    and then place itself and take its shield out.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -3415,8 +3415,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5114,7 +5114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100 $
+  m_text: 110 $
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -5715,7 +5715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1509880727
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6086,7 +6086,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This troop shoots with its magic wand to hit distant enemies.
+  m_text: This troop shoots with its magic wand to hit distant enemies. They like
+    being behind shields.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -6114,8 +6115,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7380,7 +7381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 80 $
+  m_text: 220 $
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -7800,8 +7801,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This troop slows down all the enemies in a zone around it. It immobilizes
-    them when dying.
+  m_text: This troop slows down all the enemies in a zone around it. When it dies,
+    it does a freezing explosion that immobilize the enemies hit by it. When enemies
+    are immobilized, they take more damage.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bb357450d2fc7d34a907bd8730aef747, type: 2}
   m_sharedMaterial: {fileID: 7173203660423300705, guid: bb357450d2fc7d34a907bd8730aef747,
@@ -7829,8 +7831,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

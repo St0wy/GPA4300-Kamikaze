@@ -1,3 +1,4 @@
+using System;
 using Kamikaze.Lanes;
 using MyBox;
 using UnityEngine;
@@ -22,8 +23,8 @@ namespace Kamikaze.Units
 		public int LaneId { get; set; }
 
 		/// <summary>
-		///     Gets or sets the position of the unit.
-		///     The setter is clamped between 0 and 1.
+		/// Gets or sets the position of the unit.
+		/// The setter is clamped between 0 and 1.
 		/// </summary>
 		public float Position
 		{
@@ -31,8 +32,17 @@ namespace Kamikaze.Units
 			set => position = Mathf.Clamp01(value);
 		}
 
+		private void Awake()
+		{
+			UpdatePosition();
+		}
 
 		private void Update()
+		{
+			UpdatePosition();	
+		}
+
+		private void UpdatePosition()
 		{
 			// Get the lane this unit should be placed on.
 			Lane lane = LanesManager.Lanes[LaneId];

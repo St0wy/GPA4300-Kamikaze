@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 1
   moveSpeed: 0.09
-  cost: 100
+  cost: 110
   isUnlocked: 0

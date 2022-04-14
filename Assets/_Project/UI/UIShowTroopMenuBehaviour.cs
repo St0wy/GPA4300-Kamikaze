@@ -51,7 +51,6 @@ namespace Kamikaze.UI
 			panelsInContent.ForEach(panel => panel.ShowPanel());
 		}
 
-		[UsedImplicitly]
 		public void HidePanel()
 		{
 			content.SetActive(false);

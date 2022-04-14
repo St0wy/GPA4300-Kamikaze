@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/KeyboardUnitSelector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Units/KeyboardUnitSelector.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/LevelSelect/inventory.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Enemy/SprintingEnemy/SprintingEnemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +116,7 @@
       <workItem from="1649599731397" duration="3376000" />
       <workItem from="1649754627698" duration="14253000" />
       <workItem from="1649836441880" duration="9613000" />
+      <workItem from="1649922380806" duration="715000" />
     </task>
     <servers />
   </component>

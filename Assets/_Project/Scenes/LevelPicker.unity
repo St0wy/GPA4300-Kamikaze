@@ -9736,7 +9736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelsManagerScriptableObject: {fileID: 11400000, guid: 7712257e4bc98084ca596d141c52f7aa,
     type: 2}
-  levelToReach: 2
+  levelToReach: 3
   troopPanelUnlock: {fileID: 1926323695}
   troopPanelLock: {fileID: 1575255549}
 --- !u!114 &2112602865

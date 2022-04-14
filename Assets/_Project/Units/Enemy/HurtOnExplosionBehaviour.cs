@@ -21,7 +21,7 @@ namespace Kamikaze.Units.Enemy
 			explosionProtection = GetComponent<ExplosionProtection>();
 		}
 
-		public void Hurt(int damage, int bonus = 40)
+		public void Hurt(int damage, int bonus = 60)
 		{
 			var realDamage = 0;
 			if (explosionProtection != null)

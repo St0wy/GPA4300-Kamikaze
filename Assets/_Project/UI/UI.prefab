@@ -405,7 +405,7 @@ MonoBehaviour:
   gameOverMenu: {fileID: 733616274}
   levelMenuScene:
     Scene: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f, type: 3}
-    SceneName: LevelPicker Fab
+    SceneName: LevelPicker
     sceneIndex: 11
     sceneEnabled: 1
 --- !u!1 &339465316
@@ -4387,7 +4387,7 @@ PrefabInstance:
     - target: {fileID: 1093829027601373013, guid: ca3421a1d48cbc540811d79491b59fc2,
         type: 3}
       propertyPath: levelToReach
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4119473400362935068, guid: ca3421a1d48cbc540811d79491b59fc2,
         type: 3}

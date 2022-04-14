@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b93af986b7b4537816efe752b233865, type: 3}
   m_Name: ShieldBreaker
   m_EditorClassIdentifier: 
-  healthPoints: 140
+  healthPoints: 200
   moveSpeed: 0.05
   dropAmount: 6
   damage: 1

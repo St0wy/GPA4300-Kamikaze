@@ -2085,7 +2085,7 @@ PrefabInstance:
     - target: {fileID: 6296945428396691669, guid: 774ab4ac423b1da4eb55a6fd776bc023,
         type: 3}
       propertyPath: waves.Array.data[0].spawners.Array.data[2].spawnInterval
-      value: 4.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6296945428396691669, guid: 774ab4ac423b1da4eb55a6fd776bc023,
         type: 3}
@@ -2150,7 +2150,7 @@ PrefabInstance:
     - target: {fileID: 6296945428396691669, guid: 774ab4ac423b1da4eb55a6fd776bc023,
         type: 3}
       propertyPath: waves.Array.data[0].spawners.Array.data[2].noOfEnemiesToSpawn
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6296945428396691669, guid: 774ab4ac423b1da4eb55a6fd776bc023,
         type: 3}

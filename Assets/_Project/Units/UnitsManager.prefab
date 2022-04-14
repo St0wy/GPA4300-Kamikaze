@@ -61,9 +61,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitsPrefabs:
   - {fileID: 5400964859731762769, guid: fdd26b46eb9523b419f2e239f4fcac0d, type: 3}
-  - {fileID: 5400964859731762769, guid: 1f025c98f06099f4a95ee8b7c153fb0b, type: 3}
-  - {fileID: 5400964859731762769, guid: 722c550a83f4bbc43b1a88d68c5e2102, type: 3}
-  - {fileID: 5400964859731762769, guid: 14c1bd3f77487554aaf273cbe2854e13, type: 3}
+  - {fileID: 5400964859731762769, guid: 58f114e3b7d59a84098498ab2368830c, type: 3}
+  - {fileID: 5400964859731762769, guid: ea75f47b5f67f2b4eaa702fbf24320e6, type: 3}
+  - {fileID: 5400964859731762769, guid: 0a3a8e0d929c20e439e4efffe29522f4, type: 3}
   <SelectedUnitId>k__BackingField: 0
 --- !u!114 &3631876930757072503
 MonoBehaviour:

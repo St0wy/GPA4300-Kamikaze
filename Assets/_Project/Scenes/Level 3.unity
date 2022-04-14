@@ -2199,21 +2199,5 @@ PrefabInstance:
       propertyPath: lanesManager
       value: 
       objectReference: {fileID: 1180991117}
-    - target: {fileID: 8204334314107877507, guid: cdfcbcb78e59e4e4c83d4e28c33d1725,
-        type: 3}
-      propertyPath: levelMenuScene.Scene
-      value: 
-      objectReference: {fileID: 102900000, guid: cad3cc23e5225a248ab26832ecfeca8f,
-        type: 3}
-    - target: {fileID: 8204334314107877507, guid: cdfcbcb78e59e4e4c83d4e28c33d1725,
-        type: 3}
-      propertyPath: levelMenuScene.SceneName
-      value: LevelPicker Fab
-      objectReference: {fileID: 0}
-    - target: {fileID: 8204334314107877507, guid: cdfcbcb78e59e4e4c83d4e28c33d1725,
-        type: 3}
-      propertyPath: levelMenuScene.sceneIndex
-      value: 11
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdfcbcb78e59e4e4c83d4e28c33d1725, type: 3}

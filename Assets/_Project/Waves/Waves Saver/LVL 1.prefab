@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 1035182315911331357, guid: aea945e9927e88845add14737d472959,
         type: 3}
       propertyPath: m_Name
-      value: LVL 1
+      value: WaveSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
@@ -41,7 +41,7 @@ PrefabInstance:
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}
       propertyPath: waves.Array.size
-      value: 9
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1035182315911331358, guid: aea945e9927e88845add14737d472959,
         type: 3}

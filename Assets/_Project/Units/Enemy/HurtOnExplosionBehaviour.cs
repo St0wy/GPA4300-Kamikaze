@@ -31,14 +31,15 @@ namespace Kamikaze.Units.Enemy
 					realDamage = damage + bonus;
 				}
 			}
-			else
+			else if (freezeStuckBehaviour != null)
 			{
-				if (freezeStuckBehaviour != null)
+				if (freezeStuckBehaviour.IsStuck)
 				{
-					if (freezeStuckBehaviour.IsStuck)
-						realDamage = damage + bonus;
-					else
-						realDamage = damage;
+					realDamage = damage + bonus;
+				}
+				else
+				{
+					realDamage = damage;
 				}
 			}
 

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba493f7834434eb9a36679c6e5d60560, type: 3}
   m_Name: inventory
   m_EditorClassIdentifier: 
-  unitsAmount: 0a000000000000000000000000000000
+  unitsAmount: 03000000000000000000000000000000

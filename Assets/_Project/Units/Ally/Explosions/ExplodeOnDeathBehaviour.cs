@@ -1,4 +1,3 @@
-using System;
 using Kamikaze.Screenshake;
 using MyBox;
 using UnityEngine;

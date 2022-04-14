@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf4a7b7-6559-44dc-86bf-50d8d15952db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/8bit_hurt.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/8bit_hurt.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/owwwwwwww.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/owwwwwwww.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/player_hurt.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/player_hurt/player_hurt.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/enchanted_tiki_86.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Music/MenuMusic/enchanted_tiki_86.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/cannot place troop/cannot place.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/cannot place troop/cannot place.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/click button menu/Menu_Selection_Click.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/click button menu/Menu_Selection_Click.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 1.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 2.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 3.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 3.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 4.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/deploy troop/deploy troop 4.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/enemy death/mort_ennemi_4.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/enemy death/mort_ennemi_4.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_0.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_0.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_1.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_1.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_2.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_3.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/explosion/explosion_3.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/freeze/freeze.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/freeze/freeze.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/freeze/freeze2.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/freeze/freeze2.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/money recolt/recupArgent4.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Audio/Sounds/money recolt/recupArgent4.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/PlayerLife/LifeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GPA4300-Kamikaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Lanes/ShakeBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Screenshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIPauseBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI/UIShowTroopMenuBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/Ally/Explosions/ExplodeOnDeathBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/FlashOnHitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Units/LaneUnitBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +120,7 @@
       <workItem from="1649599731397" duration="3376000" />
       <workItem from="1649754627698" duration="14253000" />
       <workItem from="1649836441880" duration="9613000" />
-      <workItem from="1649922380806" duration="1509000" />
+      <workItem from="1649922380806" duration="2572000" />
     </task>
     <servers />
   </component>

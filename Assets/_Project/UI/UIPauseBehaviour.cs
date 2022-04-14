@@ -1,5 +1,4 @@
-﻿using System;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Kamikaze.Audio.Music.MenuMusic;
 using Kamikaze.PlayerLife;
 using MyBox;

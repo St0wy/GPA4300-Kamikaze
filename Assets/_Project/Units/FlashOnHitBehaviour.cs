@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Kamikaze.Units.Enemy.Shield;
 using UnityEngine;
 

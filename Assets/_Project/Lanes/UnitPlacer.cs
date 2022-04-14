@@ -1,5 +1,6 @@
 ﻿using Kamikaze.Audio;
 using Kamikaze.LevelSelect;
+using Kamikaze.Screenshake;
 using Kamikaze.Units;
 using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
@@ -32,8 +33,7 @@ namespace Kamikaze.Lanes
 			if (unitQuantity <= 0)
 			{
 				cannotPlaceTroopSound.Play();
-				var shakeBehaviour = lane.GetComponent<ShakeBehaviour>();
-				shakeBehaviour.StartShake();
+				ScreenshakeController.Instance.StartScreenShake(0.05f, 0.025f);
 				return;
 			}
 

@@ -1,4 +1,5 @@
-﻿using Kamikaze.Audio;
+﻿using JetBrains.Annotations;
+using Kamikaze.Audio;
 using Kamikaze.Audio.Music.MenuMusic;
 using Kamikaze.UnlockSystem;
 using MyBox;
@@ -48,6 +49,12 @@ namespace Kamikaze.UI
 			content.SetActive(true);
 
 			panelsInContent.ForEach(panel => panel.ShowPanel());
+		}
+
+		[UsedImplicitly]
+		public void HidePanel()
+		{
+			content.SetActive(false);
 		}
 	}
 }

@@ -617,6 +617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLife: 5
+  hurtSound: {fileID: 11400000, guid: 1f3083bccf0d02a488432946037ad1fa, type: 2}
 --- !u!4 &779169741
 Transform:
   m_ObjectHideFlags: 0

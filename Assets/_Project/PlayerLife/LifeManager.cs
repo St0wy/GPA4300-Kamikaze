@@ -1,3 +1,4 @@
+using Kamikaze.Audio;
 using Kamikaze.Screenshake;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ namespace Kamikaze.PlayerLife
 		public delegate void HurtEvent();
 
 		[SerializeField] private int playerLife = 5;
+		[SerializeField] private SoundEffectScriptableObject hurtSound;
 
 		public int PlayerLife => playerLife;
 
@@ -24,6 +26,10 @@ namespace Kamikaze.PlayerLife
 			}
 
 			OnHurt?.Invoke();
+			if (hurtSound != null)
+			{
+				hurtSound.Play();
+			}
 		}
 	}
 }

@@ -5,6 +5,7 @@ using Kamikaze.Units;
 using Kamikaze.Units.Ally;
 using Kamikaze.Units.Ally.Explosions;
 using Kamikaze.Units.Ally.Shield;
+using StowyTools.Logger;
 using UnityEngine;
 
 namespace Kamikaze.Lanes
@@ -28,7 +29,7 @@ namespace Kamikaze.Lanes
 		}
 
 		private void PlaceUnit(Lane lane, float pos)
-		{
+        {
 			int unitQuantity = inventory.UnitsAmount[unitSelector.SelectedUnitId];
 			if (unitQuantity <= 0)
 			{
@@ -40,9 +41,14 @@ namespace Kamikaze.Lanes
 
 			bool isUnlocked = unitSelector.SelectedUnit.GetComponent<AllyTroopVarsSetterBehaviour>()
 				.AllyTroopScriptableObject.IsUnlocked;
-			if (!isUnlocked) return;
+            if (!isUnlocked)
+            {
+				this.Log("Not unlocked");
+                return;
+            }
 
 
+            this.Log($"Placing unit {unitSelector.SelectedUnitId} on lane {lane.Id}");
 			inventory.UnitsAmount[unitSelector.SelectedUnitId]--;
 			InstantiateUnit(lane, pos);
 		}
